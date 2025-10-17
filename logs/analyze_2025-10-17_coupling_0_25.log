@@ -1,0 +1,5 @@
+2025-10-17 03:29:02 INFO: Loading results from results/2025-10-16_select_powell/results_select_2025-10-16_select_powell.csv
+2025-10-17 03:29:02 INFO: Found 1 combinations with coupling >= 0.25
+2025-10-17 03:29:02 INFO: 
+Starting differential_evolution optimization on 1 combinations
+2025-10-17 03:29:02 INFO: Optimizing 36-681 + LA4647 using differential_evolution
