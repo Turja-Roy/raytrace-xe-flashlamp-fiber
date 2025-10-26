@@ -1,0 +1,2604 @@
+2025-10-24 11:18:34 INFO: Loading lens combinations from results/analyze_2025-10-24_coupling_0_21_air/results_analyze_combined_analyze_2025-10-24_coupling_0_21_air.csv
+2025-10-24 11:18:34 INFO: Found 22 lens combinations
+2025-10-24 11:18:34 INFO: Parameters: wavelengths=150-300nm (step=10nm), n_rays=1000, medium=air
+2025-10-24 11:18:34 INFO: Strategy: Using fixed 200nm calibration across all wavelengths
+2025-10-24 11:18:37 INFO: Wavelength range: 150-300 nm in 16 steps
+2025-10-24 11:18:37 INFO: Total calibrations: 132
+2025-10-24 11:18:37 INFO: Total evaluations: 2112
+2025-10-24 11:18:37 INFO: Starting wavelength analysis for 36-682+36-683_air
+2025-10-24 11:18:37 INFO:   Calibrating with differential_evolution at 200nm
+2025-10-24 11:19:10 INFO:     Calibrated: z_l1=9.70, z_l2=13.77, z_fiber=38.77, coupling@200nm=0.2223
+2025-10-24 11:19:10 INFO:   Calibrating with dual_annealing at 200nm
+2025-10-24 11:22:16 INFO:     Calibrated: z_l1=9.80, z_l2=13.30, z_fiber=38.30, coupling@200nm=0.2018
+2025-10-24 11:22:16 INFO:   Calibrating with nelder_mead at 200nm
+2025-10-24 11:22:22 INFO:     Calibrated: z_l1=9.70, z_l2=16.34, z_fiber=41.34, coupling@200nm=0.2016
+2025-10-24 11:22:22 INFO:   Calibrating with powell at 200nm
+2025-10-24 11:22:31 INFO:     Calibrated: z_l1=9.71, z_l2=13.24, z_fiber=38.24, coupling@200nm=0.2121
+2025-10-24 11:22:31 INFO:   Calibrating with grid_search at 200nm
+2025-10-24 11:22:39 INFO:     Calibrated: z_l1=9.70, z_l2=13.43, z_fiber=38.43, coupling@200nm=0.2061
+2025-10-24 11:22:39 INFO:   Calibrating with bayesian at 200nm
+2025-10-24 11:23:08 INFO:     Calibrated: z_l1=9.98, z_l2=17.80, z_fiber=42.80, coupling@200nm=0.1879
+2025-10-24 11:23:08 INFO:   Calibrations ready: 6/6 methods
+2025-10-24 11:23:08 INFO:   Testing differential_evolution calibration: 16 wavelengths remaining
+2025-10-24 11:23:08 INFO:     150nm: coupling=0.0001
+2025-10-24 11:23:08 INFO:     160nm: coupling=0.0001
+2025-10-24 11:23:08 INFO:     170nm: coupling=0.0000
+2025-10-24 11:23:09 INFO:     180nm: coupling=0.0000
+2025-10-24 11:23:09 INFO:     190nm: coupling=0.0000
+2025-10-24 11:23:09 INFO:     200nm: coupling=0.2299
+2025-10-24 11:23:09 INFO:     210nm: coupling=0.2486
+2025-10-24 11:23:09 INFO:     220nm: coupling=0.2134
+2025-10-24 11:23:10 INFO:     230nm: coupling=0.2217
+2025-10-24 11:23:10 INFO:     240nm: coupling=0.2412
+2025-10-24 11:23:10 INFO:     250nm: coupling=0.2310
+2025-10-24 11:23:10 INFO:     260nm: coupling=0.2230
+2025-10-24 11:23:10 INFO:     270nm: coupling=0.2490
+2025-10-24 11:23:10 INFO:     280nm: coupling=0.2160
+2025-10-24 11:23:11 INFO:     290nm: coupling=0.2550
+2025-10-24 11:23:11 INFO:     300nm: coupling=0.2680
+2025-10-24 11:23:11 INFO:   Testing dual_annealing calibration: 16 wavelengths remaining
+2025-10-24 11:23:11 INFO:     150nm: coupling=0.0001
+2025-10-24 11:23:11 INFO:     160nm: coupling=0.0001
+2025-10-24 11:23:11 INFO:     170nm: coupling=0.0000
+2025-10-24 11:23:11 INFO:     180nm: coupling=0.0000
+2025-10-24 11:23:12 INFO:     190nm: coupling=0.0000
+2025-10-24 11:23:12 INFO:     200nm: coupling=0.2365
+2025-10-24 11:23:12 INFO:     210nm: coupling=0.2033
+2025-10-24 11:23:12 INFO:     220nm: coupling=0.2298
+2025-10-24 11:23:12 INFO:     230nm: coupling=0.2257
+2025-10-24 11:23:13 INFO:     240nm: coupling=0.2076
+2025-10-24 11:23:13 INFO:     250nm: coupling=0.2560
+2025-10-24 11:23:13 INFO:     260nm: coupling=0.2150
+2025-10-24 11:23:13 INFO:     270nm: coupling=0.2210
+2025-10-24 11:23:13 INFO:     280nm: coupling=0.2520
+2025-10-24 11:23:13 INFO:     290nm: coupling=0.2510
+2025-10-24 11:23:13 INFO:     300nm: coupling=0.2310
+2025-10-24 11:23:13 INFO:   Testing nelder_mead calibration: 16 wavelengths remaining
+2025-10-24 11:23:14 INFO:     150nm: coupling=0.0001
+2025-10-24 11:23:14 INFO:     160nm: coupling=0.0000
+2025-10-24 11:23:14 INFO:     170nm: coupling=0.0000
+2025-10-24 11:23:14 INFO:     180nm: coupling=0.0000
+2025-10-24 11:23:14 INFO:     190nm: coupling=0.0000
+2025-10-24 11:23:15 INFO:     200nm: coupling=0.2130
+2025-10-24 11:23:15 INFO:     210nm: coupling=0.2445
+2025-10-24 11:23:15 INFO:     220nm: coupling=0.2060
+2025-10-24 11:23:15 INFO:     230nm: coupling=0.2467
+2025-10-24 11:23:15 INFO:     240nm: coupling=0.2242
+2025-10-24 11:23:15 INFO:     250nm: coupling=0.2590
+2025-10-24 11:23:16 INFO:     260nm: coupling=0.2340
+2025-10-24 11:23:16 INFO:     270nm: coupling=0.2350
+2025-10-24 11:23:16 INFO:     280nm: coupling=0.2330
+2025-10-24 11:23:16 INFO:     290nm: coupling=0.2350
+2025-10-24 11:23:16 INFO:     300nm: coupling=0.2370
+2025-10-24 11:23:16 INFO:   Testing powell calibration: 16 wavelengths remaining
+2025-10-24 11:23:16 INFO:     150nm: coupling=0.0001
+2025-10-24 11:23:17 INFO:     160nm: coupling=0.0001
+2025-10-24 11:23:17 INFO:     170nm: coupling=0.0000
+2025-10-24 11:23:17 INFO:     180nm: coupling=0.0000
+2025-10-24 11:23:17 INFO:     190nm: coupling=0.0000
+2025-10-24 11:23:17 INFO:     200nm: coupling=0.2321
+2025-10-24 11:23:17 INFO:     210nm: coupling=0.2201
+2025-10-24 11:23:18 INFO:     220nm: coupling=0.2221
+2025-10-24 11:23:18 INFO:     230nm: coupling=0.2267
+2025-10-24 11:23:18 INFO:     240nm: coupling=0.2680
+2025-10-24 11:23:18 INFO:     250nm: coupling=0.2540
+2025-10-24 11:23:18 INFO:     260nm: coupling=0.2580
+2025-10-24 11:23:19 INFO:     270nm: coupling=0.2370
+2025-10-24 11:23:19 INFO:     280nm: coupling=0.2300
+2025-10-24 11:23:19 INFO:     290nm: coupling=0.2210
+2025-10-24 11:23:19 INFO:     300nm: coupling=0.2420
+2025-10-24 11:23:19 INFO:   Testing grid_search calibration: 16 wavelengths remaining
+2025-10-24 11:23:19 INFO:     150nm: coupling=0.0001
+2025-10-24 11:23:19 INFO:     160nm: coupling=0.0001
+2025-10-24 11:23:19 INFO:     170nm: coupling=0.0000
+2025-10-24 11:23:20 INFO:     180nm: coupling=0.0000
+2025-10-24 11:23:20 INFO:     190nm: coupling=0.0000
+2025-10-24 11:23:20 INFO:     200nm: coupling=0.2177
+2025-10-24 11:23:20 INFO:     210nm: coupling=0.2385
+2025-10-24 11:23:21 INFO:     220nm: coupling=0.2374
+2025-10-24 11:23:21 INFO:     230nm: coupling=0.2208
+2025-10-24 11:23:21 INFO:     240nm: coupling=0.2591
+2025-10-24 11:23:21 INFO:     250nm: coupling=0.2500
+2025-10-24 11:23:21 INFO:     260nm: coupling=0.2390
+2025-10-24 11:23:21 INFO:     270nm: coupling=0.2450
+2025-10-24 11:23:22 INFO:     280nm: coupling=0.2310
+2025-10-24 11:23:22 INFO:     290nm: coupling=0.2330
+2025-10-24 11:23:22 INFO:     300nm: coupling=0.2560
+2025-10-24 11:23:22 INFO:   Testing bayesian calibration: 16 wavelengths remaining
+2025-10-24 11:23:22 INFO:     150nm: coupling=0.0000
+2025-10-24 11:23:22 INFO:     160nm: coupling=0.0000
+2025-10-24 11:23:22 INFO:     170nm: coupling=0.0000
+2025-10-24 11:23:23 INFO:     180nm: coupling=0.0000
+2025-10-24 11:23:23 INFO:     190nm: coupling=0.0000
+2025-10-24 11:23:23 INFO:     200nm: coupling=0.1953
+2025-10-24 11:23:23 INFO:     210nm: coupling=0.2070
+2025-10-24 11:23:23 INFO:     220nm: coupling=0.2076
+2025-10-24 11:23:24 INFO:     230nm: coupling=0.2260
+2025-10-24 11:23:24 INFO:     240nm: coupling=0.2034
+2025-10-24 11:23:24 INFO:     250nm: coupling=0.2170
+2025-10-24 11:23:24 INFO:     260nm: coupling=0.2320
+2025-10-24 11:23:24 INFO:     270nm: coupling=0.1990
+2025-10-24 11:23:24 INFO:     280nm: coupling=0.2300
+2025-10-24 11:23:24 INFO:     290nm: coupling=0.2270
+2025-10-24 11:23:25 INFO:     300nm: coupling=0.2350
+2025-10-24 11:23:25 INFO: Saved data to 36-682+36-683_air_wavelength.csv
+2025-10-24 11:23:25 INFO: Deleted temp file: results/wavelength_analyze_2025-10-24/temp_batch_wavelength_36-682+36-683_air.json
+2025-10-24 11:23:25 INFO: Starting wavelength analysis for 36-681+36-682_air
+2025-10-24 11:23:25 INFO:   Calibrating with differential_evolution at 200nm
+2025-10-24 11:24:11 INFO:     Calibrated: z_l1=9.72, z_l2=13.25, z_fiber=33.25, coupling@200nm=0.2205
+2025-10-24 11:24:11 INFO:   Calibrating with dual_annealing at 200nm
+2025-10-24 11:26:08 INFO:     Calibrated: z_l1=9.77, z_l2=13.27, z_fiber=33.27, coupling@200nm=0.2291
+2025-10-24 11:26:08 INFO:   Calibrating with nelder_mead at 200nm
+2025-10-24 11:26:15 INFO:     Calibrated: z_l1=9.70, z_l2=13.20, z_fiber=33.20, coupling@200nm=0.2251
+2025-10-24 11:26:15 INFO:   Calibrating with powell at 200nm
+2025-10-24 11:26:25 INFO:     Calibrated: z_l1=9.70, z_l2=13.20, z_fiber=33.20, coupling@200nm=0.2278
+2025-10-24 11:26:25 INFO:   Calibrating with grid_search at 200nm
+2025-10-24 11:26:32 INFO:     Calibrated: z_l1=9.70, z_l2=15.61, z_fiber=35.61, coupling@200nm=0.2045
+2025-10-24 11:26:32 INFO:   Calibrating with bayesian at 200nm
+2025-10-24 11:27:01 INFO:     Calibrated: z_l1=9.70, z_l2=18.44, z_fiber=38.44, coupling@200nm=0.2008
+2025-10-24 11:27:01 INFO:   Calibrations ready: 6/6 methods
+2025-10-24 11:27:01 INFO:   Testing differential_evolution calibration: 16 wavelengths remaining
+2025-10-24 11:27:01 INFO:     150nm: coupling=0.0003
+2025-10-24 11:27:01 INFO:     160nm: coupling=0.0002
+2025-10-24 11:27:01 INFO:     170nm: coupling=0.0001
+2025-10-24 11:27:01 INFO:     180nm: coupling=0.0001
+2025-10-24 11:27:02 INFO:     190nm: coupling=0.0001
+2025-10-24 11:27:02 INFO:     200nm: coupling=0.2106
+2025-10-24 11:27:02 INFO:     210nm: coupling=0.2336
+2025-10-24 11:27:02 INFO:     220nm: coupling=0.2505
+2025-10-24 11:27:02 INFO:     230nm: coupling=0.2461
+2025-10-24 11:27:02 INFO:     240nm: coupling=0.2397
+2025-10-24 11:27:03 INFO:     250nm: coupling=0.2640
+2025-10-24 11:27:03 INFO:     260nm: coupling=0.2560
+2025-10-24 11:27:03 INFO:     270nm: coupling=0.2500
+2025-10-24 11:27:03 INFO:     280nm: coupling=0.2440
+2025-10-24 11:27:03 INFO:     290nm: coupling=0.2630
+2025-10-24 11:27:03 INFO:     300nm: coupling=0.2540
+2025-10-24 11:27:03 INFO:   Testing dual_annealing calibration: 16 wavelengths remaining
+2025-10-24 11:27:03 INFO:     150nm: coupling=0.0003
+2025-10-24 11:27:04 INFO:     160nm: coupling=0.0002
+2025-10-24 11:27:04 INFO:     170nm: coupling=0.0001
+2025-10-24 11:27:04 INFO:     180nm: coupling=0.0001
+2025-10-24 11:27:04 INFO:     190nm: coupling=0.0001
+2025-10-24 11:27:04 INFO:     200nm: coupling=0.2169
+2025-10-24 11:27:04 INFO:     210nm: coupling=0.2158
+2025-10-24 11:27:05 INFO:     220nm: coupling=0.2389
+2025-10-24 11:27:05 INFO:     230nm: coupling=0.2578
+2025-10-24 11:27:05 INFO:     240nm: coupling=0.2595
+2025-10-24 11:27:05 INFO:     250nm: coupling=0.2240
+2025-10-24 11:27:05 INFO:     260nm: coupling=0.2470
+2025-10-24 11:27:05 INFO:     270nm: coupling=0.2390
+2025-10-24 11:27:05 INFO:     280nm: coupling=0.2370
+2025-10-24 11:27:06 INFO:     290nm: coupling=0.2480
+2025-10-24 11:27:06 INFO:     300nm: coupling=0.2370
+2025-10-24 11:27:06 INFO:   Testing nelder_mead calibration: 16 wavelengths remaining
+2025-10-24 11:27:06 INFO:     150nm: coupling=0.0003
+2025-10-24 11:27:06 INFO:     160nm: coupling=0.0002
+2025-10-24 11:27:06 INFO:     170nm: coupling=0.0002
+2025-10-24 11:27:06 INFO:     180nm: coupling=0.0001
+2025-10-24 11:27:07 INFO:     190nm: coupling=0.0001
+2025-10-24 11:27:07 INFO:     200nm: coupling=0.2450
+2025-10-24 11:27:07 INFO:     210nm: coupling=0.2505
+2025-10-24 11:27:07 INFO:     220nm: coupling=0.2274
+2025-10-24 11:27:07 INFO:     230nm: coupling=0.2588
+2025-10-24 11:27:07 INFO:     240nm: coupling=0.2486
+2025-10-24 11:27:08 INFO:     250nm: coupling=0.2410
+2025-10-24 11:27:08 INFO:     260nm: coupling=0.2530
+2025-10-24 11:27:08 INFO:     270nm: coupling=0.2460
+2025-10-24 11:27:08 INFO:     280nm: coupling=0.2280
+2025-10-24 11:27:08 INFO:     290nm: coupling=0.2350
+2025-10-24 11:27:08 INFO:     300nm: coupling=0.2430
+2025-10-24 11:27:08 INFO:   Testing powell calibration: 16 wavelengths remaining
+2025-10-24 11:27:08 INFO:     150nm: coupling=0.0003
+2025-10-24 11:27:09 INFO:     160nm: coupling=0.0002
+2025-10-24 11:27:09 INFO:     170nm: coupling=0.0002
+2025-10-24 11:27:09 INFO:     180nm: coupling=0.0001
+2025-10-24 11:27:09 INFO:     190nm: coupling=0.0001
+2025-10-24 11:27:09 INFO:     200nm: coupling=0.2034
+2025-10-24 11:27:09 INFO:     210nm: coupling=0.2468
+2025-10-24 11:27:10 INFO:     220nm: coupling=0.2553
+2025-10-24 11:27:10 INFO:     230nm: coupling=0.2206
+2025-10-24 11:27:10 INFO:     240nm: coupling=0.2456
+2025-10-24 11:27:10 INFO:     250nm: coupling=0.2450
+2025-10-24 11:27:10 INFO:     260nm: coupling=0.2540
+2025-10-24 11:27:10 INFO:     270nm: coupling=0.2450
+2025-10-24 11:27:10 INFO:     280nm: coupling=0.2250
+2025-10-24 11:27:11 INFO:     290nm: coupling=0.2520
+2025-10-24 11:27:11 INFO:     300nm: coupling=0.2320
+2025-10-24 11:27:11 INFO:   Testing grid_search calibration: 16 wavelengths remaining
+2025-10-24 11:27:11 INFO:     150nm: coupling=0.0002
+2025-10-24 11:27:11 INFO:     160nm: coupling=0.0001
+2025-10-24 11:27:11 INFO:     170nm: coupling=0.0001
+2025-10-24 11:27:11 INFO:     180nm: coupling=0.0001
+2025-10-24 11:27:12 INFO:     190nm: coupling=0.0001
+2025-10-24 11:27:12 INFO:     200nm: coupling=0.2269
+2025-10-24 11:27:12 INFO:     210nm: coupling=0.2325
+2025-10-24 11:27:12 INFO:     220nm: coupling=0.2325
+2025-10-24 11:27:12 INFO:     230nm: coupling=0.2281
+2025-10-24 11:27:12 INFO:     240nm: coupling=0.2326
+2025-10-24 11:27:13 INFO:     250nm: coupling=0.2340
+2025-10-24 11:27:13 INFO:     260nm: coupling=0.2140
+2025-10-24 11:27:13 INFO:     270nm: coupling=0.2150
+2025-10-24 11:27:13 INFO:     280nm: coupling=0.2350
+2025-10-24 11:27:13 INFO:     290nm: coupling=0.2280
+2025-10-24 11:27:13 INFO:     300nm: coupling=0.2310
+2025-10-24 11:27:13 INFO:   Testing bayesian calibration: 16 wavelengths remaining
+2025-10-24 11:27:13 INFO:     150nm: coupling=0.0001
+2025-10-24 11:27:14 INFO:     160nm: coupling=0.0001
+2025-10-24 11:27:14 INFO:     170nm: coupling=0.0000
+2025-10-24 11:27:14 INFO:     180nm: coupling=0.0000
+2025-10-24 11:27:14 INFO:     190nm: coupling=0.0000
+2025-10-24 11:27:14 INFO:     200nm: coupling=0.1964
+2025-10-24 11:27:14 INFO:     210nm: coupling=0.2051
+2025-10-24 11:27:15 INFO:     220nm: coupling=0.2259
+2025-10-24 11:27:15 INFO:     230nm: coupling=0.2208
+2025-10-24 11:27:15 INFO:     240nm: coupling=0.2225
+2025-10-24 11:27:15 INFO:     250nm: coupling=0.2480
+2025-10-24 11:27:15 INFO:     260nm: coupling=0.2430
+2025-10-24 11:27:15 INFO:     270nm: coupling=0.2320
+2025-10-24 11:27:16 INFO:     280nm: coupling=0.2260
+2025-10-24 11:27:16 INFO:     290nm: coupling=0.2360
+2025-10-24 11:27:16 INFO:     300nm: coupling=0.2160
+2025-10-24 11:27:16 INFO: Saved data to 36-681+36-682_air_wavelength.csv
+2025-10-24 11:27:16 INFO: Deleted temp file: results/wavelength_analyze_2025-10-24/temp_batch_wavelength_36-681+36-682_air.json
+2025-10-24 11:27:16 INFO: Starting wavelength analysis for LA4647+48-024_air
+2025-10-24 11:27:16 INFO:   Calibrating with differential_evolution at 200nm
+2025-10-24 11:28:31 INFO:     Calibrated: z_l1=9.71, z_l2=14.54, z_fiber=39.54, coupling@200nm=0.2348
+2025-10-24 11:28:31 INFO:   Calibrating with dual_annealing at 200nm
+2025-10-24 11:32:36 INFO:     Calibrated: z_l1=9.70, z_l2=14.50, z_fiber=39.50, coupling@200nm=0.2188
+2025-10-24 11:32:36 INFO:   Calibrating with nelder_mead at 200nm
+2025-10-24 11:32:47 INFO:     Calibrated: z_l1=9.70, z_l2=14.51, z_fiber=39.51, coupling@200nm=0.2188
+2025-10-24 11:32:47 INFO:   Calibrating with powell at 200nm
+2025-10-24 11:32:58 INFO:     Calibrated: z_l1=9.70, z_l2=14.50, z_fiber=39.50, coupling@200nm=0.2117
+2025-10-24 11:32:58 INFO:   Calibrating with grid_search at 200nm
+2025-10-24 11:33:09 INFO:     Calibrated: z_l1=9.70, z_l2=17.07, z_fiber=42.07, coupling@200nm=0.2245
+2025-10-24 11:33:09 INFO:   Calibrating with bayesian at 200nm
+2025-10-24 11:33:39 INFO:     Calibrated: z_l1=9.70, z_l2=18.36, z_fiber=43.36, coupling@200nm=0.2178
+2025-10-24 11:33:39 INFO:   Calibrations ready: 6/6 methods
+2025-10-24 11:33:39 INFO:   Testing differential_evolution calibration: 16 wavelengths remaining
+2025-10-24 11:33:40 INFO:     150nm: coupling=0.0001
+2025-10-24 11:33:40 INFO:     160nm: coupling=0.0001
+2025-10-24 11:33:40 INFO:     170nm: coupling=0.0000
+2025-10-24 11:33:40 INFO:     180nm: coupling=0.0000
+2025-10-24 11:33:41 INFO:     190nm: coupling=0.0000
+2025-10-24 11:33:41 INFO:     200nm: coupling=0.2113
+2025-10-24 11:33:41 INFO:     210nm: coupling=0.2347
+2025-10-24 11:33:41 INFO:     220nm: coupling=0.2344
+2025-10-24 11:33:42 INFO:     230nm: coupling=0.2442
+2025-10-24 11:33:42 INFO:     240nm: coupling=0.2284
+2025-10-24 11:33:42 INFO:     250nm: coupling=0.2640
+2025-10-24 11:33:42 INFO:     260nm: coupling=0.2580
+2025-10-24 11:33:42 INFO:     270nm: coupling=0.2260
+2025-10-24 11:33:43 INFO:     280nm: coupling=0.2630
+2025-10-24 11:33:43 INFO:     290nm: coupling=0.2550
+2025-10-24 11:33:43 INFO:     300nm: coupling=0.2630
+2025-10-24 11:33:43 INFO:   Testing dual_annealing calibration: 16 wavelengths remaining
+2025-10-24 11:33:43 INFO:     150nm: coupling=0.0001
+2025-10-24 11:33:43 INFO:     160nm: coupling=0.0001
+2025-10-24 11:33:44 INFO:     170nm: coupling=0.0000
+2025-10-24 11:33:44 INFO:     180nm: coupling=0.0000
+2025-10-24 11:33:44 INFO:     190nm: coupling=0.0000
+2025-10-24 11:33:44 INFO:     200nm: coupling=0.2157
+2025-10-24 11:33:45 INFO:     210nm: coupling=0.2514
+2025-10-24 11:33:45 INFO:     220nm: coupling=0.2354
+2025-10-24 11:33:45 INFO:     230nm: coupling=0.2452
+2025-10-24 11:33:45 INFO:     240nm: coupling=0.2472
+2025-10-24 11:33:46 INFO:     250nm: coupling=0.2160
+2025-10-24 11:33:46 INFO:     260nm: coupling=0.2700
+2025-10-24 11:33:46 INFO:     270nm: coupling=0.2460
+2025-10-24 11:33:46 INFO:     280nm: coupling=0.2410
+2025-10-24 11:33:46 INFO:     290nm: coupling=0.2550
+2025-10-24 11:33:47 INFO:     300nm: coupling=0.2420
+2025-10-24 11:33:47 INFO:   Testing nelder_mead calibration: 16 wavelengths remaining
+2025-10-24 11:33:47 INFO:     150nm: coupling=0.0001
+2025-10-24 11:33:47 INFO:     160nm: coupling=0.0001
+2025-10-24 11:33:47 INFO:     170nm: coupling=0.0000
+2025-10-24 11:33:47 INFO:     180nm: coupling=0.0000
+2025-10-24 11:33:48 INFO:     190nm: coupling=0.0000
+2025-10-24 11:33:48 INFO:     200nm: coupling=0.2193
+2025-10-24 11:33:48 INFO:     210nm: coupling=0.2338
+2025-10-24 11:33:48 INFO:     220nm: coupling=0.2364
+2025-10-24 11:33:49 INFO:     230nm: coupling=0.2530
+2025-10-24 11:33:49 INFO:     240nm: coupling=0.2580
+2025-10-24 11:33:49 INFO:     250nm: coupling=0.2610
+2025-10-24 11:33:49 INFO:     260nm: coupling=0.2440
+2025-10-24 11:33:50 INFO:     270nm: coupling=0.2650
+2025-10-24 11:33:50 INFO:     280nm: coupling=0.2500
+2025-10-24 11:33:50 INFO:     290nm: coupling=0.2480
+2025-10-24 11:33:50 INFO:     300nm: coupling=0.2280
+2025-10-24 11:33:50 INFO:   Testing powell calibration: 16 wavelengths remaining
+2025-10-24 11:33:50 INFO:     150nm: coupling=0.0001
+2025-10-24 11:33:51 INFO:     160nm: coupling=0.0001
+2025-10-24 11:33:51 INFO:     170nm: coupling=0.0000
+2025-10-24 11:33:51 INFO:     180nm: coupling=0.0000
+2025-10-24 11:33:51 INFO:     190nm: coupling=0.0000
+2025-10-24 11:33:52 INFO:     200nm: coupling=0.2246
+2025-10-24 11:33:52 INFO:     210nm: coupling=0.2208
+2025-10-24 11:33:52 INFO:     220nm: coupling=0.2316
+2025-10-24 11:33:52 INFO:     230nm: coupling=0.2530
+2025-10-24 11:33:53 INFO:     240nm: coupling=0.2561
+2025-10-24 11:33:53 INFO:     250nm: coupling=0.2470
+2025-10-24 11:33:53 INFO:     260nm: coupling=0.2170
+2025-10-24 11:33:53 INFO:     270nm: coupling=0.2490
+2025-10-24 11:33:53 INFO:     280nm: coupling=0.2600
+2025-10-24 11:33:54 INFO:     290nm: coupling=0.2580
+2025-10-24 11:33:54 INFO:     300nm: coupling=0.2640
+2025-10-24 11:33:54 INFO:   Testing grid_search calibration: 16 wavelengths remaining
+2025-10-24 11:33:54 INFO:     150nm: coupling=0.0001
+2025-10-24 11:33:54 INFO:     160nm: coupling=0.0000
+2025-10-24 11:33:54 INFO:     170nm: coupling=0.0000
+2025-10-24 11:33:55 INFO:     180nm: coupling=0.0000
+2025-10-24 11:33:55 INFO:     190nm: coupling=0.0000
+2025-10-24 11:33:55 INFO:     200nm: coupling=0.2183
+2025-10-24 11:33:55 INFO:     210nm: coupling=0.2427
+2025-10-24 11:33:56 INFO:     220nm: coupling=0.2261
+2025-10-24 11:33:56 INFO:     230nm: coupling=0.2243
+2025-10-24 11:33:56 INFO:     240nm: coupling=0.2539
+2025-10-24 11:33:56 INFO:     250nm: coupling=0.2380
+2025-10-24 11:33:57 INFO:     260nm: coupling=0.2700
+2025-10-24 11:33:57 INFO:     270nm: coupling=0.2690
+2025-10-24 11:33:57 INFO:     280nm: coupling=0.2470
+2025-10-24 11:33:57 INFO:     290nm: coupling=0.2180
+2025-10-24 11:33:57 INFO:     300nm: coupling=0.2400
+2025-10-24 11:33:57 INFO:   Testing bayesian calibration: 16 wavelengths remaining
+2025-10-24 11:33:58 INFO:     150nm: coupling=0.0000
+2025-10-24 11:33:58 INFO:     160nm: coupling=0.0000
+2025-10-24 11:33:58 INFO:     170nm: coupling=0.0000
+2025-10-24 11:33:58 INFO:     180nm: coupling=0.0000
+2025-10-24 11:33:59 INFO:     190nm: coupling=0.0000
+2025-10-24 11:33:59 INFO:     200nm: coupling=0.2419
+2025-10-24 11:33:59 INFO:     210nm: coupling=0.2457
+2025-10-24 11:33:59 INFO:     220nm: coupling=0.2267
+2025-10-24 11:34:00 INFO:     230nm: coupling=0.2290
+2025-10-24 11:34:00 INFO:     240nm: coupling=0.2528
+2025-10-24 11:34:00 INFO:     250nm: coupling=0.2150
+2025-10-24 11:34:00 INFO:     260nm: coupling=0.2420
+2025-10-24 11:34:01 INFO:     270nm: coupling=0.2310
+2025-10-24 11:34:01 INFO:     280nm: coupling=0.2300
+2025-10-24 11:34:01 INFO:     290nm: coupling=0.2540
+2025-10-24 11:34:01 INFO:     300nm: coupling=0.2360
+2025-10-24 11:34:01 INFO: Saved data to LA4647+48-024_air_wavelength.csv
+2025-10-24 11:34:01 INFO: Deleted temp file: results/wavelength_analyze_2025-10-24/temp_batch_wavelength_LA4647+48-024_air.json
+2025-10-24 11:34:01 INFO: Starting wavelength analysis for 36-682+LA4002_air
+2025-10-24 11:34:01 INFO:   Calibrating with differential_evolution at 200nm
+2025-10-24 11:34:51 INFO:     Calibrated: z_l1=9.70, z_l2=13.39, z_fiber=38.39, coupling@200nm=0.2317
+2025-10-24 11:34:51 INFO:   Calibrating with dual_annealing at 200nm
+2025-10-24 11:37:22 INFO:     Calibrated: z_l1=9.74, z_l2=13.24, z_fiber=38.24, coupling@200nm=0.2131
+2025-10-24 11:37:22 INFO:   Calibrating with nelder_mead at 200nm
+2025-10-24 11:37:28 INFO:     Calibrated: z_l1=9.71, z_l2=21.14, z_fiber=46.14, coupling@200nm=0.2029
+2025-10-24 11:37:28 INFO:   Calibrating with powell at 200nm
+2025-10-24 11:37:37 INFO:     Calibrated: z_l1=9.70, z_l2=13.20, z_fiber=38.20, coupling@200nm=0.2194
+2025-10-24 11:37:37 INFO:   Calibrating with grid_search at 200nm
+2025-10-24 11:37:45 INFO:     Calibrated: z_l1=9.70, z_l2=13.43, z_fiber=38.43, coupling@200nm=0.2161
+2025-10-24 11:37:45 INFO:   Calibrating with bayesian at 200nm
+2025-10-24 11:38:14 INFO:     Calibrated: z_l1=9.70, z_l2=21.37, z_fiber=46.37, coupling@200nm=0.2136
+2025-10-24 11:38:14 INFO:   Calibrations ready: 6/6 methods
+2025-10-24 11:38:14 INFO:   Testing differential_evolution calibration: 16 wavelengths remaining
+2025-10-24 11:38:14 INFO:     150nm: coupling=0.0001
+2025-10-24 11:38:14 INFO:     160nm: coupling=0.0001
+2025-10-24 11:38:14 INFO:     170nm: coupling=0.0000
+2025-10-24 11:38:14 INFO:     180nm: coupling=0.0000
+2025-10-24 11:38:15 INFO:     190nm: coupling=0.0000
+2025-10-24 11:38:15 INFO:     200nm: coupling=0.2206
+2025-10-24 11:38:15 INFO:     210nm: coupling=0.2201
+2025-10-24 11:38:15 INFO:     220nm: coupling=0.2404
+2025-10-24 11:38:15 INFO:     230nm: coupling=0.2218
+2025-10-24 11:38:16 INFO:     240nm: coupling=0.2551
+2025-10-24 11:38:16 INFO:     250nm: coupling=0.2500
+2025-10-24 11:38:16 INFO:     260nm: coupling=0.2390
+2025-10-24 11:38:16 INFO:     270nm: coupling=0.2350
+2025-10-24 11:38:16 INFO:     280nm: coupling=0.2240
+2025-10-24 11:38:16 INFO:     290nm: coupling=0.2540
+2025-10-24 11:38:16 INFO:     300nm: coupling=0.2420
+2025-10-24 11:38:16 INFO:   Testing dual_annealing calibration: 16 wavelengths remaining
+2025-10-24 11:38:17 INFO:     150nm: coupling=0.0001
+2025-10-24 11:38:17 INFO:     160nm: coupling=0.0001
+2025-10-24 11:38:17 INFO:     170nm: coupling=0.0000
+2025-10-24 11:38:17 INFO:     180nm: coupling=0.0000
+2025-10-24 11:38:17 INFO:     190nm: coupling=0.0000
+2025-10-24 11:38:17 INFO:     200nm: coupling=0.2038
+2025-10-24 11:38:18 INFO:     210nm: coupling=0.2267
+2025-10-24 11:38:18 INFO:     220nm: coupling=0.2270
+2025-10-24 11:38:18 INFO:     230nm: coupling=0.2385
+2025-10-24 11:38:18 INFO:     240nm: coupling=0.2354
+2025-10-24 11:38:18 INFO:     250nm: coupling=0.2490
+2025-10-24 11:38:19 INFO:     260nm: coupling=0.2510
+2025-10-24 11:38:19 INFO:     270nm: coupling=0.2330
+2025-10-24 11:38:19 INFO:     280nm: coupling=0.2470
+2025-10-24 11:38:19 INFO:     290nm: coupling=0.2570
+2025-10-24 11:38:19 INFO:     300nm: coupling=0.2530
+2025-10-24 11:38:19 INFO:   Testing nelder_mead calibration: 16 wavelengths remaining
+2025-10-24 11:38:19 INFO:     150nm: coupling=0.0000
+2025-10-24 11:38:19 INFO:     160nm: coupling=0.0000
+2025-10-24 11:38:20 INFO:     170nm: coupling=0.0000
+2025-10-24 11:38:20 INFO:     180nm: coupling=0.0000
+2025-10-24 11:38:20 INFO:     190nm: coupling=0.0000
+2025-10-24 11:38:20 INFO:     200nm: coupling=0.1899
+2025-10-24 11:38:20 INFO:     210nm: coupling=0.2239
+2025-10-24 11:38:20 INFO:     220nm: coupling=0.2305
+2025-10-24 11:38:21 INFO:     230nm: coupling=0.2217
+2025-10-24 11:38:21 INFO:     240nm: coupling=0.2496
+2025-10-24 11:38:21 INFO:     250nm: coupling=0.2250
+2025-10-24 11:38:21 INFO:     260nm: coupling=0.2380
+2025-10-24 11:38:21 INFO:     270nm: coupling=0.2610
+2025-10-24 11:38:21 INFO:     280nm: coupling=0.2290
+2025-10-24 11:38:22 INFO:     290nm: coupling=0.2360
+2025-10-24 11:38:22 INFO:     300nm: coupling=0.2590
+2025-10-24 11:38:22 INFO:   Testing powell calibration: 16 wavelengths remaining
+2025-10-24 11:38:22 INFO:     150nm: coupling=0.0001
+2025-10-24 11:38:22 INFO:     160nm: coupling=0.0001
+2025-10-24 11:38:22 INFO:     170nm: coupling=0.0000
+2025-10-24 11:38:22 INFO:     180nm: coupling=0.0000
+2025-10-24 11:38:23 INFO:     190nm: coupling=0.0000
+2025-10-24 11:38:23 INFO:     200nm: coupling=0.2171
+2025-10-24 11:38:23 INFO:     210nm: coupling=0.2295
+2025-10-24 11:38:23 INFO:     220nm: coupling=0.2318
+2025-10-24 11:38:23 INFO:     230nm: coupling=0.2463
+2025-10-24 11:38:24 INFO:     240nm: coupling=0.2621
+2025-10-24 11:38:24 INFO:     250nm: coupling=0.2580
+2025-10-24 11:38:24 INFO:     260nm: coupling=0.2420
+2025-10-24 11:38:24 INFO:     270nm: coupling=0.2430
+2025-10-24 11:38:24 INFO:     280nm: coupling=0.2390
+2025-10-24 11:38:24 INFO:     290nm: coupling=0.2530
+2025-10-24 11:38:25 INFO:     300nm: coupling=0.2320
+2025-10-24 11:38:25 INFO:   Testing grid_search calibration: 16 wavelengths remaining
+2025-10-24 11:38:25 INFO:     150nm: coupling=0.0001
+2025-10-24 11:38:25 INFO:     160nm: coupling=0.0001
+2025-10-24 11:38:25 INFO:     170nm: coupling=0.0001
+2025-10-24 11:38:25 INFO:     180nm: coupling=0.0000
+2025-10-24 11:38:25 INFO:     190nm: coupling=0.0000
+2025-10-24 11:38:26 INFO:     200nm: coupling=0.1974
+2025-10-24 11:38:26 INFO:     210nm: coupling=0.2359
+2025-10-24 11:38:26 INFO:     220nm: coupling=0.2423
+2025-10-24 11:38:26 INFO:     230nm: coupling=0.2453
+2025-10-24 11:38:26 INFO:     240nm: coupling=0.2403
+2025-10-24 11:38:27 INFO:     250nm: coupling=0.2760
+2025-10-24 11:38:27 INFO:     260nm: coupling=0.2290
+2025-10-24 11:38:27 INFO:     270nm: coupling=0.2500
+2025-10-24 11:38:27 INFO:     280nm: coupling=0.2650
+2025-10-24 11:38:27 INFO:     290nm: coupling=0.2420
+2025-10-24 11:38:27 INFO:     300nm: coupling=0.2580
+2025-10-24 11:38:27 INFO:   Testing bayesian calibration: 16 wavelengths remaining
+2025-10-24 11:38:27 INFO:     150nm: coupling=0.0000
+2025-10-24 11:38:28 INFO:     160nm: coupling=0.0000
+2025-10-24 11:38:28 INFO:     170nm: coupling=0.0000
+2025-10-24 11:38:28 INFO:     180nm: coupling=0.0000
+2025-10-24 11:38:28 INFO:     190nm: coupling=0.0000
+2025-10-24 11:38:28 INFO:     200nm: coupling=0.2166
+2025-10-24 11:38:29 INFO:     210nm: coupling=0.2138
+2025-10-24 11:38:29 INFO:     220nm: coupling=0.2371
+2025-10-24 11:38:29 INFO:     230nm: coupling=0.2518
+2025-10-24 11:38:29 INFO:     240nm: coupling=0.2436
+2025-10-24 11:38:29 INFO:     250nm: coupling=0.2590
+2025-10-24 11:38:29 INFO:     260nm: coupling=0.2710
+2025-10-24 11:38:30 INFO:     270nm: coupling=0.2660
+2025-10-24 11:38:30 INFO:     280nm: coupling=0.2390
+2025-10-24 11:38:30 INFO:     290nm: coupling=0.2410
+2025-10-24 11:38:30 INFO:     300nm: coupling=0.2540
+2025-10-24 11:38:30 INFO: Saved data to 36-682+LA4002_air_wavelength.csv
+2025-10-24 11:38:30 INFO: Deleted temp file: results/wavelength_analyze_2025-10-24/temp_batch_wavelength_36-682+LA4002_air.json
+2025-10-24 11:38:30 INFO: Starting wavelength analysis for 48-024+48-024_air
+2025-10-24 11:38:30 INFO:   Calibrating with differential_evolution at 200nm
+2025-10-24 11:39:29 INFO:     Calibrated: z_l1=12.09, z_l2=17.44, z_fiber=42.44, coupling@200nm=0.2321
+2025-10-24 11:39:29 INFO:   Calibrating with dual_annealing at 200nm
+2025-10-24 11:42:06 INFO:     Calibrated: z_l1=12.14, z_l2=16.56, z_fiber=41.56, coupling@200nm=0.2186
+2025-10-24 11:42:06 INFO:   Calibrating with nelder_mead at 200nm
+2025-10-24 11:42:18 INFO:     Calibrated: z_l1=12.09, z_l2=16.52, z_fiber=41.52, coupling@200nm=0.2050
+2025-10-24 11:42:18 INFO:   Calibrating with powell at 200nm
+2025-10-24 11:42:27 INFO:     Calibrated: z_l1=12.13, z_l2=16.62, z_fiber=41.62, coupling@200nm=0.2164
+2025-10-24 11:42:27 INFO:   Calibrating with grid_search at 200nm
+2025-10-24 11:42:35 INFO:     Calibrated: z_l1=11.44, z_l2=31.00, z_fiber=56.00, coupling@200nm=0.1606
+2025-10-24 11:42:35 INFO:   Calibrating with bayesian at 200nm
+2025-10-24 11:43:04 INFO:     Calibrated: z_l1=12.22, z_l2=34.81, z_fiber=59.81, coupling@200nm=0.1665
+2025-10-24 11:43:04 INFO:   Calibrations ready: 6/6 methods
+2025-10-24 11:43:04 INFO:   Testing differential_evolution calibration: 16 wavelengths remaining
+2025-10-24 11:43:04 INFO:     150nm: coupling=0.0000
+2025-10-24 11:43:05 INFO:     160nm: coupling=0.0000
+2025-10-24 11:43:05 INFO:     170nm: coupling=0.0000
+2025-10-24 11:43:05 INFO:     180nm: coupling=0.0000
+2025-10-24 11:43:05 INFO:     190nm: coupling=0.0000
+2025-10-24 11:43:05 INFO:     200nm: coupling=0.1890
+2025-10-24 11:43:06 INFO:     210nm: coupling=0.2434
+2025-10-24 11:43:06 INFO:     220nm: coupling=0.2393
+2025-10-24 11:43:06 INFO:     230nm: coupling=0.2281
+2025-10-24 11:43:06 INFO:     240nm: coupling=0.2351
+2025-10-24 11:43:06 INFO:     250nm: coupling=0.2490
+2025-10-24 11:43:06 INFO:     260nm: coupling=0.2320
+2025-10-24 11:43:07 INFO:     270nm: coupling=0.2530
+2025-10-24 11:43:07 INFO:     280nm: coupling=0.2470
+2025-10-24 11:43:07 INFO:     290nm: coupling=0.2680
+2025-10-24 11:43:07 INFO:     300nm: coupling=0.2160
+2025-10-24 11:43:07 INFO:   Testing dual_annealing calibration: 16 wavelengths remaining
+2025-10-24 11:43:07 INFO:     150nm: coupling=0.0001
+2025-10-24 11:43:07 INFO:     160nm: coupling=0.0000
+2025-10-24 11:43:07 INFO:     170nm: coupling=0.0000
+2025-10-24 11:43:08 INFO:     180nm: coupling=0.0000
+2025-10-24 11:43:08 INFO:     190nm: coupling=0.0000
+2025-10-24 11:43:08 INFO:     200nm: coupling=0.2486
+2025-10-24 11:43:08 INFO:     210nm: coupling=0.2216
+2025-10-24 11:43:08 INFO:     220nm: coupling=0.2425
+2025-10-24 11:43:09 INFO:     230nm: coupling=0.2273
+2025-10-24 11:43:09 INFO:     240nm: coupling=0.2361
+2025-10-24 11:43:09 INFO:     250nm: coupling=0.2350
+2025-10-24 11:43:09 INFO:     260nm: coupling=0.2330
+2025-10-24 11:43:09 INFO:     270nm: coupling=0.2310
+2025-10-24 11:43:10 INFO:     280nm: coupling=0.2410
+2025-10-24 11:43:10 INFO:     290nm: coupling=0.2500
+2025-10-24 11:43:10 INFO:     300nm: coupling=0.2300
+2025-10-24 11:43:10 INFO:   Testing nelder_mead calibration: 16 wavelengths remaining
+2025-10-24 11:43:10 INFO:     150nm: coupling=0.0001
+2025-10-24 11:43:10 INFO:     160nm: coupling=0.0000
+2025-10-24 11:43:10 INFO:     170nm: coupling=0.0000
+2025-10-24 11:43:10 INFO:     180nm: coupling=0.0000
+2025-10-24 11:43:11 INFO:     190nm: coupling=0.0000
+2025-10-24 11:43:11 INFO:     200nm: coupling=0.2222
+2025-10-24 11:43:11 INFO:     210nm: coupling=0.2272
+2025-10-24 11:43:11 INFO:     220nm: coupling=0.2367
+2025-10-24 11:43:11 INFO:     230nm: coupling=0.2527
+2025-10-24 11:43:12 INFO:     240nm: coupling=0.2490
+2025-10-24 11:43:12 INFO:     250nm: coupling=0.2470
+2025-10-24 11:43:12 INFO:     260nm: coupling=0.2620
+2025-10-24 11:43:12 INFO:     270nm: coupling=0.2210
+2025-10-24 11:43:12 INFO:     280nm: coupling=0.2630
+2025-10-24 11:43:12 INFO:     290nm: coupling=0.2500
+2025-10-24 11:43:13 INFO:     300nm: coupling=0.2500
+2025-10-24 11:43:13 INFO:   Testing powell calibration: 16 wavelengths remaining
+2025-10-24 11:43:13 INFO:     150nm: coupling=0.0001
+2025-10-24 11:43:13 INFO:     160nm: coupling=0.0000
+2025-10-24 11:43:13 INFO:     170nm: coupling=0.0000
+2025-10-24 11:43:13 INFO:     180nm: coupling=0.0000
+2025-10-24 11:43:13 INFO:     190nm: coupling=0.0000
+2025-10-24 11:43:14 INFO:     200nm: coupling=0.2248
+2025-10-24 11:43:14 INFO:     210nm: coupling=0.2290
+2025-10-24 11:43:14 INFO:     220nm: coupling=0.2462
+2025-10-24 11:43:14 INFO:     230nm: coupling=0.2380
+2025-10-24 11:43:14 INFO:     240nm: coupling=0.2737
+2025-10-24 11:43:15 INFO:     250nm: coupling=0.2440
+2025-10-24 11:43:15 INFO:     260nm: coupling=0.2530
+2025-10-24 11:43:15 INFO:     270nm: coupling=0.2470
+2025-10-24 11:43:15 INFO:     280nm: coupling=0.2430
+2025-10-24 11:43:15 INFO:     290nm: coupling=0.2300
+2025-10-24 11:43:15 INFO:     300nm: coupling=0.2410
+2025-10-24 11:43:15 INFO:   Testing grid_search calibration: 16 wavelengths remaining
+2025-10-24 11:43:16 INFO:     150nm: coupling=0.0000
+2025-10-24 11:43:16 INFO:     160nm: coupling=0.0000
+2025-10-24 11:43:16 INFO:     170nm: coupling=0.0000
+2025-10-24 11:43:16 INFO:     180nm: coupling=0.0000
+2025-10-24 11:43:16 INFO:     190nm: coupling=0.0000
+2025-10-24 11:43:16 INFO:     200nm: coupling=0.1631
+2025-10-24 11:43:17 INFO:     210nm: coupling=0.1892
+2025-10-24 11:43:17 INFO:     220nm: coupling=0.1895
+2025-10-24 11:43:17 INFO:     230nm: coupling=0.2107
+2025-10-24 11:43:17 INFO:     240nm: coupling=0.1859
+2025-10-24 11:43:17 INFO:     250nm: coupling=0.2120
+2025-10-24 11:43:18 INFO:     260nm: coupling=0.2090
+2025-10-24 11:43:18 INFO:     270nm: coupling=0.2030
+2025-10-24 11:43:18 INFO:     280nm: coupling=0.2110
+2025-10-24 11:43:18 INFO:     290nm: coupling=0.1900
+2025-10-24 11:43:18 INFO:     300nm: coupling=0.2060
+2025-10-24 11:43:18 INFO:   Testing bayesian calibration: 16 wavelengths remaining
+2025-10-24 11:43:18 INFO:     150nm: coupling=0.0000
+2025-10-24 11:43:19 INFO:     160nm: coupling=0.0000
+2025-10-24 11:43:19 INFO:     170nm: coupling=0.0000
+2025-10-24 11:43:19 INFO:     180nm: coupling=0.0000
+2025-10-24 11:43:19 INFO:     190nm: coupling=0.0000
+2025-10-24 11:43:19 INFO:     200nm: coupling=0.1786
+2025-10-24 11:43:19 INFO:     210nm: coupling=0.1779
+2025-10-24 11:43:20 INFO:     220nm: coupling=0.1905
+2025-10-24 11:43:20 INFO:     230nm: coupling=0.2025
+2025-10-24 11:43:20 INFO:     240nm: coupling=0.1994
+2025-10-24 11:43:20 INFO:     250nm: coupling=0.2140
+2025-10-24 11:43:20 INFO:     260nm: coupling=0.2060
+2025-10-24 11:43:21 INFO:     270nm: coupling=0.2100
+2025-10-24 11:43:21 INFO:     280nm: coupling=0.1960
+2025-10-24 11:43:21 INFO:     290nm: coupling=0.2080
+2025-10-24 11:43:21 INFO:     300nm: coupling=0.2060
+2025-10-24 11:43:21 INFO: Saved data to 48-024+48-024_air_wavelength.csv
+2025-10-24 11:43:21 INFO: Deleted temp file: results/wavelength_analyze_2025-10-24/temp_batch_wavelength_48-024+48-024_air.json
+2025-10-24 11:43:21 INFO: Starting wavelength analysis for 36-682+48-024_air
+2025-10-24 11:43:21 INFO:   Calibrating with differential_evolution at 200nm
+2025-10-24 11:44:15 INFO:     Calibrated: z_l1=9.72, z_l2=13.36, z_fiber=38.36, coupling@200nm=0.2233
+2025-10-24 11:44:15 INFO:   Calibrating with dual_annealing at 200nm
+2025-10-24 11:47:16 INFO:     Calibrated: z_l1=9.72, z_l2=13.22, z_fiber=38.22, coupling@200nm=0.2190
+2025-10-24 11:47:16 INFO:   Calibrating with nelder_mead at 200nm
+2025-10-24 11:47:25 INFO:     Calibrated: z_l1=9.74, z_l2=13.24, z_fiber=38.24, coupling@200nm=0.2181
+2025-10-24 11:47:25 INFO:   Calibrating with powell at 200nm
+2025-10-24 11:47:34 INFO:     Calibrated: z_l1=9.70, z_l2=13.21, z_fiber=38.21, coupling@200nm=0.2074
+2025-10-24 11:47:34 INFO:   Calibrating with grid_search at 200nm
+2025-10-24 11:47:42 INFO:     Calibrated: z_l1=9.70, z_l2=22.20, z_fiber=47.20, coupling@200nm=0.2334
+2025-10-24 11:47:42 INFO:   Calibrating with bayesian at 200nm
+2025-10-24 11:48:12 INFO:     Calibrated: z_l1=9.98, z_l2=17.80, z_fiber=42.80, coupling@200nm=0.1942
+2025-10-24 11:48:12 INFO:   Calibrations ready: 6/6 methods
+2025-10-24 11:48:12 INFO:   Testing differential_evolution calibration: 16 wavelengths remaining
+2025-10-24 11:48:12 INFO:     150nm: coupling=0.0001
+2025-10-24 11:48:12 INFO:     160nm: coupling=0.0001
+2025-10-24 11:48:12 INFO:     170nm: coupling=0.0001
+2025-10-24 11:48:13 INFO:     180nm: coupling=0.0000
+2025-10-24 11:48:13 INFO:     190nm: coupling=0.0000
+2025-10-24 11:48:13 INFO:     200nm: coupling=0.2046
+2025-10-24 11:48:13 INFO:     210nm: coupling=0.2211
+2025-10-24 11:48:13 INFO:     220nm: coupling=0.2212
+2025-10-24 11:48:14 INFO:     230nm: coupling=0.2287
+2025-10-24 11:48:14 INFO:     240nm: coupling=0.2383
+2025-10-24 11:48:14 INFO:     250nm: coupling=0.2470
+2025-10-24 11:48:14 INFO:     260nm: coupling=0.2110
+2025-10-24 11:48:14 INFO:     270nm: coupling=0.2320
+2025-10-24 11:48:14 INFO:     280nm: coupling=0.2680
+2025-10-24 11:48:14 INFO:     290nm: coupling=0.2290
+2025-10-24 11:48:15 INFO:     300nm: coupling=0.2410
+2025-10-24 11:48:15 INFO:   Testing dual_annealing calibration: 16 wavelengths remaining
+2025-10-24 11:48:15 INFO:     150nm: coupling=0.0001
+2025-10-24 11:48:15 INFO:     160nm: coupling=0.0001
+2025-10-24 11:48:15 INFO:     170nm: coupling=0.0001
+2025-10-24 11:48:15 INFO:     180nm: coupling=0.0000
+2025-10-24 11:48:15 INFO:     190nm: coupling=0.0000
+2025-10-24 11:48:16 INFO:     200nm: coupling=0.2394
+2025-10-24 11:48:16 INFO:     210nm: coupling=0.2304
+2025-10-24 11:48:16 INFO:     220nm: coupling=0.2194
+2025-10-24 11:48:16 INFO:     230nm: coupling=0.2199
+2025-10-24 11:48:16 INFO:     240nm: coupling=0.2393
+2025-10-24 11:48:17 INFO:     250nm: coupling=0.2600
+2025-10-24 11:48:17 INFO:     260nm: coupling=0.2100
+2025-10-24 11:48:17 INFO:     270nm: coupling=0.2470
+2025-10-24 11:48:17 INFO:     280nm: coupling=0.2470
+2025-10-24 11:48:17 INFO:     290nm: coupling=0.2460
+2025-10-24 11:48:17 INFO:     300nm: coupling=0.2650
+2025-10-24 11:48:17 INFO:   Testing nelder_mead calibration: 16 wavelengths remaining
+2025-10-24 11:48:17 INFO:     150nm: coupling=0.0001
+2025-10-24 11:48:18 INFO:     160nm: coupling=0.0001
+2025-10-24 11:48:18 INFO:     170nm: coupling=0.0000
+2025-10-24 11:48:18 INFO:     180nm: coupling=0.0000
+2025-10-24 11:48:18 INFO:     190nm: coupling=0.0000
+2025-10-24 11:48:18 INFO:     200nm: coupling=0.1967
+2025-10-24 11:48:18 INFO:     210nm: coupling=0.2313
+2025-10-24 11:48:19 INFO:     220nm: coupling=0.2433
+2025-10-24 11:48:19 INFO:     230nm: coupling=0.2395
+2025-10-24 11:48:19 INFO:     240nm: coupling=0.2443
+2025-10-24 11:48:19 INFO:     250nm: coupling=0.2260
+2025-10-24 11:48:19 INFO:     260nm: coupling=0.2490
+2025-10-24 11:48:20 INFO:     270nm: coupling=0.2570
+2025-10-24 11:48:20 INFO:     280nm: coupling=0.2720
+2025-10-24 11:48:20 INFO:     290nm: coupling=0.2460
+2025-10-24 11:48:20 INFO:     300nm: coupling=0.2280
+2025-10-24 11:48:20 INFO:   Testing powell calibration: 16 wavelengths remaining
+2025-10-24 11:48:20 INFO:     150nm: coupling=0.0001
+2025-10-24 11:48:20 INFO:     160nm: coupling=0.0001
+2025-10-24 11:48:20 INFO:     170nm: coupling=0.0001
+2025-10-24 11:48:21 INFO:     180nm: coupling=0.0000
+2025-10-24 11:48:21 INFO:     190nm: coupling=0.0000
+2025-10-24 11:48:21 INFO:     200nm: coupling=0.2172
+2025-10-24 11:48:21 INFO:     210nm: coupling=0.2425
+2025-10-24 11:48:21 INFO:     220nm: coupling=0.2548
+2025-10-24 11:48:22 INFO:     230nm: coupling=0.2131
+2025-10-24 11:48:22 INFO:     240nm: coupling=0.2433
+2025-10-24 11:48:22 INFO:     250nm: coupling=0.2200
+2025-10-24 11:48:22 INFO:     260nm: coupling=0.2510
+2025-10-24 11:48:22 INFO:     270nm: coupling=0.2550
+2025-10-24 11:48:22 INFO:     280nm: coupling=0.2570
+2025-10-24 11:48:23 INFO:     290nm: coupling=0.2160
+2025-10-24 11:48:23 INFO:     300nm: coupling=0.2560
+2025-10-24 11:48:23 INFO:   Testing grid_search calibration: 16 wavelengths remaining
+2025-10-24 11:48:23 INFO:     150nm: coupling=0.0000
+2025-10-24 11:48:23 INFO:     160nm: coupling=0.0000
+2025-10-24 11:48:23 INFO:     170nm: coupling=0.0000
+2025-10-24 11:48:23 INFO:     180nm: coupling=0.0000
+2025-10-24 11:48:24 INFO:     190nm: coupling=0.0000
+2025-10-24 11:48:24 INFO:     200nm: coupling=0.1867
+2025-10-24 11:48:24 INFO:     210nm: coupling=0.1970
+2025-10-24 11:48:24 INFO:     220nm: coupling=0.2369
+2025-10-24 11:48:24 INFO:     230nm: coupling=0.2206
+2025-10-24 11:48:24 INFO:     240nm: coupling=0.2317
+2025-10-24 11:48:25 INFO:     250nm: coupling=0.2430
+2025-10-24 11:48:25 INFO:     260nm: coupling=0.2500
+2025-10-24 11:48:25 INFO:     270nm: coupling=0.2530
+2025-10-24 11:48:25 INFO:     280nm: coupling=0.2340
+2025-10-24 11:48:25 INFO:     290nm: coupling=0.2560
+2025-10-24 11:48:25 INFO:     300nm: coupling=0.2540
+2025-10-24 11:48:25 INFO:   Testing bayesian calibration: 16 wavelengths remaining
+2025-10-24 11:48:26 INFO:     150nm: coupling=0.0000
+2025-10-24 11:48:26 INFO:     160nm: coupling=0.0000
+2025-10-24 11:48:26 INFO:     170nm: coupling=0.0000
+2025-10-24 11:48:26 INFO:     180nm: coupling=0.0000
+2025-10-24 11:48:26 INFO:     190nm: coupling=0.0000
+2025-10-24 11:48:26 INFO:     200nm: coupling=0.2025
+2025-10-24 11:48:27 INFO:     210nm: coupling=0.1988
+2025-10-24 11:48:27 INFO:     220nm: coupling=0.2001
+2025-10-24 11:48:27 INFO:     230nm: coupling=0.2232
+2025-10-24 11:48:27 INFO:     240nm: coupling=0.2192
+2025-10-24 11:48:27 INFO:     250nm: coupling=0.2460
+2025-10-24 11:48:27 INFO:     260nm: coupling=0.2080
+2025-10-24 11:48:28 INFO:     270nm: coupling=0.2330
+2025-10-24 11:48:28 INFO:     280nm: coupling=0.2140
+2025-10-24 11:48:28 INFO:     290nm: coupling=0.2250
+2025-10-24 11:48:28 INFO:     300nm: coupling=0.2240
+2025-10-24 11:48:28 INFO: Saved data to 36-682+48-024_air_wavelength.csv
+2025-10-24 11:48:28 INFO: Deleted temp file: results/wavelength_analyze_2025-10-24/temp_batch_wavelength_36-682+48-024_air.json
+2025-10-24 11:48:28 INFO: Starting wavelength analysis for 36-682+36-681_air
+2025-10-24 11:48:28 INFO:   Calibrating with differential_evolution at 200nm
+2025-10-24 11:49:09 INFO:     Calibrated: z_l1=9.71, z_l2=13.35, z_fiber=35.35, coupling@200nm=0.2015
+2025-10-24 11:49:09 INFO:   Calibrating with dual_annealing at 200nm
+2025-10-24 11:52:40 INFO:     Calibrated: z_l1=9.70, z_l2=13.36, z_fiber=35.36, coupling@200nm=0.2190
+2025-10-24 11:52:40 INFO:   Calibrating with nelder_mead at 200nm
+2025-10-24 11:52:50 INFO:     Calibrated: z_l1=9.71, z_l2=13.21, z_fiber=35.21, coupling@200nm=0.2124
+2025-10-24 11:52:50 INFO:   Calibrating with powell at 200nm
+2025-10-24 11:52:56 INFO:     Calibrated: z_l1=9.70, z_l2=13.21, z_fiber=35.21, coupling@200nm=0.1949
+2025-10-24 11:52:56 INFO:   Calibrating with grid_search at 200nm
+2025-10-24 11:53:04 INFO:     Calibrated: z_l1=9.70, z_l2=16.19, z_fiber=38.19, coupling@200nm=0.2179
+2025-10-24 11:53:04 INFO:   Calibrating with bayesian at 200nm
+2025-10-24 11:53:33 INFO:     Calibrated: z_l1=9.70, z_l2=17.94, z_fiber=39.94, coupling@200nm=0.1998
+2025-10-24 11:53:33 INFO:   Calibrations ready: 6/6 methods
+2025-10-24 11:53:33 INFO:   Testing differential_evolution calibration: 16 wavelengths remaining
+2025-10-24 11:53:33 INFO:     150nm: coupling=0.0002
+2025-10-24 11:53:33 INFO:     160nm: coupling=0.0001
+2025-10-24 11:53:33 INFO:     170nm: coupling=0.0001
+2025-10-24 11:53:34 INFO:     180nm: coupling=0.0001
+2025-10-24 11:53:34 INFO:     190nm: coupling=0.0001
+2025-10-24 11:53:34 INFO:     200nm: coupling=0.2002
+2025-10-24 11:53:34 INFO:     210nm: coupling=0.2429
+2025-10-24 11:53:34 INFO:     220nm: coupling=0.2450
+2025-10-24 11:53:35 INFO:     230nm: coupling=0.2330
+2025-10-24 11:53:35 INFO:     240nm: coupling=0.2316
+2025-10-24 11:53:35 INFO:     250nm: coupling=0.2520
+2025-10-24 11:53:35 INFO:     260nm: coupling=0.2340
+2025-10-24 11:53:35 INFO:     270nm: coupling=0.2440
+2025-10-24 11:53:35 INFO:     280nm: coupling=0.2470
+2025-10-24 11:53:35 INFO:     290nm: coupling=0.2560
+2025-10-24 11:53:36 INFO:     300nm: coupling=0.2200
+2025-10-24 11:53:36 INFO:   Testing dual_annealing calibration: 16 wavelengths remaining
+2025-10-24 11:53:36 INFO:     150nm: coupling=0.0002
+2025-10-24 11:53:36 INFO:     160nm: coupling=0.0001
+2025-10-24 11:53:36 INFO:     170nm: coupling=0.0001
+2025-10-24 11:53:36 INFO:     180nm: coupling=0.0001
+2025-10-24 11:53:36 INFO:     190nm: coupling=0.0001
+2025-10-24 11:53:37 INFO:     200nm: coupling=0.2190
+2025-10-24 11:53:37 INFO:     210nm: coupling=0.2232
+2025-10-24 11:53:37 INFO:     220nm: coupling=0.2306
+2025-10-24 11:53:37 INFO:     230nm: coupling=0.2075
+2025-10-24 11:53:37 INFO:     240nm: coupling=0.2247
+2025-10-24 11:53:37 INFO:     250nm: coupling=0.2440
+2025-10-24 11:53:38 INFO:     260nm: coupling=0.2400
+2025-10-24 11:53:38 INFO:     270nm: coupling=0.2400
+2025-10-24 11:53:38 INFO:     280nm: coupling=0.2220
+2025-10-24 11:53:38 INFO:     290nm: coupling=0.2320
+2025-10-24 11:53:38 INFO:     300nm: coupling=0.2380
+2025-10-24 11:53:38 INFO:   Testing nelder_mead calibration: 16 wavelengths remaining
+2025-10-24 11:53:38 INFO:     150nm: coupling=0.0002
+2025-10-24 11:53:38 INFO:     160nm: coupling=0.0001
+2025-10-24 11:53:39 INFO:     170nm: coupling=0.0001
+2025-10-24 11:53:39 INFO:     180nm: coupling=0.0001
+2025-10-24 11:53:39 INFO:     190nm: coupling=0.0001
+2025-10-24 11:53:39 INFO:     200nm: coupling=0.2092
+2025-10-24 11:53:39 INFO:     210nm: coupling=0.2448
+2025-10-24 11:53:40 INFO:     220nm: coupling=0.2230
+2025-10-24 11:53:40 INFO:     230nm: coupling=0.2330
+2025-10-24 11:53:40 INFO:     240nm: coupling=0.2276
+2025-10-24 11:53:40 INFO:     250nm: coupling=0.2390
+2025-10-24 11:53:40 INFO:     260nm: coupling=0.2430
+2025-10-24 11:53:40 INFO:     270nm: coupling=0.2450
+2025-10-24 11:53:40 INFO:     280nm: coupling=0.2250
+2025-10-24 11:53:41 INFO:     290nm: coupling=0.2340
+2025-10-24 11:53:41 INFO:     300nm: coupling=0.2370
+2025-10-24 11:53:41 INFO:   Testing powell calibration: 16 wavelengths remaining
+2025-10-24 11:53:41 INFO:     150nm: coupling=0.0002
+2025-10-24 11:53:41 INFO:     160nm: coupling=0.0001
+2025-10-24 11:53:41 INFO:     170nm: coupling=0.0001
+2025-10-24 11:53:41 INFO:     180nm: coupling=0.0001
+2025-10-24 11:53:42 INFO:     190nm: coupling=0.0001
+2025-10-24 11:53:42 INFO:     200nm: coupling=0.2101
+2025-10-24 11:53:42 INFO:     210nm: coupling=0.1934
+2025-10-24 11:53:42 INFO:     220nm: coupling=0.2182
+2025-10-24 11:53:42 INFO:     230nm: coupling=0.2213
+2025-10-24 11:53:42 INFO:     240nm: coupling=0.2435
+2025-10-24 11:53:43 INFO:     250nm: coupling=0.2490
+2025-10-24 11:53:43 INFO:     260nm: coupling=0.2290
+2025-10-24 11:53:43 INFO:     270nm: coupling=0.2340
+2025-10-24 11:53:43 INFO:     280nm: coupling=0.2490
+2025-10-24 11:53:43 INFO:     290nm: coupling=0.2480
+2025-10-24 11:53:43 INFO:     300nm: coupling=0.2480
+2025-10-24 11:53:43 INFO:   Testing grid_search calibration: 16 wavelengths remaining
+2025-10-24 11:53:44 INFO:     150nm: coupling=0.0001
+2025-10-24 11:53:44 INFO:     160nm: coupling=0.0001
+2025-10-24 11:53:44 INFO:     170nm: coupling=0.0000
+2025-10-24 11:53:44 INFO:     180nm: coupling=0.0000
+2025-10-24 11:53:44 INFO:     190nm: coupling=0.0000
+2025-10-24 11:53:44 INFO:     200nm: coupling=0.1939
+2025-10-24 11:53:45 INFO:     210nm: coupling=0.1997
+2025-10-24 11:53:45 INFO:     220nm: coupling=0.2155
+2025-10-24 11:53:45 INFO:     230nm: coupling=0.2121
+2025-10-24 11:53:45 INFO:     240nm: coupling=0.2225
+2025-10-24 11:53:45 INFO:     250nm: coupling=0.2090
+2025-10-24 11:53:45 INFO:     260nm: coupling=0.2330
+2025-10-24 11:53:45 INFO:     270nm: coupling=0.2500
+2025-10-24 11:53:46 INFO:     280nm: coupling=0.2440
+2025-10-24 11:53:46 INFO:     290nm: coupling=0.2190
+2025-10-24 11:53:46 INFO:     300nm: coupling=0.2220
+2025-10-24 11:53:46 INFO:   Testing bayesian calibration: 16 wavelengths remaining
+2025-10-24 11:53:46 INFO:     150nm: coupling=0.0001
+2025-10-24 11:53:46 INFO:     160nm: coupling=0.0000
+2025-10-24 11:53:46 INFO:     170nm: coupling=0.0000
+2025-10-24 11:53:47 INFO:     180nm: coupling=0.0000
+2025-10-24 11:53:47 INFO:     190nm: coupling=0.0000
+2025-10-24 11:53:47 INFO:     200nm: coupling=0.1989
+2025-10-24 11:53:47 INFO:     210nm: coupling=0.2295
+2025-10-24 11:53:47 INFO:     220nm: coupling=0.2131
+2025-10-24 11:53:47 INFO:     230nm: coupling=0.2255
+2025-10-24 11:53:48 INFO:     240nm: coupling=0.2204
+2025-10-24 11:53:48 INFO:     250nm: coupling=0.2170
+2025-10-24 11:53:48 INFO:     260nm: coupling=0.2240
+2025-10-24 11:53:48 INFO:     270nm: coupling=0.2280
+2025-10-24 11:53:48 INFO:     280nm: coupling=0.2620
+2025-10-24 11:53:48 INFO:     290nm: coupling=0.2330
+2025-10-24 11:53:49 INFO:     300nm: coupling=0.2330
+2025-10-24 11:53:49 INFO: Saved data to 36-682+36-681_air_wavelength.csv
+2025-10-24 11:53:49 INFO: Deleted temp file: results/wavelength_analyze_2025-10-24/temp_batch_wavelength_36-682+36-681_air.json
+2025-10-24 11:53:49 INFO: Starting wavelength analysis for 36-681+LA4647_air
+2025-10-24 11:53:49 INFO:   Calibrating with differential_evolution at 200nm
+2025-10-24 11:54:32 INFO:     Calibrated: z_l1=9.83, z_l2=13.63, z_fiber=33.73, coupling@200nm=0.2196
+2025-10-24 11:54:32 INFO:   Calibrating with dual_annealing at 200nm
+2025-10-24 11:56:56 INFO:     Calibrated: z_l1=9.84, z_l2=13.34, z_fiber=33.44, coupling@200nm=0.2198
+2025-10-24 11:56:56 INFO:   Calibrating with nelder_mead at 200nm
+2025-10-24 11:57:05 INFO:     Calibrated: z_l1=9.84, z_l2=13.34, z_fiber=33.44, coupling@200nm=0.2343
+2025-10-24 11:57:05 INFO:   Calibrating with powell at 200nm
+2025-10-24 11:57:16 INFO:     Calibrated: z_l1=9.82, z_l2=13.39, z_fiber=33.49, coupling@200nm=0.1954
+2025-10-24 11:57:16 INFO:   Calibrating with grid_search at 200nm
+2025-10-24 11:57:23 INFO:     Calibrated: z_l1=9.70, z_l2=18.56, z_fiber=38.66, coupling@200nm=0.2072
+2025-10-24 11:57:23 INFO:   Calibrating with bayesian at 200nm
+2025-10-24 11:57:51 INFO:     Calibrated: z_l1=9.70, z_l2=18.46, z_fiber=38.56, coupling@200nm=0.1953
+2025-10-24 11:57:51 INFO:   Calibrations ready: 6/6 methods
+2025-10-24 11:57:51 INFO:   Testing differential_evolution calibration: 16 wavelengths remaining
+2025-10-24 11:57:51 INFO:     150nm: coupling=0.0003
+2025-10-24 11:57:51 INFO:     160nm: coupling=0.0002
+2025-10-24 11:57:51 INFO:     170nm: coupling=0.0001
+2025-10-24 11:57:52 INFO:     180nm: coupling=0.0001
+2025-10-24 11:57:52 INFO:     190nm: coupling=0.0001
+2025-10-24 11:57:52 INFO:     200nm: coupling=0.2268
+2025-10-24 11:57:52 INFO:     210nm: coupling=0.2505
+2025-10-24 11:57:52 INFO:     220nm: coupling=0.2418
+2025-10-24 11:57:53 INFO:     230nm: coupling=0.2412
+2025-10-24 11:57:53 INFO:     240nm: coupling=0.2417
+2025-10-24 11:57:53 INFO:     250nm: coupling=0.2230
+2025-10-24 11:57:53 INFO:     260nm: coupling=0.2200
+2025-10-24 11:57:53 INFO:     270nm: coupling=0.2390
+2025-10-24 11:57:53 INFO:     280nm: coupling=0.2470
+2025-10-24 11:57:53 INFO:     290nm: coupling=0.2340
+2025-10-24 11:57:54 INFO:     300nm: coupling=0.2460
+2025-10-24 11:57:54 INFO:   Testing dual_annealing calibration: 16 wavelengths remaining
+2025-10-24 11:57:54 INFO:     150nm: coupling=0.0004
+2025-10-24 11:57:54 INFO:     160nm: coupling=0.0002
+2025-10-24 11:57:54 INFO:     170nm: coupling=0.0002
+2025-10-24 11:57:54 INFO:     180nm: coupling=0.0001
+2025-10-24 11:57:54 INFO:     190nm: coupling=0.0001
+2025-10-24 11:57:54 INFO:     200nm: coupling=0.2225
+2025-10-24 11:57:55 INFO:     210nm: coupling=0.2112
+2025-10-24 11:57:55 INFO:     220nm: coupling=0.2332
+2025-10-24 11:57:55 INFO:     230nm: coupling=0.2304
+2025-10-24 11:57:55 INFO:     240nm: coupling=0.2397
+2025-10-24 11:57:55 INFO:     250nm: coupling=0.2380
+2025-10-24 11:57:55 INFO:     260nm: coupling=0.2360
+2025-10-24 11:57:56 INFO:     270nm: coupling=0.2500
+2025-10-24 11:57:56 INFO:     280nm: coupling=0.2470
+2025-10-24 11:57:56 INFO:     290nm: coupling=0.2480
+2025-10-24 11:57:56 INFO:     300nm: coupling=0.2590
+2025-10-24 11:57:56 INFO:   Testing nelder_mead calibration: 16 wavelengths remaining
+2025-10-24 11:57:56 INFO:     150nm: coupling=0.0003
+2025-10-24 11:57:56 INFO:     160nm: coupling=0.0002
+2025-10-24 11:57:56 INFO:     170nm: coupling=0.0002
+2025-10-24 11:57:57 INFO:     180nm: coupling=0.0001
+2025-10-24 11:57:57 INFO:     190nm: coupling=0.0001
+2025-10-24 11:57:57 INFO:     200nm: coupling=0.2244
+2025-10-24 11:57:57 INFO:     210nm: coupling=0.2450
+2025-10-24 11:57:57 INFO:     220nm: coupling=0.2448
+2025-10-24 11:57:57 INFO:     230nm: coupling=0.2451
+2025-10-24 11:57:58 INFO:     240nm: coupling=0.2456
+2025-10-24 11:57:58 INFO:     250nm: coupling=0.2330
+2025-10-24 11:57:58 INFO:     260nm: coupling=0.2340
+2025-10-24 11:57:58 INFO:     270nm: coupling=0.2590
+2025-10-24 11:57:58 INFO:     280nm: coupling=0.2560
+2025-10-24 11:57:58 INFO:     290nm: coupling=0.2430
+2025-10-24 11:57:58 INFO:     300nm: coupling=0.2200
+2025-10-24 11:57:58 INFO:   Testing powell calibration: 16 wavelengths remaining
+2025-10-24 11:57:59 INFO:     150nm: coupling=0.0003
+2025-10-24 11:57:59 INFO:     160nm: coupling=0.0002
+2025-10-24 11:57:59 INFO:     170nm: coupling=0.0002
+2025-10-24 11:57:59 INFO:     180nm: coupling=0.0001
+2025-10-24 11:57:59 INFO:     190nm: coupling=0.0001
+2025-10-24 11:57:59 INFO:     200nm: coupling=0.2252
+2025-10-24 11:58:00 INFO:     210nm: coupling=0.2018
+2025-10-24 11:58:00 INFO:     220nm: coupling=0.2409
+2025-10-24 11:58:00 INFO:     230nm: coupling=0.2471
+2025-10-24 11:58:00 INFO:     240nm: coupling=0.2565
+2025-10-24 11:58:00 INFO:     250nm: coupling=0.2330
+2025-10-24 11:58:00 INFO:     260nm: coupling=0.2390
+2025-10-24 11:58:00 INFO:     270nm: coupling=0.2320
+2025-10-24 11:58:01 INFO:     280nm: coupling=0.2470
+2025-10-24 11:58:01 INFO:     290nm: coupling=0.2530
+2025-10-24 11:58:01 INFO:     300nm: coupling=0.2450
+2025-10-24 11:58:01 INFO:   Testing grid_search calibration: 16 wavelengths remaining
+2025-10-24 11:58:01 INFO:     150nm: coupling=0.0001
+2025-10-24 11:58:01 INFO:     160nm: coupling=0.0001
+2025-10-24 11:58:01 INFO:     170nm: coupling=0.0000
+2025-10-24 11:58:01 INFO:     180nm: coupling=0.0000
+2025-10-24 11:58:02 INFO:     190nm: coupling=0.0000
+2025-10-24 11:58:02 INFO:     200nm: coupling=0.2072
+2025-10-24 11:58:02 INFO:     210nm: coupling=0.1969
+2025-10-24 11:58:02 INFO:     220nm: coupling=0.2040
+2025-10-24 11:58:02 INFO:     230nm: coupling=0.2238
+2025-10-24 11:58:03 INFO:     240nm: coupling=0.2472
+2025-10-24 11:58:03 INFO:     250nm: coupling=0.2440
+2025-10-24 11:58:03 INFO:     260nm: coupling=0.2520
+2025-10-24 11:58:03 INFO:     270nm: coupling=0.2140
+2025-10-24 11:58:03 INFO:     280nm: coupling=0.2110
+2025-10-24 11:58:03 INFO:     290nm: coupling=0.2170
+2025-10-24 11:58:03 INFO:     300nm: coupling=0.2330
+2025-10-24 11:58:03 INFO:   Testing bayesian calibration: 16 wavelengths remaining
+2025-10-24 11:58:03 INFO:     150nm: coupling=0.0001
+2025-10-24 11:58:04 INFO:     160nm: coupling=0.0001
+2025-10-24 11:58:04 INFO:     170nm: coupling=0.0000
+2025-10-24 11:58:04 INFO:     180nm: coupling=0.0000
+2025-10-24 11:58:04 INFO:     190nm: coupling=0.0000
+2025-10-24 11:58:04 INFO:     200nm: coupling=0.1904
+2025-10-24 11:58:04 INFO:     210nm: coupling=0.2081
+2025-10-24 11:58:05 INFO:     220nm: coupling=0.2404
+2025-10-24 11:58:05 INFO:     230nm: coupling=0.2551
+2025-10-24 11:58:05 INFO:     240nm: coupling=0.2215
+2025-10-24 11:58:05 INFO:     250nm: coupling=0.2420
+2025-10-24 11:58:05 INFO:     260nm: coupling=0.2390
+2025-10-24 11:58:05 INFO:     270nm: coupling=0.2270
+2025-10-24 11:58:06 INFO:     280nm: coupling=0.2160
+2025-10-24 11:58:06 INFO:     290nm: coupling=0.2540
+2025-10-24 11:58:06 INFO:     300nm: coupling=0.2330
+2025-10-24 11:58:06 INFO: Saved data to 36-681+LA4647_air_wavelength.csv
+2025-10-24 11:58:06 INFO: Deleted temp file: results/wavelength_analyze_2025-10-24/temp_batch_wavelength_36-681+LA4647_air.json
+2025-10-24 11:58:06 INFO: Starting wavelength analysis for 36-682+LA4936_air
+2025-10-24 11:58:06 INFO:   Calibrating with differential_evolution at 200nm
+2025-10-24 11:58:42 INFO:     Calibrated: z_l1=10.00, z_l2=13.69, z_fiber=43.79, coupling@200nm=0.1965
+2025-10-24 11:58:42 INFO:   Calibrating with dual_annealing at 200nm
+2025-10-24 12:01:13 INFO:     Calibrated: z_l1=9.97, z_l2=14.00, z_fiber=44.10, coupling@200nm=0.2059
+2025-10-24 12:01:13 INFO:   Calibrating with nelder_mead at 200nm
+2025-10-24 12:01:26 INFO:     Calibrated: z_l1=9.98, z_l2=13.49, z_fiber=43.59, coupling@200nm=0.2032
+2025-10-24 12:01:26 INFO:   Calibrating with powell at 200nm
+2025-10-24 12:01:36 INFO:     Calibrated: z_l1=9.91, z_l2=17.20, z_fiber=47.30, coupling@200nm=0.1978
+2025-10-24 12:01:36 INFO:   Calibrating with grid_search at 200nm
+2025-10-24 12:01:46 INFO:     Calibrated: z_l1=9.70, z_l2=29.77, z_fiber=59.87, coupling@200nm=0.2022
+2025-10-24 12:01:46 INFO:   Calibrating with bayesian at 200nm
+2025-10-24 12:02:14 INFO:     Calibrated: z_l1=9.98, z_l2=18.40, z_fiber=48.50, coupling@200nm=0.2030
+2025-10-24 12:02:14 INFO:   Calibrations ready: 6/6 methods
+2025-10-24 12:02:14 INFO:   Testing differential_evolution calibration: 16 wavelengths remaining
+2025-10-24 12:02:14 INFO:     150nm: coupling=0.0000
+2025-10-24 12:02:14 INFO:     160nm: coupling=0.0000
+2025-10-24 12:02:14 INFO:     170nm: coupling=0.0000
+2025-10-24 12:02:15 INFO:     180nm: coupling=0.0000
+2025-10-24 12:02:15 INFO:     190nm: coupling=0.0000
+2025-10-24 12:02:15 INFO:     200nm: coupling=0.2000
+2025-10-24 12:02:15 INFO:     210nm: coupling=0.2167
+2025-10-24 12:02:15 INFO:     220nm: coupling=0.2216
+2025-10-24 12:02:16 INFO:     230nm: coupling=0.2172
+2025-10-24 12:02:16 INFO:     240nm: coupling=0.2399
+2025-10-24 12:02:16 INFO:     250nm: coupling=0.2680
+2025-10-24 12:02:16 INFO:     260nm: coupling=0.2090
+2025-10-24 12:02:16 INFO:     270nm: coupling=0.2280
+2025-10-24 12:02:16 INFO:     280nm: coupling=0.2140
+2025-10-24 12:02:16 INFO:     290nm: coupling=0.2380
+2025-10-24 12:02:17 INFO:     300nm: coupling=0.2380
+2025-10-24 12:02:17 INFO:   Testing dual_annealing calibration: 16 wavelengths remaining
+2025-10-24 12:02:17 INFO:     150nm: coupling=0.0000
+2025-10-24 12:02:17 INFO:     160nm: coupling=0.0000
+2025-10-24 12:02:17 INFO:     170nm: coupling=0.0000
+2025-10-24 12:02:17 INFO:     180nm: coupling=0.0000
+2025-10-24 12:02:17 INFO:     190nm: coupling=0.0000
+2025-10-24 12:02:18 INFO:     200nm: coupling=0.1937
+2025-10-24 12:02:18 INFO:     210nm: coupling=0.2147
+2025-10-24 12:02:18 INFO:     220nm: coupling=0.2130
+2025-10-24 12:02:18 INFO:     230nm: coupling=0.2424
+2025-10-24 12:02:18 INFO:     240nm: coupling=0.2310
+2025-10-24 12:02:19 INFO:     250nm: coupling=0.2410
+2025-10-24 12:02:19 INFO:     260nm: coupling=0.2250
+2025-10-24 12:02:19 INFO:     270nm: coupling=0.2150
+2025-10-24 12:02:19 INFO:     280nm: coupling=0.2340
+2025-10-24 12:02:19 INFO:     290nm: coupling=0.2440
+2025-10-24 12:02:19 INFO:     300nm: coupling=0.2360
+2025-10-24 12:02:19 INFO:   Testing nelder_mead calibration: 16 wavelengths remaining
+2025-10-24 12:02:19 INFO:     150nm: coupling=0.0000
+2025-10-24 12:02:20 INFO:     160nm: coupling=0.0000
+2025-10-24 12:02:20 INFO:     170nm: coupling=0.0000
+2025-10-24 12:02:20 INFO:     180nm: coupling=0.0000
+2025-10-24 12:02:20 INFO:     190nm: coupling=0.0000
+2025-10-24 12:02:20 INFO:     200nm: coupling=0.1976
+2025-10-24 12:02:20 INFO:     210nm: coupling=0.2223
+2025-10-24 12:02:21 INFO:     220nm: coupling=0.2055
+2025-10-24 12:02:21 INFO:     230nm: coupling=0.2269
+2025-10-24 12:02:21 INFO:     240nm: coupling=0.2182
+2025-10-24 12:02:21 INFO:     250nm: coupling=0.2340
+2025-10-24 12:02:21 INFO:     260nm: coupling=0.2530
+2025-10-24 12:02:21 INFO:     270nm: coupling=0.2320
+2025-10-24 12:02:22 INFO:     280nm: coupling=0.2220
+2025-10-24 12:02:22 INFO:     290nm: coupling=0.2190
+2025-10-24 12:02:22 INFO:     300nm: coupling=0.2120
+2025-10-24 12:02:22 INFO:   Testing powell calibration: 16 wavelengths remaining
+2025-10-24 12:02:22 INFO:     150nm: coupling=0.0000
+2025-10-24 12:02:22 INFO:     160nm: coupling=0.0000
+2025-10-24 12:02:22 INFO:     170nm: coupling=0.0000
+2025-10-24 12:02:23 INFO:     180nm: coupling=0.0000
+2025-10-24 12:02:23 INFO:     190nm: coupling=0.0000
+2025-10-24 12:02:23 INFO:     200nm: coupling=0.2124
+2025-10-24 12:02:23 INFO:     210nm: coupling=0.2015
+2025-10-24 12:02:23 INFO:     220nm: coupling=0.1885
+2025-10-24 12:02:23 INFO:     230nm: coupling=0.2264
+2025-10-24 12:02:24 INFO:     240nm: coupling=0.2307
+2025-10-24 12:02:24 INFO:     250nm: coupling=0.2380
+2025-10-24 12:02:24 INFO:     260nm: coupling=0.2220
+2025-10-24 12:02:24 INFO:     270nm: coupling=0.2210
+2025-10-24 12:02:24 INFO:     280nm: coupling=0.2600
+2025-10-24 12:02:24 INFO:     290nm: coupling=0.2290
+2025-10-24 12:02:25 INFO:     300nm: coupling=0.2410
+2025-10-24 12:02:25 INFO:   Testing grid_search calibration: 16 wavelengths remaining
+2025-10-24 12:02:25 INFO:     150nm: coupling=0.0000
+2025-10-24 12:02:25 INFO:     160nm: coupling=0.0000
+2025-10-24 12:02:25 INFO:     170nm: coupling=0.0000
+2025-10-24 12:02:25 INFO:     180nm: coupling=0.0000
+2025-10-24 12:02:25 INFO:     190nm: coupling=0.0000
+2025-10-24 12:02:26 INFO:     200nm: coupling=0.2072
+2025-10-24 12:02:26 INFO:     210nm: coupling=0.1945
+2025-10-24 12:02:26 INFO:     220nm: coupling=0.2239
+2025-10-24 12:02:26 INFO:     230nm: coupling=0.2361
+2025-10-24 12:02:26 INFO:     240nm: coupling=0.2308
+2025-10-24 12:02:27 INFO:     250nm: coupling=0.2460
+2025-10-24 12:02:27 INFO:     260nm: coupling=0.2360
+2025-10-24 12:02:27 INFO:     270nm: coupling=0.2450
+2025-10-24 12:02:27 INFO:     280nm: coupling=0.2470
+2025-10-24 12:02:27 INFO:     290nm: coupling=0.2500
+2025-10-24 12:02:27 INFO:     300nm: coupling=0.2330
+2025-10-24 12:02:27 INFO:   Testing bayesian calibration: 16 wavelengths remaining
+2025-10-24 12:02:27 INFO:     150nm: coupling=0.0000
+2025-10-24 12:02:28 INFO:     160nm: coupling=0.0000
+2025-10-24 12:02:28 INFO:     170nm: coupling=0.0000
+2025-10-24 12:02:28 INFO:     180nm: coupling=0.0000
+2025-10-24 12:02:28 INFO:     190nm: coupling=0.0000
+2025-10-24 12:02:28 INFO:     200nm: coupling=0.1867
+2025-10-24 12:02:28 INFO:     210nm: coupling=0.1928
+2025-10-24 12:02:29 INFO:     220nm: coupling=0.2109
+2025-10-24 12:02:29 INFO:     230nm: coupling=0.2214
+2025-10-24 12:02:29 INFO:     240nm: coupling=0.2238
+2025-10-24 12:02:29 INFO:     250nm: coupling=0.2190
+2025-10-24 12:02:29 INFO:     260nm: coupling=0.2450
+2025-10-24 12:02:29 INFO:     270nm: coupling=0.2250
+2025-10-24 12:02:30 INFO:     280nm: coupling=0.2300
+2025-10-24 12:02:30 INFO:     290nm: coupling=0.2530
+2025-10-24 12:02:30 INFO:     300nm: coupling=0.2390
+2025-10-24 12:02:30 INFO: Saved data to 36-682+LA4936_air_wavelength.csv
+2025-10-24 12:02:30 INFO: Deleted temp file: results/wavelength_analyze_2025-10-24/temp_batch_wavelength_36-682+LA4936_air.json
+2025-10-24 12:02:30 INFO: Starting wavelength analysis for LA4647+LA4002_air
+2025-10-24 12:02:30 INFO:   Calibrating with differential_evolution at 200nm
+2025-10-24 12:03:37 INFO:     Calibrated: z_l1=9.71, z_l2=14.55, z_fiber=39.55, coupling@200nm=0.2099
+2025-10-24 12:03:37 INFO:   Calibrating with dual_annealing at 200nm
+2025-10-24 12:07:32 INFO:     Calibrated: z_l1=9.73, z_l2=14.53, z_fiber=39.53, coupling@200nm=0.2187
+2025-10-24 12:07:32 INFO:   Calibrating with nelder_mead at 200nm
+2025-10-24 12:07:42 INFO:     Calibrated: z_l1=9.72, z_l2=14.72, z_fiber=39.72, coupling@200nm=0.2160
+2025-10-24 12:07:42 INFO:   Calibrating with powell at 200nm
+2025-10-24 12:07:52 INFO:     Calibrated: z_l1=9.70, z_l2=14.50, z_fiber=39.50, coupling@200nm=0.2276
+2025-10-24 12:07:52 INFO:   Calibrating with grid_search at 200nm
+2025-10-24 12:08:03 INFO:     Calibrated: z_l1=9.70, z_l2=22.20, z_fiber=47.20, coupling@200nm=0.2181
+2025-10-24 12:08:03 INFO:   Calibrating with bayesian at 200nm
+2025-10-24 12:08:35 INFO:     Calibrated: z_l1=9.70, z_l2=18.36, z_fiber=43.36, coupling@200nm=0.2094
+2025-10-24 12:08:35 INFO:   Calibrations ready: 6/6 methods
+2025-10-24 12:08:35 INFO:   Testing differential_evolution calibration: 16 wavelengths remaining
+2025-10-24 12:08:35 INFO:     150nm: coupling=0.0001
+2025-10-24 12:08:35 INFO:     160nm: coupling=0.0001
+2025-10-24 12:08:36 INFO:     170nm: coupling=0.0000
+2025-10-24 12:08:36 INFO:     180nm: coupling=0.0000
+2025-10-24 12:08:36 INFO:     190nm: coupling=0.0000
+2025-10-24 12:08:36 INFO:     200nm: coupling=0.2112
+2025-10-24 12:08:37 INFO:     210nm: coupling=0.2504
+2025-10-24 12:08:37 INFO:     220nm: coupling=0.2287
+2025-10-24 12:08:37 INFO:     230nm: coupling=0.2774
+2025-10-24 12:08:37 INFO:     240nm: coupling=0.2304
+2025-10-24 12:08:38 INFO:     250nm: coupling=0.2530
+2025-10-24 12:08:38 INFO:     260nm: coupling=0.2480
+2025-10-24 12:08:38 INFO:     270nm: coupling=0.2610
+2025-10-24 12:08:38 INFO:     280nm: coupling=0.2610
+2025-10-24 12:08:38 INFO:     290nm: coupling=0.2530
+2025-10-24 12:08:39 INFO:     300nm: coupling=0.2610
+2025-10-24 12:08:39 INFO:   Testing dual_annealing calibration: 16 wavelengths remaining
+2025-10-24 12:08:39 INFO:     150nm: coupling=0.0001
+2025-10-24 12:08:39 INFO:     160nm: coupling=0.0001
+2025-10-24 12:08:39 INFO:     170nm: coupling=0.0000
+2025-10-24 12:08:39 INFO:     180nm: coupling=0.0000
+2025-10-24 12:08:40 INFO:     190nm: coupling=0.0000
+2025-10-24 12:08:40 INFO:     200nm: coupling=0.2476
+2025-10-24 12:08:40 INFO:     210nm: coupling=0.2495
+2025-10-24 12:08:40 INFO:     220nm: coupling=0.2459
+2025-10-24 12:08:41 INFO:     230nm: coupling=0.2471
+2025-10-24 12:08:41 INFO:     240nm: coupling=0.2640
+2025-10-24 12:08:41 INFO:     250nm: coupling=0.2670
+2025-10-24 12:08:41 INFO:     260nm: coupling=0.2400
+2025-10-24 12:08:42 INFO:     270nm: coupling=0.2370
+2025-10-24 12:08:42 INFO:     280nm: coupling=0.2240
+2025-10-24 12:08:42 INFO:     290nm: coupling=0.2410
+2025-10-24 12:08:42 INFO:     300nm: coupling=0.2500
+2025-10-24 12:08:42 INFO:   Testing nelder_mead calibration: 16 wavelengths remaining
+2025-10-24 12:08:42 INFO:     150nm: coupling=0.0001
+2025-10-24 12:08:43 INFO:     160nm: coupling=0.0001
+2025-10-24 12:08:43 INFO:     170nm: coupling=0.0000
+2025-10-24 12:08:43 INFO:     180nm: coupling=0.0000
+2025-10-24 12:08:43 INFO:     190nm: coupling=0.0000
+2025-10-24 12:08:44 INFO:     200nm: coupling=0.2129
+2025-10-24 12:08:44 INFO:     210nm: coupling=0.2308
+2025-10-24 12:08:44 INFO:     220nm: coupling=0.2468
+2025-10-24 12:08:44 INFO:     230nm: coupling=0.2666
+2025-10-24 12:08:45 INFO:     240nm: coupling=0.2501
+2025-10-24 12:08:45 INFO:     250nm: coupling=0.2500
+2025-10-24 12:08:45 INFO:     260nm: coupling=0.2530
+2025-10-24 12:08:45 INFO:     270nm: coupling=0.2500
+2025-10-24 12:08:45 INFO:     280nm: coupling=0.2340
+2025-10-24 12:08:46 INFO:     290nm: coupling=0.2350
+2025-10-24 12:08:46 INFO:     300nm: coupling=0.2380
+2025-10-24 12:08:46 INFO:   Testing powell calibration: 16 wavelengths remaining
+2025-10-24 12:08:46 INFO:     150nm: coupling=0.0001
+2025-10-24 12:08:46 INFO:     160nm: coupling=0.0001
+2025-10-24 12:08:46 INFO:     170nm: coupling=0.0000
+2025-10-24 12:08:47 INFO:     180nm: coupling=0.0000
+2025-10-24 12:08:47 INFO:     190nm: coupling=0.0000
+2025-10-24 12:08:47 INFO:     200nm: coupling=0.2228
+2025-10-24 12:08:48 INFO:     210nm: coupling=0.2309
+2025-10-24 12:08:48 INFO:     220nm: coupling=0.2268
+2025-10-24 12:08:48 INFO:     230nm: coupling=0.2413
+2025-10-24 12:08:48 INFO:     240nm: coupling=0.2491
+2025-10-24 12:08:49 INFO:     250nm: coupling=0.2680
+2025-10-24 12:08:49 INFO:     260nm: coupling=0.2500
+2025-10-24 12:08:49 INFO:     270nm: coupling=0.2450
+2025-10-24 12:08:49 INFO:     280nm: coupling=0.2350
+2025-10-24 12:08:49 INFO:     290nm: coupling=0.2460
+2025-10-24 12:08:50 INFO:     300nm: coupling=0.2490
+2025-10-24 12:08:50 INFO:   Testing grid_search calibration: 16 wavelengths remaining
+2025-10-24 12:08:50 INFO:     150nm: coupling=0.0000
+2025-10-24 12:08:50 INFO:     160nm: coupling=0.0000
+2025-10-24 12:08:50 INFO:     170nm: coupling=0.0000
+2025-10-24 12:08:50 INFO:     180nm: coupling=0.0000
+2025-10-24 12:08:51 INFO:     190nm: coupling=0.0000
+2025-10-24 12:08:51 INFO:     200nm: coupling=0.2086
+2025-10-24 12:08:51 INFO:     210nm: coupling=0.2382
+2025-10-24 12:08:51 INFO:     220nm: coupling=0.2408
+2025-10-24 12:08:52 INFO:     230nm: coupling=0.2177
+2025-10-24 12:08:52 INFO:     240nm: coupling=0.2249
+2025-10-24 12:08:52 INFO:     250nm: coupling=0.2490
+2025-10-24 12:08:52 INFO:     260nm: coupling=0.2510
+2025-10-24 12:08:53 INFO:     270nm: coupling=0.2360
+2025-10-24 12:08:53 INFO:     280nm: coupling=0.2510
+2025-10-24 12:08:53 INFO:     290nm: coupling=0.2380
+2025-10-24 12:08:53 INFO:     300nm: coupling=0.2500
+2025-10-24 12:08:53 INFO:   Testing bayesian calibration: 16 wavelengths remaining
+2025-10-24 12:08:53 INFO:     150nm: coupling=0.0000
+2025-10-24 12:08:54 INFO:     160nm: coupling=0.0000
+2025-10-24 12:08:54 INFO:     170nm: coupling=0.0000
+2025-10-24 12:08:54 INFO:     180nm: coupling=0.0000
+2025-10-24 12:08:54 INFO:     190nm: coupling=0.0000
+2025-10-24 12:08:55 INFO:     200nm: coupling=0.2331
+2025-10-24 12:08:55 INFO:     210nm: coupling=0.2273
+2025-10-24 12:08:55 INFO:     220nm: coupling=0.2352
+2025-10-24 12:08:55 INFO:     230nm: coupling=0.2348
+2025-10-24 12:08:56 INFO:     240nm: coupling=0.2587
+2025-10-24 12:08:56 INFO:     250nm: coupling=0.2410
+2025-10-24 12:08:56 INFO:     260nm: coupling=0.2300
+2025-10-24 12:08:56 INFO:     270nm: coupling=0.2670
+2025-10-24 12:08:56 INFO:     280nm: coupling=0.2690
+2025-10-24 12:08:57 INFO:     290nm: coupling=0.2480
+2025-10-24 12:08:57 INFO:     300nm: coupling=0.2490
+2025-10-24 12:08:57 INFO: Saved data to LA4647+LA4002_air_wavelength.csv
+2025-10-24 12:08:57 INFO: Deleted temp file: results/wavelength_analyze_2025-10-24/temp_batch_wavelength_LA4647+LA4002_air.json
+2025-10-24 12:08:57 INFO: Starting wavelength analysis for LA4647+84-277_air
+2025-10-24 12:08:57 INFO:   Calibrating with differential_evolution at 200nm
+2025-10-24 12:10:07 INFO:     Calibrated: z_l1=9.71, z_l2=14.54, z_fiber=39.54, coupling@200nm=0.2108
+2025-10-24 12:10:07 INFO:   Calibrating with dual_annealing at 200nm
+2025-10-24 12:13:14 INFO:     Calibrated: z_l1=9.80, z_l2=14.78, z_fiber=39.78, coupling@200nm=0.2235
+2025-10-24 12:13:14 INFO:   Calibrating with nelder_mead at 200nm
+2025-10-24 12:13:24 INFO:     Calibrated: z_l1=9.72, z_l2=14.72, z_fiber=39.72, coupling@200nm=0.2155
+2025-10-24 12:13:24 INFO:   Calibrating with powell at 200nm
+2025-10-24 12:13:37 INFO:     Calibrated: z_l1=9.70, z_l2=14.50, z_fiber=39.50, coupling@200nm=0.2139
+2025-10-24 12:13:37 INFO:   Calibrating with grid_search at 200nm
+2025-10-24 12:13:49 INFO:     Calibrated: z_l1=9.70, z_l2=17.07, z_fiber=42.07, coupling@200nm=0.2235
+2025-10-24 12:13:49 INFO:   Calibrating with bayesian at 200nm
+2025-10-24 12:14:20 INFO:     Calibrated: z_l1=9.70, z_l2=18.36, z_fiber=43.36, coupling@200nm=0.2064
+2025-10-24 12:14:20 INFO:   Calibrations ready: 6/6 methods
+2025-10-24 12:14:20 INFO:   Testing differential_evolution calibration: 16 wavelengths remaining
+2025-10-24 12:14:20 INFO:     150nm: coupling=0.0001
+2025-10-24 12:14:20 INFO:     160nm: coupling=0.0001
+2025-10-24 12:14:20 INFO:     170nm: coupling=0.0000
+2025-10-24 12:14:21 INFO:     180nm: coupling=0.0000
+2025-10-24 12:14:21 INFO:     190nm: coupling=0.0000
+2025-10-24 12:14:21 INFO:     200nm: coupling=0.2254
+2025-10-24 12:14:21 INFO:     210nm: coupling=0.2309
+2025-10-24 12:14:22 INFO:     220nm: coupling=0.2325
+2025-10-24 12:14:22 INFO:     230nm: coupling=0.2491
+2025-10-24 12:14:22 INFO:     240nm: coupling=0.2472
+2025-10-24 12:14:22 INFO:     250nm: coupling=0.2610
+2025-10-24 12:14:23 INFO:     260nm: coupling=0.2520
+2025-10-24 12:14:23 INFO:     270nm: coupling=0.2470
+2025-10-24 12:14:23 INFO:     280nm: coupling=0.2580
+2025-10-24 12:14:23 INFO:     290nm: coupling=0.2430
+2025-10-24 12:14:23 INFO:     300nm: coupling=0.2420
+2025-10-24 12:14:23 INFO:   Testing dual_annealing calibration: 16 wavelengths remaining
+2025-10-24 12:14:23 INFO:     150nm: coupling=0.0001
+2025-10-24 12:14:24 INFO:     160nm: coupling=0.0001
+2025-10-24 12:14:24 INFO:     170nm: coupling=0.0000
+2025-10-24 12:14:24 INFO:     180nm: coupling=0.0000
+2025-10-24 12:14:24 INFO:     190nm: coupling=0.0000
+2025-10-24 12:14:25 INFO:     200nm: coupling=0.2279
+2025-10-24 12:14:25 INFO:     210nm: coupling=0.2243
+2025-10-24 12:14:25 INFO:     220nm: coupling=0.2430
+2025-10-24 12:14:25 INFO:     230nm: coupling=0.2295
+2025-10-24 12:14:26 INFO:     240nm: coupling=0.2343
+2025-10-24 12:14:26 INFO:     250nm: coupling=0.2400
+2025-10-24 12:14:26 INFO:     260nm: coupling=0.2480
+2025-10-24 12:14:26 INFO:     270nm: coupling=0.2520
+2025-10-24 12:14:26 INFO:     280nm: coupling=0.2320
+2025-10-24 12:14:27 INFO:     290nm: coupling=0.2200
+2025-10-24 12:14:27 INFO:     300nm: coupling=0.2490
+2025-10-24 12:14:27 INFO:   Testing nelder_mead calibration: 16 wavelengths remaining
+2025-10-24 12:14:27 INFO:     150nm: coupling=0.0001
+2025-10-24 12:14:27 INFO:     160nm: coupling=0.0001
+2025-10-24 12:14:27 INFO:     170nm: coupling=0.0000
+2025-10-24 12:14:28 INFO:     180nm: coupling=0.0000
+2025-10-24 12:14:28 INFO:     190nm: coupling=0.0000
+2025-10-24 12:14:28 INFO:     200nm: coupling=0.2341
+2025-10-24 12:14:29 INFO:     210nm: coupling=0.2243
+2025-10-24 12:14:29 INFO:     220nm: coupling=0.2315
+2025-10-24 12:14:29 INFO:     230nm: coupling=0.2452
+2025-10-24 12:14:29 INFO:     240nm: coupling=0.2689
+2025-10-24 12:14:30 INFO:     250nm: coupling=0.2410
+2025-10-24 12:14:30 INFO:     260nm: coupling=0.2310
+2025-10-24 12:14:30 INFO:     270nm: coupling=0.2260
+2025-10-24 12:14:30 INFO:     280nm: coupling=0.2550
+2025-10-24 12:14:30 INFO:     290nm: coupling=0.2510
+2025-10-24 12:14:31 INFO:     300nm: coupling=0.2280
+2025-10-24 12:14:31 INFO:   Testing powell calibration: 16 wavelengths remaining
+2025-10-24 12:14:31 INFO:     150nm: coupling=0.0001
+2025-10-24 12:14:31 INFO:     160nm: coupling=0.0001
+2025-10-24 12:14:31 INFO:     170nm: coupling=0.0000
+2025-10-24 12:14:31 INFO:     180nm: coupling=0.0000
+2025-10-24 12:14:32 INFO:     190nm: coupling=0.0000
+2025-10-24 12:14:32 INFO:     200nm: coupling=0.2112
+2025-10-24 12:14:32 INFO:     210nm: coupling=0.2513
+2025-10-24 12:14:32 INFO:     220nm: coupling=0.2172
+2025-10-24 12:14:33 INFO:     230nm: coupling=0.2178
+2025-10-24 12:14:33 INFO:     240nm: coupling=0.2383
+2025-10-24 12:14:33 INFO:     250nm: coupling=0.2400
+2025-10-24 12:14:33 INFO:     260nm: coupling=0.2370
+2025-10-24 12:14:34 INFO:     270nm: coupling=0.2420
+2025-10-24 12:14:34 INFO:     280nm: coupling=0.2420
+2025-10-24 12:14:34 INFO:     290nm: coupling=0.2400
+2025-10-24 12:14:34 INFO:     300nm: coupling=0.2450
+2025-10-24 12:14:34 INFO:   Testing grid_search calibration: 16 wavelengths remaining
+2025-10-24 12:14:34 INFO:     150nm: coupling=0.0001
+2025-10-24 12:14:35 INFO:     160nm: coupling=0.0000
+2025-10-24 12:14:35 INFO:     170nm: coupling=0.0000
+2025-10-24 12:14:35 INFO:     180nm: coupling=0.0000
+2025-10-24 12:14:35 INFO:     190nm: coupling=0.0000
+2025-10-24 12:14:36 INFO:     200nm: coupling=0.2332
+2025-10-24 12:14:36 INFO:     210nm: coupling=0.2417
+2025-10-24 12:14:36 INFO:     220nm: coupling=0.2480
+2025-10-24 12:14:36 INFO:     230nm: coupling=0.2760
+2025-10-24 12:14:37 INFO:     240nm: coupling=0.2628
+2025-10-24 12:14:37 INFO:     250nm: coupling=0.2570
+2025-10-24 12:14:37 INFO:     260nm: coupling=0.2490
+2025-10-24 12:14:37 INFO:     270nm: coupling=0.2290
+2025-10-24 12:14:37 INFO:     280nm: coupling=0.2330
+2025-10-24 12:14:38 INFO:     290nm: coupling=0.2410
+2025-10-24 12:14:38 INFO:     300nm: coupling=0.2550
+2025-10-24 12:14:38 INFO:   Testing bayesian calibration: 16 wavelengths remaining
+2025-10-24 12:14:38 INFO:     150nm: coupling=0.0000
+2025-10-24 12:14:38 INFO:     160nm: coupling=0.0000
+2025-10-24 12:14:38 INFO:     170nm: coupling=0.0000
+2025-10-24 12:14:39 INFO:     180nm: coupling=0.0000
+2025-10-24 12:14:39 INFO:     190nm: coupling=0.0000
+2025-10-24 12:14:39 INFO:     200nm: coupling=0.2209
+2025-10-24 12:14:39 INFO:     210nm: coupling=0.2346
+2025-10-24 12:14:40 INFO:     220nm: coupling=0.2429
+2025-10-24 12:14:40 INFO:     230nm: coupling=0.2592
+2025-10-24 12:14:40 INFO:     240nm: coupling=0.2597
+2025-10-24 12:14:40 INFO:     250nm: coupling=0.2510
+2025-10-24 12:14:41 INFO:     260nm: coupling=0.2240
+2025-10-24 12:14:41 INFO:     270nm: coupling=0.2410
+2025-10-24 12:14:41 INFO:     280nm: coupling=0.2540
+2025-10-24 12:14:41 INFO:     290nm: coupling=0.2580
+2025-10-24 12:14:41 INFO:     300nm: coupling=0.2430
+2025-10-24 12:14:42 INFO: Saved data to LA4647+84-277_air_wavelength.csv
+2025-10-24 12:14:42 INFO: Deleted temp file: results/wavelength_analyze_2025-10-24/temp_batch_wavelength_LA4647+84-277_air.json
+2025-10-24 12:14:42 INFO: Starting wavelength analysis for LA4647+36-681_air
+2025-10-24 12:14:42 INFO:   Calibrating with differential_evolution at 200nm
+2025-10-24 12:15:32 INFO:     Calibrated: z_l1=9.72, z_l2=14.57, z_fiber=36.57, coupling@200nm=0.2055
+2025-10-24 12:15:32 INFO:   Calibrating with dual_annealing at 200nm
+2025-10-24 12:19:32 INFO:     Calibrated: z_l1=9.71, z_l2=14.51, z_fiber=36.51, coupling@200nm=0.2114
+2025-10-24 12:19:32 INFO:   Calibrating with nelder_mead at 200nm
+2025-10-24 12:19:39 INFO:     Calibrated: z_l1=9.70, z_l2=18.33, z_fiber=40.33, coupling@200nm=0.2149
+2025-10-24 12:19:39 INFO:   Calibrating with powell at 200nm
+2025-10-24 12:19:48 INFO:     Calibrated: z_l1=9.70, z_l2=14.53, z_fiber=36.53, coupling@200nm=0.2024
+2025-10-24 12:19:48 INFO:   Calibrating with grid_search at 200nm
+2025-10-24 12:19:59 INFO:     Calibrated: z_l1=9.70, z_l2=20.70, z_fiber=42.70, coupling@200nm=0.2247
+2025-10-24 12:19:59 INFO:   Calibrating with bayesian at 200nm
+2025-10-24 12:20:29 INFO:     Calibrated: z_l1=9.70, z_l2=17.98, z_fiber=39.98, coupling@200nm=0.2196
+2025-10-24 12:20:29 INFO:   Calibrations ready: 6/6 methods
+2025-10-24 12:20:29 INFO:   Testing differential_evolution calibration: 16 wavelengths remaining
+2025-10-24 12:20:29 INFO:     150nm: coupling=0.0002
+2025-10-24 12:20:29 INFO:     160nm: coupling=0.0001
+2025-10-24 12:20:29 INFO:     170nm: coupling=0.0001
+2025-10-24 12:20:30 INFO:     180nm: coupling=0.0001
+2025-10-24 12:20:30 INFO:     190nm: coupling=0.0001
+2025-10-24 12:20:30 INFO:     200nm: coupling=0.2203
+2025-10-24 12:20:30 INFO:     210nm: coupling=0.2257
+2025-10-24 12:20:30 INFO:     220nm: coupling=0.2256
+2025-10-24 12:20:31 INFO:     230nm: coupling=0.2466
+2025-10-24 12:20:31 INFO:     240nm: coupling=0.2306
+2025-10-24 12:20:31 INFO:     250nm: coupling=0.2390
+2025-10-24 12:20:31 INFO:     260nm: coupling=0.2420
+2025-10-24 12:20:31 INFO:     270nm: coupling=0.2340
+2025-10-24 12:20:32 INFO:     280nm: coupling=0.2260
+2025-10-24 12:20:32 INFO:     290nm: coupling=0.2320
+2025-10-24 12:20:32 INFO:     300nm: coupling=0.2310
+2025-10-24 12:20:32 INFO:   Testing dual_annealing calibration: 16 wavelengths remaining
+2025-10-24 12:20:32 INFO:     150nm: coupling=0.0002
+2025-10-24 12:20:32 INFO:     160nm: coupling=0.0001
+2025-10-24 12:20:32 INFO:     170nm: coupling=0.0001
+2025-10-24 12:20:33 INFO:     180nm: coupling=0.0001
+2025-10-24 12:20:33 INFO:     190nm: coupling=0.0000
+2025-10-24 12:20:33 INFO:     200nm: coupling=0.2212
+2025-10-24 12:20:33 INFO:     210nm: coupling=0.2024
+2025-10-24 12:20:33 INFO:     220nm: coupling=0.2208
+2025-10-24 12:20:34 INFO:     230nm: coupling=0.2407
+2025-10-24 12:20:34 INFO:     240nm: coupling=0.2405
+2025-10-24 12:20:34 INFO:     250nm: coupling=0.2390
+2025-10-24 12:20:34 INFO:     260nm: coupling=0.2250
+2025-10-24 12:20:34 INFO:     270nm: coupling=0.2480
+2025-10-24 12:20:35 INFO:     280nm: coupling=0.2560
+2025-10-24 12:20:35 INFO:     290nm: coupling=0.2470
+2025-10-24 12:20:35 INFO:     300nm: coupling=0.2200
+2025-10-24 12:20:35 INFO:   Testing nelder_mead calibration: 16 wavelengths remaining
+2025-10-24 12:20:35 INFO:     150nm: coupling=0.0001
+2025-10-24 12:20:35 INFO:     160nm: coupling=0.0000
+2025-10-24 12:20:35 INFO:     170nm: coupling=0.0000
+2025-10-24 12:20:36 INFO:     180nm: coupling=0.0000
+2025-10-24 12:20:36 INFO:     190nm: coupling=0.0000
+2025-10-24 12:20:36 INFO:     200nm: coupling=0.2167
+2025-10-24 12:20:36 INFO:     210nm: coupling=0.2388
+2025-10-24 12:20:37 INFO:     220nm: coupling=0.2294
+2025-10-24 12:20:37 INFO:     230nm: coupling=0.2372
+2025-10-24 12:20:37 INFO:     240nm: coupling=0.2332
+2025-10-24 12:20:37 INFO:     250nm: coupling=0.2580
+2025-10-24 12:20:37 INFO:     260nm: coupling=0.2450
+2025-10-24 12:20:38 INFO:     270nm: coupling=0.2240
+2025-10-24 12:20:38 INFO:     280nm: coupling=0.2370
+2025-10-24 12:20:38 INFO:     290nm: coupling=0.2440
+2025-10-24 12:20:38 INFO:     300nm: coupling=0.2440
+2025-10-24 12:20:38 INFO:   Testing powell calibration: 16 wavelengths remaining
+2025-10-24 12:20:38 INFO:     150nm: coupling=0.0001
+2025-10-24 12:20:38 INFO:     160nm: coupling=0.0001
+2025-10-24 12:20:39 INFO:     170nm: coupling=0.0001
+2025-10-24 12:20:39 INFO:     180nm: coupling=0.0001
+2025-10-24 12:20:39 INFO:     190nm: coupling=0.0000
+2025-10-24 12:20:39 INFO:     200nm: coupling=0.2051
+2025-10-24 12:20:39 INFO:     210nm: coupling=0.2267
+2025-10-24 12:20:40 INFO:     220nm: coupling=0.2400
+2025-10-24 12:20:40 INFO:     230nm: coupling=0.2221
+2025-10-24 12:20:40 INFO:     240nm: coupling=0.2147
+2025-10-24 12:20:40 INFO:     250nm: coupling=0.2340
+2025-10-24 12:20:40 INFO:     260nm: coupling=0.2410
+2025-10-24 12:20:41 INFO:     270nm: coupling=0.2400
+2025-10-24 12:20:41 INFO:     280nm: coupling=0.2260
+2025-10-24 12:20:41 INFO:     290nm: coupling=0.2330
+2025-10-24 12:20:41 INFO:     300nm: coupling=0.2280
+2025-10-24 12:20:41 INFO:   Testing grid_search calibration: 16 wavelengths remaining
+2025-10-24 12:20:41 INFO:     150nm: coupling=0.0000
+2025-10-24 12:20:41 INFO:     160nm: coupling=0.0000
+2025-10-24 12:20:42 INFO:     170nm: coupling=0.0000
+2025-10-24 12:20:42 INFO:     180nm: coupling=0.0000
+2025-10-24 12:20:42 INFO:     190nm: coupling=0.0000
+2025-10-24 12:20:42 INFO:     200nm: coupling=0.2036
+2025-10-24 12:20:43 INFO:     210nm: coupling=0.2302
+2025-10-24 12:20:43 INFO:     220nm: coupling=0.2201
+2025-10-24 12:20:43 INFO:     230nm: coupling=0.2476
+2025-10-24 12:20:43 INFO:     240nm: coupling=0.2173
+2025-10-24 12:20:43 INFO:     250nm: coupling=0.2360
+2025-10-24 12:20:44 INFO:     260nm: coupling=0.2190
+2025-10-24 12:20:44 INFO:     270nm: coupling=0.2460
+2025-10-24 12:20:44 INFO:     280nm: coupling=0.2210
+2025-10-24 12:20:44 INFO:     290nm: coupling=0.2480
+2025-10-24 12:20:44 INFO:     300nm: coupling=0.2110
+2025-10-24 12:20:44 INFO:   Testing bayesian calibration: 16 wavelengths remaining
+2025-10-24 12:20:44 INFO:     150nm: coupling=0.0001
+2025-10-24 12:20:45 INFO:     160nm: coupling=0.0000
+2025-10-24 12:20:45 INFO:     170nm: coupling=0.0000
+2025-10-24 12:20:45 INFO:     180nm: coupling=0.0000
+2025-10-24 12:20:45 INFO:     190nm: coupling=0.0000
+2025-10-24 12:20:45 INFO:     200nm: coupling=0.2125
+2025-10-24 12:20:46 INFO:     210nm: coupling=0.2241
+2025-10-24 12:20:46 INFO:     220nm: coupling=0.2247
+2025-10-24 12:20:46 INFO:     230nm: coupling=0.2295
+2025-10-24 12:20:46 INFO:     240nm: coupling=0.2412
+2025-10-24 12:20:46 INFO:     250nm: coupling=0.2460
+2025-10-24 12:20:47 INFO:     260nm: coupling=0.2140
+2025-10-24 12:20:47 INFO:     270nm: coupling=0.2500
+2025-10-24 12:20:47 INFO:     280nm: coupling=0.2320
+2025-10-24 12:20:47 INFO:     290nm: coupling=0.2460
+2025-10-24 12:20:47 INFO:     300nm: coupling=0.2280
+2025-10-24 12:20:47 INFO: Saved data to LA4647+36-681_air_wavelength.csv
+2025-10-24 12:20:47 INFO: Deleted temp file: results/wavelength_analyze_2025-10-24/temp_batch_wavelength_LA4647+36-681_air.json
+2025-10-24 12:20:47 INFO: Starting wavelength analysis for 36-681+LA4002_air
+2025-10-24 12:20:47 INFO:   Calibrating with differential_evolution at 200nm
+2025-10-24 12:21:29 INFO:     Calibrated: z_l1=10.62, z_l2=14.25, z_fiber=39.25, coupling@200nm=0.2121
+2025-10-24 12:21:29 INFO:   Calibrating with dual_annealing at 200nm
+2025-10-24 12:24:31 INFO:     Calibrated: z_l1=10.56, z_l2=14.91, z_fiber=39.91, coupling@200nm=0.2138
+2025-10-24 12:24:31 INFO:   Calibrating with nelder_mead at 200nm
+2025-10-24 12:24:40 INFO:     Calibrated: z_l1=10.59, z_l2=14.10, z_fiber=39.10, coupling@200nm=0.2121
+2025-10-24 12:24:40 INFO:   Calibrating with powell at 200nm
+2025-10-24 12:24:48 INFO:     Calibrated: z_l1=10.69, z_l2=14.20, z_fiber=39.20, coupling@200nm=0.2036
+2025-10-24 12:24:48 INFO:   Calibrating with grid_search at 200nm
+2025-10-24 12:24:58 INFO:     Calibrated: z_l1=9.70, z_l2=38.87, z_fiber=63.87, coupling@200nm=0.1965
+2025-10-24 12:24:58 INFO:   Calibrating with bayesian at 200nm
+2025-10-24 12:25:26 INFO:     Calibrated: z_l1=10.24, z_l2=28.72, z_fiber=53.72, coupling@200nm=0.2103
+2025-10-24 12:25:26 INFO:   Calibrations ready: 6/6 methods
+2025-10-24 12:25:26 INFO:   Testing differential_evolution calibration: 16 wavelengths remaining
+2025-10-24 12:25:26 INFO:     150nm: coupling=0.0001
+2025-10-24 12:25:27 INFO:     160nm: coupling=0.0001
+2025-10-24 12:25:27 INFO:     170nm: coupling=0.0000
+2025-10-24 12:25:27 INFO:     180nm: coupling=0.0000
+2025-10-24 12:25:27 INFO:     190nm: coupling=0.0000
+2025-10-24 12:25:27 INFO:     200nm: coupling=0.2014
+2025-10-24 12:25:27 INFO:     210nm: coupling=0.2281
+2025-10-24 12:25:27 INFO:     220nm: coupling=0.2306
+2025-10-24 12:25:28 INFO:     230nm: coupling=0.2295
+2025-10-24 12:25:28 INFO:     240nm: coupling=0.2491
+2025-10-24 12:25:28 INFO:     250nm: coupling=0.2370
+2025-10-24 12:25:28 INFO:     260nm: coupling=0.2280
+2025-10-24 12:25:28 INFO:     270nm: coupling=0.2340
+2025-10-24 12:25:28 INFO:     280nm: coupling=0.2400
+2025-10-24 12:25:28 INFO:     290nm: coupling=0.2270
+2025-10-24 12:25:29 INFO:     300nm: coupling=0.2360
+2025-10-24 12:25:29 INFO:   Testing dual_annealing calibration: 16 wavelengths remaining
+2025-10-24 12:25:29 INFO:     150nm: coupling=0.0001
+2025-10-24 12:25:29 INFO:     160nm: coupling=0.0000
+2025-10-24 12:25:29 INFO:     170nm: coupling=0.0000
+2025-10-24 12:25:29 INFO:     180nm: coupling=0.0000
+2025-10-24 12:25:29 INFO:     190nm: coupling=0.0000
+2025-10-24 12:25:29 INFO:     200nm: coupling=0.1930
+2025-10-24 12:25:30 INFO:     210nm: coupling=0.2213
+2025-10-24 12:25:30 INFO:     220nm: coupling=0.2438
+2025-10-24 12:25:30 INFO:     230nm: coupling=0.2421
+2025-10-24 12:25:30 INFO:     240nm: coupling=0.2333
+2025-10-24 12:25:30 INFO:     250nm: coupling=0.2660
+2025-10-24 12:25:30 INFO:     260nm: coupling=0.2400
+2025-10-24 12:25:30 INFO:     270nm: coupling=0.2320
+2025-10-24 12:25:31 INFO:     280nm: coupling=0.2410
+2025-10-24 12:25:31 INFO:     290nm: coupling=0.2370
+2025-10-24 12:25:31 INFO:     300nm: coupling=0.2630
+2025-10-24 12:25:31 INFO:   Testing nelder_mead calibration: 16 wavelengths remaining
+2025-10-24 12:25:31 INFO:     150nm: coupling=0.0001
+2025-10-24 12:25:31 INFO:     160nm: coupling=0.0001
+2025-10-24 12:25:31 INFO:     170nm: coupling=0.0000
+2025-10-24 12:25:31 INFO:     180nm: coupling=0.0000
+2025-10-24 12:25:32 INFO:     190nm: coupling=0.0000
+2025-10-24 12:25:32 INFO:     200nm: coupling=0.1971
+2025-10-24 12:25:32 INFO:     210nm: coupling=0.2152
+2025-10-24 12:25:32 INFO:     220nm: coupling=0.2096
+2025-10-24 12:25:32 INFO:     230nm: coupling=0.2335
+2025-10-24 12:25:32 INFO:     240nm: coupling=0.2175
+2025-10-24 12:25:32 INFO:     250nm: coupling=0.2410
+2025-10-24 12:25:33 INFO:     260nm: coupling=0.2450
+2025-10-24 12:25:33 INFO:     270nm: coupling=0.2580
+2025-10-24 12:25:33 INFO:     280nm: coupling=0.2510
+2025-10-24 12:25:33 INFO:     290nm: coupling=0.2580
+2025-10-24 12:25:33 INFO:     300nm: coupling=0.2340
+2025-10-24 12:25:33 INFO:   Testing powell calibration: 16 wavelengths remaining
+2025-10-24 12:25:33 INFO:     150nm: coupling=0.0001
+2025-10-24 12:25:33 INFO:     160nm: coupling=0.0001
+2025-10-24 12:25:34 INFO:     170nm: coupling=0.0000
+2025-10-24 12:25:34 INFO:     180nm: coupling=0.0000
+2025-10-24 12:25:34 INFO:     190nm: coupling=0.0000
+2025-10-24 12:25:34 INFO:     200nm: coupling=0.1961
+2025-10-24 12:25:34 INFO:     210nm: coupling=0.2309
+2025-10-24 12:25:34 INFO:     220nm: coupling=0.2315
+2025-10-24 12:25:34 INFO:     230nm: coupling=0.2198
+2025-10-24 12:25:35 INFO:     240nm: coupling=0.2353
+2025-10-24 12:25:35 INFO:     250nm: coupling=0.2330
+2025-10-24 12:25:35 INFO:     260nm: coupling=0.2210
+2025-10-24 12:25:35 INFO:     270nm: coupling=0.2630
+2025-10-24 12:25:35 INFO:     280nm: coupling=0.2400
+2025-10-24 12:25:35 INFO:     290nm: coupling=0.2090
+2025-10-24 12:25:35 INFO:     300nm: coupling=0.2400
+2025-10-24 12:25:35 INFO:   Testing grid_search calibration: 16 wavelengths remaining
+2025-10-24 12:25:36 INFO:     150nm: coupling=0.0000
+2025-10-24 12:25:36 INFO:     160nm: coupling=0.0000
+2025-10-24 12:25:36 INFO:     170nm: coupling=0.0000
+2025-10-24 12:25:36 INFO:     180nm: coupling=0.0000
+2025-10-24 12:25:36 INFO:     190nm: coupling=0.0000
+2025-10-24 12:25:36 INFO:     200nm: coupling=0.1916
+2025-10-24 12:25:37 INFO:     210nm: coupling=0.1965
+2025-10-24 12:25:37 INFO:     220nm: coupling=0.2257
+2025-10-24 12:25:37 INFO:     230nm: coupling=0.2259
+2025-10-24 12:25:37 INFO:     240nm: coupling=0.2443
+2025-10-24 12:25:37 INFO:     250nm: coupling=0.2190
+2025-10-24 12:25:37 INFO:     260nm: coupling=0.2480
+2025-10-24 12:25:37 INFO:     270nm: coupling=0.2320
+2025-10-24 12:25:38 INFO:     280nm: coupling=0.2370
+2025-10-24 12:25:38 INFO:     290nm: coupling=0.2500
+2025-10-24 12:25:38 INFO:     300nm: coupling=0.2440
+2025-10-24 12:25:38 INFO:   Testing bayesian calibration: 16 wavelengths remaining
+2025-10-24 12:25:38 INFO:     150nm: coupling=0.0000
+2025-10-24 12:25:38 INFO:     160nm: coupling=0.0000
+2025-10-24 12:25:38 INFO:     170nm: coupling=0.0000
+2025-10-24 12:25:38 INFO:     180nm: coupling=0.0000
+2025-10-24 12:25:39 INFO:     190nm: coupling=0.0000
+2025-10-24 12:25:39 INFO:     200nm: coupling=0.1989
+2025-10-24 12:25:39 INFO:     210nm: coupling=0.2187
+2025-10-24 12:25:39 INFO:     220nm: coupling=0.2520
+2025-10-24 12:25:39 INFO:     230nm: coupling=0.2632
+2025-10-24 12:25:40 INFO:     240nm: coupling=0.2588
+2025-10-24 12:25:40 INFO:     250nm: coupling=0.2550
+2025-10-24 12:25:40 INFO:     260nm: coupling=0.2630
+2025-10-24 12:25:40 INFO:     270nm: coupling=0.2360
+2025-10-24 12:25:40 INFO:     280nm: coupling=0.2420
+2025-10-24 12:25:40 INFO:     290nm: coupling=0.2580
+2025-10-24 12:25:40 INFO:     300nm: coupling=0.2580
+2025-10-24 12:25:40 INFO: Saved data to 36-681+LA4002_air_wavelength.csv
+2025-10-24 12:25:40 INFO: Deleted temp file: results/wavelength_analyze_2025-10-24/temp_batch_wavelength_36-681+LA4002_air.json
+2025-10-24 12:25:40 INFO: Starting wavelength analysis for LA4647+36-683_air
+2025-10-24 12:25:40 INFO:   Calibrating with differential_evolution at 200nm
+2025-10-24 12:26:44 INFO:     Calibrated: z_l1=9.72, z_l2=15.52, z_fiber=40.52, coupling@200nm=0.1998
+2025-10-24 12:26:44 INFO:   Calibrating with dual_annealing at 200nm
+2025-10-24 12:31:02 INFO:     Calibrated: z_l1=9.73, z_l2=14.53, z_fiber=39.53, coupling@200nm=0.2341
+2025-10-24 12:31:02 INFO:   Calibrating with nelder_mead at 200nm
+2025-10-24 12:31:12 INFO:     Calibrated: z_l1=9.71, z_l2=14.51, z_fiber=39.51, coupling@200nm=0.2266
+2025-10-24 12:31:12 INFO:   Calibrating with powell at 200nm
+2025-10-24 12:31:24 INFO:     Calibrated: z_l1=9.70, z_l2=14.50, z_fiber=39.50, coupling@200nm=0.2124
+2025-10-24 12:31:24 INFO:   Calibrating with grid_search at 200nm
+2025-10-24 12:31:35 INFO:     Calibrated: z_l1=9.70, z_l2=22.20, z_fiber=47.20, coupling@200nm=0.2508
+2025-10-24 12:31:35 INFO:   Calibrating with bayesian at 200nm
+2025-10-24 12:32:06 INFO:     Calibrated: z_l1=9.70, z_l2=18.36, z_fiber=43.36, coupling@200nm=0.2233
+2025-10-24 12:32:06 INFO:   Calibrations ready: 6/6 methods
+2025-10-24 12:32:06 INFO:   Testing differential_evolution calibration: 16 wavelengths remaining
+2025-10-24 12:32:06 INFO:     150nm: coupling=0.0001
+2025-10-24 12:32:06 INFO:     160nm: coupling=0.0000
+2025-10-24 12:32:06 INFO:     170nm: coupling=0.0000
+2025-10-24 12:32:06 INFO:     180nm: coupling=0.0000
+2025-10-24 12:32:07 INFO:     190nm: coupling=0.0000
+2025-10-24 12:32:07 INFO:     200nm: coupling=0.2077
+2025-10-24 12:32:07 INFO:     210nm: coupling=0.2414
+2025-10-24 12:32:07 INFO:     220nm: coupling=0.2341
+2025-10-24 12:32:08 INFO:     230nm: coupling=0.2167
+2025-10-24 12:32:08 INFO:     240nm: coupling=0.2530
+2025-10-24 12:32:08 INFO:     250nm: coupling=0.2270
+2025-10-24 12:32:08 INFO:     260nm: coupling=0.2630
+2025-10-24 12:32:08 INFO:     270nm: coupling=0.2470
+2025-10-24 12:32:08 INFO:     280nm: coupling=0.2390
+2025-10-24 12:32:09 INFO:     290nm: coupling=0.2520
+2025-10-24 12:32:09 INFO:     300nm: coupling=0.2340
+2025-10-24 12:32:09 INFO:   Testing dual_annealing calibration: 16 wavelengths remaining
+2025-10-24 12:32:09 INFO:     150nm: coupling=0.0001
+2025-10-24 12:32:09 INFO:     160nm: coupling=0.0000
+2025-10-24 12:32:09 INFO:     170nm: coupling=0.0000
+2025-10-24 12:32:10 INFO:     180nm: coupling=0.0000
+2025-10-24 12:32:10 INFO:     190nm: coupling=0.0000
+2025-10-24 12:32:10 INFO:     200nm: coupling=0.2190
+2025-10-24 12:32:10 INFO:     210nm: coupling=0.2243
+2025-10-24 12:32:11 INFO:     220nm: coupling=0.2171
+2025-10-24 12:32:11 INFO:     230nm: coupling=0.2012
+2025-10-24 12:32:11 INFO:     240nm: coupling=0.2363
+2025-10-24 12:32:11 INFO:     250nm: coupling=0.2240
+2025-10-24 12:32:11 INFO:     260nm: coupling=0.2530
+2025-10-24 12:32:11 INFO:     270nm: coupling=0.2350
+2025-10-24 12:32:12 INFO:     280nm: coupling=0.2550
+2025-10-24 12:32:12 INFO:     290nm: coupling=0.2070
+2025-10-24 12:32:12 INFO:     300nm: coupling=0.2400
+2025-10-24 12:32:12 INFO:   Testing nelder_mead calibration: 16 wavelengths remaining
+2025-10-24 12:32:12 INFO:     150nm: coupling=0.0001
+2025-10-24 12:32:12 INFO:     160nm: coupling=0.0001
+2025-10-24 12:32:13 INFO:     170nm: coupling=0.0000
+2025-10-24 12:32:13 INFO:     180nm: coupling=0.0000
+2025-10-24 12:32:13 INFO:     190nm: coupling=0.0000
+2025-10-24 12:32:13 INFO:     200nm: coupling=0.2102
+2025-10-24 12:32:13 INFO:     210nm: coupling=0.1984
+2025-10-24 12:32:14 INFO:     220nm: coupling=0.2210
+2025-10-24 12:32:14 INFO:     230nm: coupling=0.2393
+2025-10-24 12:32:14 INFO:     240nm: coupling=0.2313
+2025-10-24 12:32:14 INFO:     250nm: coupling=0.2730
+2025-10-24 12:32:15 INFO:     260nm: coupling=0.2510
+2025-10-24 12:32:15 INFO:     270nm: coupling=0.2430
+2025-10-24 12:32:15 INFO:     280nm: coupling=0.2740
+2025-10-24 12:32:15 INFO:     290nm: coupling=0.2590
+2025-10-24 12:32:15 INFO:     300nm: coupling=0.2460
+2025-10-24 12:32:15 INFO:   Testing powell calibration: 16 wavelengths remaining
+2025-10-24 12:32:15 INFO:     150nm: coupling=0.0001
+2025-10-24 12:32:16 INFO:     160nm: coupling=0.0001
+2025-10-24 12:32:16 INFO:     170nm: coupling=0.0000
+2025-10-24 12:32:16 INFO:     180nm: coupling=0.0000
+2025-10-24 12:32:16 INFO:     190nm: coupling=0.0000
+2025-10-24 12:32:17 INFO:     200nm: coupling=0.2146
+2025-10-24 12:32:17 INFO:     210nm: coupling=0.2336
+2025-10-24 12:32:17 INFO:     220nm: coupling=0.2392
+2025-10-24 12:32:17 INFO:     230nm: coupling=0.2295
+2025-10-24 12:32:17 INFO:     240nm: coupling=0.2382
+2025-10-24 12:32:18 INFO:     250nm: coupling=0.2570
+2025-10-24 12:32:18 INFO:     260nm: coupling=0.2380
+2025-10-24 12:32:18 INFO:     270nm: coupling=0.2530
+2025-10-24 12:32:18 INFO:     280nm: coupling=0.2350
+2025-10-24 12:32:18 INFO:     290nm: coupling=0.2250
+2025-10-24 12:32:19 INFO:     300nm: coupling=0.2140
+2025-10-24 12:32:19 INFO:   Testing grid_search calibration: 16 wavelengths remaining
+2025-10-24 12:32:19 INFO:     150nm: coupling=0.0000
+2025-10-24 12:32:19 INFO:     160nm: coupling=0.0000
+2025-10-24 12:32:19 INFO:     170nm: coupling=0.0000
+2025-10-24 12:32:19 INFO:     180nm: coupling=0.0000
+2025-10-24 12:32:20 INFO:     190nm: coupling=0.0000
+2025-10-24 12:32:20 INFO:     200nm: coupling=0.2266
+2025-10-24 12:32:20 INFO:     210nm: coupling=0.2162
+2025-10-24 12:32:20 INFO:     220nm: coupling=0.2294
+2025-10-24 12:32:21 INFO:     230nm: coupling=0.2274
+2025-10-24 12:32:21 INFO:     240nm: coupling=0.2288
+2025-10-24 12:32:21 INFO:     250nm: coupling=0.2390
+2025-10-24 12:32:21 INFO:     260nm: coupling=0.2360
+2025-10-24 12:32:22 INFO:     270nm: coupling=0.2550
+2025-10-24 12:32:22 INFO:     280nm: coupling=0.2600
+2025-10-24 12:32:22 INFO:     290nm: coupling=0.2220
+2025-10-24 12:32:22 INFO:     300nm: coupling=0.2440
+2025-10-24 12:32:22 INFO:   Testing bayesian calibration: 16 wavelengths remaining
+2025-10-24 12:32:22 INFO:     150nm: coupling=0.0000
+2025-10-24 12:32:23 INFO:     160nm: coupling=0.0000
+2025-10-24 12:32:23 INFO:     170nm: coupling=0.0000
+2025-10-24 12:32:23 INFO:     180nm: coupling=0.0000
+2025-10-24 12:32:23 INFO:     190nm: coupling=0.0000
+2025-10-24 12:32:24 INFO:     200nm: coupling=0.2373
+2025-10-24 12:32:24 INFO:     210nm: coupling=0.2271
+2025-10-24 12:32:24 INFO:     220nm: coupling=0.2390
+2025-10-24 12:32:24 INFO:     230nm: coupling=0.2367
+2025-10-24 12:32:24 INFO:     240nm: coupling=0.2370
+2025-10-24 12:32:25 INFO:     250nm: coupling=0.2270
+2025-10-24 12:32:25 INFO:     260nm: coupling=0.2630
+2025-10-24 12:32:25 INFO:     270nm: coupling=0.2360
+2025-10-24 12:32:25 INFO:     280nm: coupling=0.2340
+2025-10-24 12:32:25 INFO:     290nm: coupling=0.2500
+2025-10-24 12:32:26 INFO:     300nm: coupling=0.2250
+2025-10-24 12:32:26 INFO: Saved data to LA4647+36-683_air_wavelength.csv
+2025-10-24 12:32:26 INFO: Deleted temp file: results/wavelength_analyze_2025-10-24/temp_batch_wavelength_LA4647+36-683_air.json
+2025-10-24 12:32:26 INFO: Starting wavelength analysis for LA4002+48-024_air
+2025-10-24 12:32:26 INFO:   Calibrating with differential_evolution at 200nm
+2025-10-24 12:33:21 INFO:     Calibrated: z_l1=12.15, z_l2=16.37, z_fiber=41.37, coupling@200nm=0.2055
+2025-10-24 12:33:21 INFO:   Calibrating with dual_annealing at 200nm
+2025-10-24 12:36:14 INFO:     Calibrated: z_l1=12.13, z_l2=18.73, z_fiber=43.73, coupling@200nm=0.2013
+2025-10-24 12:36:14 INFO:   Calibrating with nelder_mead at 200nm
+2025-10-24 12:36:28 INFO:     Calibrated: z_l1=12.15, z_l2=16.35, z_fiber=41.35, coupling@200nm=0.2196
+2025-10-24 12:36:28 INFO:   Calibrating with powell at 200nm
+2025-10-24 12:36:47 INFO:     Calibrated: z_l1=12.14, z_l2=16.39, z_fiber=41.39, coupling@200nm=0.2235
+2025-10-24 12:36:47 INFO:   Calibrating with grid_search at 200nm
+2025-10-24 12:36:57 INFO:     Calibrated: z_l1=13.18, z_l2=18.50, z_fiber=43.50, coupling@200nm=0.1638
+2025-10-24 12:36:57 INFO:   Calibrating with bayesian at 200nm
+2025-10-24 12:37:27 INFO:     Calibrated: z_l1=12.22, z_l2=34.81, z_fiber=59.81, coupling@200nm=0.1619
+2025-10-24 12:37:27 INFO:   Calibrations ready: 6/6 methods
+2025-10-24 12:37:27 INFO:   Testing differential_evolution calibration: 16 wavelengths remaining
+2025-10-24 12:37:27 INFO:     150nm: coupling=0.0001
+2025-10-24 12:37:27 INFO:     160nm: coupling=0.0000
+2025-10-24 12:37:28 INFO:     170nm: coupling=0.0000
+2025-10-24 12:37:28 INFO:     180nm: coupling=0.0000
+2025-10-24 12:37:28 INFO:     190nm: coupling=0.0000
+2025-10-24 12:37:28 INFO:     200nm: coupling=0.2399
+2025-10-24 12:37:28 INFO:     210nm: coupling=0.2161
+2025-10-24 12:37:29 INFO:     220nm: coupling=0.2339
+2025-10-24 12:37:29 INFO:     230nm: coupling=0.2683
+2025-10-24 12:37:29 INFO:     240nm: coupling=0.2154
+2025-10-24 12:37:29 INFO:     250nm: coupling=0.2620
+2025-10-24 12:37:29 INFO:     260nm: coupling=0.2730
+2025-10-24 12:37:30 INFO:     270nm: coupling=0.2580
+2025-10-24 12:37:30 INFO:     280nm: coupling=0.2560
+2025-10-24 12:37:30 INFO:     290nm: coupling=0.2460
+2025-10-24 12:37:30 INFO:     300nm: coupling=0.2630
+2025-10-24 12:37:30 INFO:   Testing dual_annealing calibration: 16 wavelengths remaining
+2025-10-24 12:37:30 INFO:     150nm: coupling=0.0000
+2025-10-24 12:37:30 INFO:     160nm: coupling=0.0000
+2025-10-24 12:37:31 INFO:     170nm: coupling=0.0000
+2025-10-24 12:37:31 INFO:     180nm: coupling=0.0000
+2025-10-24 12:37:31 INFO:     190nm: coupling=0.0000
+2025-10-24 12:37:31 INFO:     200nm: coupling=0.2126
+2025-10-24 12:37:32 INFO:     210nm: coupling=0.2427
+2025-10-24 12:37:32 INFO:     220nm: coupling=0.2570
+2025-10-24 12:37:32 INFO:     230nm: coupling=0.2338
+2025-10-24 12:37:32 INFO:     240nm: coupling=0.2300
+2025-10-24 12:37:32 INFO:     250nm: coupling=0.2340
+2025-10-24 12:37:32 INFO:     260nm: coupling=0.2430
+2025-10-24 12:37:33 INFO:     270nm: coupling=0.2230
+2025-10-24 12:37:33 INFO:     280nm: coupling=0.2760
+2025-10-24 12:37:33 INFO:     290nm: coupling=0.2580
+2025-10-24 12:37:33 INFO:     300nm: coupling=0.2610
+2025-10-24 12:37:33 INFO:   Testing nelder_mead calibration: 16 wavelengths remaining
+2025-10-24 12:37:33 INFO:     150nm: coupling=0.0001
+2025-10-24 12:37:33 INFO:     160nm: coupling=0.0000
+2025-10-24 12:37:34 INFO:     170nm: coupling=0.0000
+2025-10-24 12:37:34 INFO:     180nm: coupling=0.0000
+2025-10-24 12:37:34 INFO:     190nm: coupling=0.0000
+2025-10-24 12:37:34 INFO:     200nm: coupling=0.2046
+2025-10-24 12:37:34 INFO:     210nm: coupling=0.2199
+2025-10-24 12:37:35 INFO:     220nm: coupling=0.2177
+2025-10-24 12:37:35 INFO:     230nm: coupling=0.2342
+2025-10-24 12:37:35 INFO:     240nm: coupling=0.2460
+2025-10-24 12:37:35 INFO:     250nm: coupling=0.2530
+2025-10-24 12:37:35 INFO:     260nm: coupling=0.2530
+2025-10-24 12:37:36 INFO:     270nm: coupling=0.2290
+2025-10-24 12:37:36 INFO:     280nm: coupling=0.2330
+2025-10-24 12:37:36 INFO:     290nm: coupling=0.2420
+2025-10-24 12:37:36 INFO:     300nm: coupling=0.2480
+2025-10-24 12:37:36 INFO:   Testing powell calibration: 16 wavelengths remaining
+2025-10-24 12:37:36 INFO:     150nm: coupling=0.0001
+2025-10-24 12:37:36 INFO:     160nm: coupling=0.0000
+2025-10-24 12:37:37 INFO:     170nm: coupling=0.0000
+2025-10-24 12:37:37 INFO:     180nm: coupling=0.0000
+2025-10-24 12:37:37 INFO:     190nm: coupling=0.0000
+2025-10-24 12:37:37 INFO:     200nm: coupling=0.2108
+2025-10-24 12:37:37 INFO:     210nm: coupling=0.2263
+2025-10-24 12:37:38 INFO:     220nm: coupling=0.2425
+2025-10-24 12:37:38 INFO:     230nm: coupling=0.2478
+2025-10-24 12:37:38 INFO:     240nm: coupling=0.2520
+2025-10-24 12:37:38 INFO:     250nm: coupling=0.2580
+2025-10-24 12:37:38 INFO:     260nm: coupling=0.2310
+2025-10-24 12:37:39 INFO:     270nm: coupling=0.2630
+2025-10-24 12:37:39 INFO:     280nm: coupling=0.2480
+2025-10-24 12:37:39 INFO:     290nm: coupling=0.2480
+2025-10-24 12:37:39 INFO:     300nm: coupling=0.2350
+2025-10-24 12:37:39 INFO:   Testing grid_search calibration: 16 wavelengths remaining
+2025-10-24 12:37:39 INFO:     150nm: coupling=0.0000
+2025-10-24 12:37:39 INFO:     160nm: coupling=0.0000
+2025-10-24 12:37:40 INFO:     170nm: coupling=0.0000
+2025-10-24 12:37:40 INFO:     180nm: coupling=0.0000
+2025-10-24 12:37:40 INFO:     190nm: coupling=0.0000
+2025-10-24 12:37:40 INFO:     200nm: coupling=0.1787
+2025-10-24 12:37:40 INFO:     210nm: coupling=0.1987
+2025-10-24 12:37:41 INFO:     220nm: coupling=0.1885
+2025-10-24 12:37:41 INFO:     230nm: coupling=0.1988
+2025-10-24 12:37:41 INFO:     240nm: coupling=0.1955
+2025-10-24 12:37:41 INFO:     250nm: coupling=0.2070
+2025-10-24 12:37:41 INFO:     260nm: coupling=0.1990
+2025-10-24 12:37:41 INFO:     270nm: coupling=0.2030
+2025-10-24 12:37:42 INFO:     280nm: coupling=0.1970
+2025-10-24 12:37:42 INFO:     290nm: coupling=0.1810
+2025-10-24 12:37:42 INFO:     300nm: coupling=0.1990
+2025-10-24 12:37:42 INFO:   Testing bayesian calibration: 16 wavelengths remaining
+2025-10-24 12:37:42 INFO:     150nm: coupling=0.0000
+2025-10-24 12:37:42 INFO:     160nm: coupling=0.0000
+2025-10-24 12:37:42 INFO:     170nm: coupling=0.0000
+2025-10-24 12:37:43 INFO:     180nm: coupling=0.0000
+2025-10-24 12:37:43 INFO:     190nm: coupling=0.0000
+2025-10-24 12:37:43 INFO:     200nm: coupling=0.1470
+2025-10-24 12:37:43 INFO:     210nm: coupling=0.1876
+2025-10-24 12:37:44 INFO:     220nm: coupling=0.1905
+2025-10-24 12:37:44 INFO:     230nm: coupling=0.2083
+2025-10-24 12:37:44 INFO:     240nm: coupling=0.1916
+2025-10-24 12:37:44 INFO:     250nm: coupling=0.1740
+2025-10-24 12:37:44 INFO:     260nm: coupling=0.2000
+2025-10-24 12:37:45 INFO:     270nm: coupling=0.1960
+2025-10-24 12:37:45 INFO:     280nm: coupling=0.2040
+2025-10-24 12:37:45 INFO:     290nm: coupling=0.2220
+2025-10-24 12:37:45 INFO:     300nm: coupling=0.2060
+2025-10-24 12:37:45 INFO: Saved data to LA4002+48-024_air_wavelength.csv
+2025-10-24 12:37:45 INFO: Deleted temp file: results/wavelength_analyze_2025-10-24/temp_batch_wavelength_LA4002+48-024_air.json
+2025-10-24 12:37:45 INFO: Starting wavelength analysis for LA4002+LA4002_air
+2025-10-24 12:37:45 INFO:   Calibrating with differential_evolution at 200nm
+2025-10-24 12:38:42 INFO:     Calibrated: z_l1=12.17, z_l2=16.41, z_fiber=41.41, coupling@200nm=0.2173
+2025-10-24 12:38:42 INFO:   Calibrating with dual_annealing at 200nm
+2025-10-24 12:44:15 INFO:     Calibrated: z_l1=12.10, z_l2=17.92, z_fiber=42.92, coupling@200nm=0.2197
+2025-10-24 12:44:15 INFO:   Calibrating with nelder_mead at 200nm
+2025-10-24 12:44:29 INFO:     Calibrated: z_l1=12.16, z_l2=16.36, z_fiber=41.36, coupling@200nm=0.2204
+2025-10-24 12:44:29 INFO:   Calibrating with powell at 200nm
+2025-10-24 12:44:40 INFO:     Calibrated: z_l1=12.43, z_l2=16.64, z_fiber=41.64, coupling@200nm=0.2035
+2025-10-24 12:44:40 INFO:   Calibrating with grid_search at 200nm
+2025-10-24 12:44:50 INFO:     Calibrated: z_l1=13.18, z_l2=18.50, z_fiber=43.50, coupling@200nm=0.1830
+2025-10-24 12:44:50 INFO:   Calibrating with bayesian at 200nm
+2025-10-24 12:45:21 INFO:     Calibrated: z_l1=12.22, z_l2=34.81, z_fiber=59.81, coupling@200nm=0.1731
+2025-10-24 12:45:21 INFO:   Calibrations ready: 6/6 methods
+2025-10-24 12:45:21 INFO:   Testing differential_evolution calibration: 16 wavelengths remaining
+2025-10-24 12:45:21 INFO:     150nm: coupling=0.0001
+2025-10-24 12:45:21 INFO:     160nm: coupling=0.0000
+2025-10-24 12:45:22 INFO:     170nm: coupling=0.0000
+2025-10-24 12:45:22 INFO:     180nm: coupling=0.0000
+2025-10-24 12:45:22 INFO:     190nm: coupling=0.0000
+2025-10-24 12:45:22 INFO:     200nm: coupling=0.2019
+2025-10-24 12:45:22 INFO:     210nm: coupling=0.2124
+2025-10-24 12:45:23 INFO:     220nm: coupling=0.2291
+2025-10-24 12:45:23 INFO:     230nm: coupling=0.2400
+2025-10-24 12:45:23 INFO:     240nm: coupling=0.2381
+2025-10-24 12:45:23 INFO:     250nm: coupling=0.2270
+2025-10-24 12:45:23 INFO:     260nm: coupling=0.2570
+2025-10-24 12:45:24 INFO:     270nm: coupling=0.2460
+2025-10-24 12:45:24 INFO:     280nm: coupling=0.2390
+2025-10-24 12:45:24 INFO:     290nm: coupling=0.2410
+2025-10-24 12:45:24 INFO:     300nm: coupling=0.2500
+2025-10-24 12:45:24 INFO:   Testing dual_annealing calibration: 16 wavelengths remaining
+2025-10-24 12:45:24 INFO:     150nm: coupling=0.0000
+2025-10-24 12:45:25 INFO:     160nm: coupling=0.0000
+2025-10-24 12:45:25 INFO:     170nm: coupling=0.0000
+2025-10-24 12:45:25 INFO:     180nm: coupling=0.0000
+2025-10-24 12:45:25 INFO:     190nm: coupling=0.0000
+2025-10-24 12:45:25 INFO:     200nm: coupling=0.1965
+2025-10-24 12:45:26 INFO:     210nm: coupling=0.2292
+2025-10-24 12:45:26 INFO:     220nm: coupling=0.2306
+2025-10-24 12:45:26 INFO:     230nm: coupling=0.2242
+2025-10-24 12:45:26 INFO:     240nm: coupling=0.2153
+2025-10-24 12:45:27 INFO:     250nm: coupling=0.2870
+2025-10-24 12:45:27 INFO:     260nm: coupling=0.2220
+2025-10-24 12:45:27 INFO:     270nm: coupling=0.2420
+2025-10-24 12:45:27 INFO:     280nm: coupling=0.2620
+2025-10-24 12:45:27 INFO:     290nm: coupling=0.2450
+2025-10-24 12:45:27 INFO:     300nm: coupling=0.2380
+2025-10-24 12:45:27 INFO:   Testing nelder_mead calibration: 16 wavelengths remaining
+2025-10-24 12:45:28 INFO:     150nm: coupling=0.0001
+2025-10-24 12:45:28 INFO:     160nm: coupling=0.0000
+2025-10-24 12:45:28 INFO:     170nm: coupling=0.0000
+2025-10-24 12:45:28 INFO:     180nm: coupling=0.0000
+2025-10-24 12:45:28 INFO:     190nm: coupling=0.0000
+2025-10-24 12:45:29 INFO:     200nm: coupling=0.2063
+2025-10-24 12:45:29 INFO:     210nm: coupling=0.2475
+2025-10-24 12:45:29 INFO:     220nm: coupling=0.2234
+2025-10-24 12:45:29 INFO:     230nm: coupling=0.2371
+2025-10-24 12:45:30 INFO:     240nm: coupling=0.2539
+2025-10-24 12:45:30 INFO:     250nm: coupling=0.2360
+2025-10-24 12:45:30 INFO:     260nm: coupling=0.2450
+2025-10-24 12:45:30 INFO:     270nm: coupling=0.2490
+2025-10-24 12:45:30 INFO:     280nm: coupling=0.2520
+2025-10-24 12:45:30 INFO:     290nm: coupling=0.2380
+2025-10-24 12:45:31 INFO:     300nm: coupling=0.2420
+2025-10-24 12:45:31 INFO:   Testing powell calibration: 16 wavelengths remaining
+2025-10-24 12:45:31 INFO:     150nm: coupling=0.0001
+2025-10-24 12:45:31 INFO:     160nm: coupling=0.0000
+2025-10-24 12:45:31 INFO:     170nm: coupling=0.0000
+2025-10-24 12:45:31 INFO:     180nm: coupling=0.0000
+2025-10-24 12:45:32 INFO:     190nm: coupling=0.0000
+2025-10-24 12:45:32 INFO:     200nm: coupling=0.2000
+2025-10-24 12:45:32 INFO:     210nm: coupling=0.1985
+2025-10-24 12:45:32 INFO:     220nm: coupling=0.2138
+2025-10-24 12:45:32 INFO:     230nm: coupling=0.2224
+2025-10-24 12:45:33 INFO:     240nm: coupling=0.2213
+2025-10-24 12:45:33 INFO:     250nm: coupling=0.2210
+2025-10-24 12:45:33 INFO:     260nm: coupling=0.2270
+2025-10-24 12:45:33 INFO:     270nm: coupling=0.2330
+2025-10-24 12:45:33 INFO:     280nm: coupling=0.2240
+2025-10-24 12:45:34 INFO:     290nm: coupling=0.2610
+2025-10-24 12:45:34 INFO:     300nm: coupling=0.2350
+2025-10-24 12:45:34 INFO:   Testing grid_search calibration: 16 wavelengths remaining
+2025-10-24 12:45:34 INFO:     150nm: coupling=0.0000
+2025-10-24 12:45:34 INFO:     160nm: coupling=0.0000
+2025-10-24 12:45:34 INFO:     170nm: coupling=0.0000
+2025-10-24 12:45:34 INFO:     180nm: coupling=0.0000
+2025-10-24 12:45:35 INFO:     190nm: coupling=0.0000
+2025-10-24 12:45:35 INFO:     200nm: coupling=0.1620
+2025-10-24 12:45:35 INFO:     210nm: coupling=0.1756
+2025-10-24 12:45:35 INFO:     220nm: coupling=0.1828
+2025-10-24 12:45:35 INFO:     230nm: coupling=0.2017
+2025-10-24 12:45:36 INFO:     240nm: coupling=0.1906
+2025-10-24 12:45:36 INFO:     250nm: coupling=0.1900
+2025-10-24 12:45:36 INFO:     260nm: coupling=0.1820
+2025-10-24 12:45:36 INFO:     270nm: coupling=0.2040
+2025-10-24 12:45:36 INFO:     280nm: coupling=0.1840
+2025-10-24 12:45:36 INFO:     290nm: coupling=0.2040
+2025-10-24 12:45:37 INFO:     300nm: coupling=0.2030
+2025-10-24 12:45:37 INFO:   Testing bayesian calibration: 16 wavelengths remaining
+2025-10-24 12:45:37 INFO:     150nm: coupling=0.0000
+2025-10-24 12:45:37 INFO:     160nm: coupling=0.0000
+2025-10-24 12:45:37 INFO:     170nm: coupling=0.0000
+2025-10-24 12:45:37 INFO:     180nm: coupling=0.0000
+2025-10-24 12:45:38 INFO:     190nm: coupling=0.0000
+2025-10-24 12:45:38 INFO:     200nm: coupling=0.1702
+2025-10-24 12:45:38 INFO:     210nm: coupling=0.1911
+2025-10-24 12:45:38 INFO:     220nm: coupling=0.2054
+2025-10-24 12:45:39 INFO:     230nm: coupling=0.1899
+2025-10-24 12:45:39 INFO:     240nm: coupling=0.2073
+2025-10-24 12:45:39 INFO:     250nm: coupling=0.1910
+2025-10-24 12:45:39 INFO:     260nm: coupling=0.1880
+2025-10-24 12:45:39 INFO:     270nm: coupling=0.2170
+2025-10-24 12:45:40 INFO:     280nm: coupling=0.2010
+2025-10-24 12:45:40 INFO:     290nm: coupling=0.2060
+2025-10-24 12:45:40 INFO:     300nm: coupling=0.1980
+2025-10-24 12:45:40 INFO: Saved data to LA4002+LA4002_air_wavelength.csv
+2025-10-24 12:45:40 INFO: Deleted temp file: results/wavelength_analyze_2025-10-24/temp_batch_wavelength_LA4002+LA4002_air.json
+2025-10-24 12:45:40 INFO: Starting wavelength analysis for 48-024+LA4002_air
+2025-10-24 12:45:40 INFO:   Calibrating with differential_evolution at 200nm
+2025-10-24 12:46:33 INFO:     Calibrated: z_l1=12.14, z_l2=16.59, z_fiber=41.59, coupling@200nm=0.2146
+2025-10-24 12:46:33 INFO:   Calibrating with dual_annealing at 200nm
+2025-10-24 12:49:06 INFO:     Calibrated: z_l1=12.23, z_l2=16.65, z_fiber=41.65, coupling@200nm=0.2247
+2025-10-24 12:49:06 INFO:   Calibrating with nelder_mead at 200nm
+2025-10-24 12:49:21 INFO:     Calibrated: z_l1=12.12, z_l2=16.54, z_fiber=41.54, coupling@200nm=0.2190
+2025-10-24 12:49:21 INFO:   Calibrating with powell at 200nm
+2025-10-24 12:49:39 INFO:     Calibrated: z_l1=12.11, z_l2=16.54, z_fiber=41.54, coupling@200nm=0.2062
+2025-10-24 12:49:39 INFO:   Calibrating with grid_search at 200nm
+2025-10-24 12:49:47 INFO:     Calibrated: z_l1=13.18, z_l2=18.50, z_fiber=43.50, coupling@200nm=0.1638
+2025-10-24 12:49:47 INFO:   Calibrating with bayesian at 200nm
+2025-10-24 12:50:17 INFO:     Calibrated: z_l1=10.14, z_l2=19.39, z_fiber=44.39, coupling@200nm=0.0686
+2025-10-24 12:50:17 INFO:   Calibrations ready: 6/6 methods
+2025-10-24 12:50:17 INFO:   Testing differential_evolution calibration: 16 wavelengths remaining
+2025-10-24 12:50:17 INFO:     150nm: coupling=0.0001
+2025-10-24 12:50:17 INFO:     160nm: coupling=0.0000
+2025-10-24 12:50:17 INFO:     170nm: coupling=0.0000
+2025-10-24 12:50:18 INFO:     180nm: coupling=0.0000
+2025-10-24 12:50:18 INFO:     190nm: coupling=0.0000
+2025-10-24 12:50:18 INFO:     200nm: coupling=0.2036
+2025-10-24 12:50:18 INFO:     210nm: coupling=0.2336
+2025-10-24 12:50:18 INFO:     220nm: coupling=0.2491
+2025-10-24 12:50:19 INFO:     230nm: coupling=0.2156
+2025-10-24 12:50:19 INFO:     240nm: coupling=0.2480
+2025-10-24 12:50:19 INFO:     250nm: coupling=0.2460
+2025-10-24 12:50:19 INFO:     260nm: coupling=0.2700
+2025-10-24 12:50:19 INFO:     270nm: coupling=0.2380
+2025-10-24 12:50:19 INFO:     280nm: coupling=0.2600
+2025-10-24 12:50:20 INFO:     290nm: coupling=0.2440
+2025-10-24 12:50:20 INFO:     300nm: coupling=0.2250
+2025-10-24 12:50:20 INFO:   Testing dual_annealing calibration: 16 wavelengths remaining
+2025-10-24 12:50:20 INFO:     150nm: coupling=0.0001
+2025-10-24 12:50:20 INFO:     160nm: coupling=0.0000
+2025-10-24 12:50:20 INFO:     170nm: coupling=0.0000
+2025-10-24 12:50:20 INFO:     180nm: coupling=0.0000
+2025-10-24 12:50:21 INFO:     190nm: coupling=0.0000
+2025-10-24 12:50:21 INFO:     200nm: coupling=0.2079
+2025-10-24 12:50:21 INFO:     210nm: coupling=0.2133
+2025-10-24 12:50:21 INFO:     220nm: coupling=0.2319
+2025-10-24 12:50:21 INFO:     230nm: coupling=0.2458
+2025-10-24 12:50:22 INFO:     240nm: coupling=0.2618
+2025-10-24 12:50:22 INFO:     250nm: coupling=0.2340
+2025-10-24 12:50:22 INFO:     260nm: coupling=0.2410
+2025-10-24 12:50:22 INFO:     270nm: coupling=0.2380
+2025-10-24 12:50:22 INFO:     280nm: coupling=0.2480
+2025-10-24 12:50:22 INFO:     290nm: coupling=0.2460
+2025-10-24 12:50:23 INFO:     300nm: coupling=0.2410
+2025-10-24 12:50:23 INFO:   Testing nelder_mead calibration: 16 wavelengths remaining
+2025-10-24 12:50:23 INFO:     150nm: coupling=0.0001
+2025-10-24 12:50:23 INFO:     160nm: coupling=0.0000
+2025-10-24 12:50:23 INFO:     170nm: coupling=0.0000
+2025-10-24 12:50:23 INFO:     180nm: coupling=0.0000
+2025-10-24 12:50:23 INFO:     190nm: coupling=0.0000
+2025-10-24 12:50:24 INFO:     200nm: coupling=0.2424
+2025-10-24 12:50:24 INFO:     210nm: coupling=0.2262
+2025-10-24 12:50:24 INFO:     220nm: coupling=0.2634
+2025-10-24 12:50:24 INFO:     230nm: coupling=0.2380
+2025-10-24 12:50:24 INFO:     240nm: coupling=0.2559
+2025-10-24 12:50:25 INFO:     250nm: coupling=0.2540
+2025-10-24 12:50:25 INFO:     260nm: coupling=0.2600
+2025-10-24 12:50:25 INFO:     270nm: coupling=0.2430
+2025-10-24 12:50:25 INFO:     280nm: coupling=0.2760
+2025-10-24 12:50:25 INFO:     290nm: coupling=0.2410
+2025-10-24 12:50:25 INFO:     300nm: coupling=0.2540
+2025-10-24 12:50:25 INFO:   Testing powell calibration: 16 wavelengths remaining
+2025-10-24 12:50:25 INFO:     150nm: coupling=0.0001
+2025-10-24 12:50:26 INFO:     160nm: coupling=0.0000
+2025-10-24 12:50:26 INFO:     170nm: coupling=0.0000
+2025-10-24 12:50:26 INFO:     180nm: coupling=0.0000
+2025-10-24 12:50:26 INFO:     190nm: coupling=0.0000
+2025-10-24 12:50:26 INFO:     200nm: coupling=0.2221
+2025-10-24 12:50:27 INFO:     210nm: coupling=0.2050
+2025-10-24 12:50:27 INFO:     220nm: coupling=0.2357
+2025-10-24 12:50:27 INFO:     230nm: coupling=0.2302
+2025-10-24 12:50:27 INFO:     240nm: coupling=0.2292
+2025-10-24 12:50:27 INFO:     250nm: coupling=0.2630
+2025-10-24 12:50:27 INFO:     260nm: coupling=0.2270
+2025-10-24 12:50:28 INFO:     270nm: coupling=0.2320
+2025-10-24 12:50:28 INFO:     280nm: coupling=0.2430
+2025-10-24 12:50:28 INFO:     290nm: coupling=0.2460
+2025-10-24 12:50:28 INFO:     300nm: coupling=0.2410
+2025-10-24 12:50:28 INFO:   Testing grid_search calibration: 16 wavelengths remaining
+2025-10-24 12:50:28 INFO:     150nm: coupling=0.0000
+2025-10-24 12:50:28 INFO:     160nm: coupling=0.0000
+2025-10-24 12:50:28 INFO:     170nm: coupling=0.0000
+2025-10-24 12:50:29 INFO:     180nm: coupling=0.0000
+2025-10-24 12:50:29 INFO:     190nm: coupling=0.0000
+2025-10-24 12:50:29 INFO:     200nm: coupling=0.1795
+2025-10-24 12:50:29 INFO:     210nm: coupling=0.1711
+2025-10-24 12:50:29 INFO:     220nm: coupling=0.1800
+2025-10-24 12:50:30 INFO:     230nm: coupling=0.1871
+2025-10-24 12:50:30 INFO:     240nm: coupling=0.1886
+2025-10-24 12:50:30 INFO:     250nm: coupling=0.2030
+2025-10-24 12:50:30 INFO:     260nm: coupling=0.1940
+2025-10-24 12:50:30 INFO:     270nm: coupling=0.2100
+2025-10-24 12:50:30 INFO:     280nm: coupling=0.1920
+2025-10-24 12:50:30 INFO:     290nm: coupling=0.1850
+2025-10-24 12:50:31 INFO:     300nm: coupling=0.1880
+2025-10-24 12:50:31 INFO:   Testing bayesian calibration: 16 wavelengths remaining
+2025-10-24 12:50:31 INFO:     150nm: coupling=0.0000
+2025-10-24 12:50:31 INFO:     160nm: coupling=0.0000
+2025-10-24 12:50:31 INFO:     170nm: coupling=0.0000
+2025-10-24 12:50:31 INFO:     180nm: coupling=0.0000
+2025-10-24 12:50:32 INFO:     190nm: coupling=0.0000
+2025-10-24 12:50:32 INFO:     200nm: coupling=0.0655
+2025-10-24 12:50:32 INFO:     210nm: coupling=0.0726
+2025-10-24 12:50:32 INFO:     220nm: coupling=0.0714
+2025-10-24 12:50:33 INFO:     230nm: coupling=0.0711
+2025-10-24 12:50:33 INFO:     240nm: coupling=0.0632
+2025-10-24 12:50:33 INFO:     250nm: coupling=0.0670
+2025-10-24 12:50:33 INFO:     260nm: coupling=0.0780
+2025-10-24 12:50:33 INFO:     270nm: coupling=0.0690
+2025-10-24 12:50:33 INFO:     280nm: coupling=0.0820
+2025-10-24 12:50:34 INFO:     290nm: coupling=0.0870
+2025-10-24 12:50:34 INFO:     300nm: coupling=0.0730
+2025-10-24 12:50:34 INFO: Saved data to 48-024+LA4002_air_wavelength.csv
+2025-10-24 12:50:34 INFO: Deleted temp file: results/wavelength_analyze_2025-10-24/temp_batch_wavelength_48-024+LA4002_air.json
+2025-10-24 12:50:34 INFO: Starting wavelength analysis for 84-277+LA4002_air
+2025-10-24 12:50:34 INFO:   Calibrating with differential_evolution at 200nm
+2025-10-24 12:51:19 INFO:     Calibrated: z_l1=12.15, z_l2=16.90, z_fiber=41.90, coupling@200nm=0.2103
+2025-10-24 12:51:19 INFO:   Calibrating with dual_annealing at 200nm
+2025-10-24 12:54:09 INFO:     Calibrated: z_l1=12.23, z_l2=17.41, z_fiber=42.41, coupling@200nm=0.2166
+2025-10-24 12:54:09 INFO:   Calibrating with nelder_mead at 200nm
+2025-10-24 12:54:21 INFO:     Calibrated: z_l1=12.19, z_l2=16.94, z_fiber=41.94, coupling@200nm=0.2059
+2025-10-24 12:54:21 INFO:   Calibrating with powell at 200nm
+2025-10-24 12:54:33 INFO:     Calibrated: z_l1=12.10, z_l2=16.97, z_fiber=41.97, coupling@200nm=0.2235
+2025-10-24 12:54:33 INFO:   Calibrating with grid_search at 200nm
+2025-10-24 12:54:43 INFO:     Calibrated: z_l1=11.44, z_l2=35.17, z_fiber=60.17, coupling@200nm=0.1542
+2025-10-24 12:54:43 INFO:   Calibrating with bayesian at 200nm
+2025-10-24 12:55:14 INFO:     Calibrated: z_l1=12.22, z_l2=34.81, z_fiber=59.81, coupling@200nm=0.1648
+2025-10-24 12:55:14 INFO:   Calibrations ready: 6/6 methods
+2025-10-24 12:55:14 INFO:   Testing differential_evolution calibration: 16 wavelengths remaining
+2025-10-24 12:55:14 INFO:     150nm: coupling=0.0001
+2025-10-24 12:55:14 INFO:     160nm: coupling=0.0000
+2025-10-24 12:55:15 INFO:     170nm: coupling=0.0000
+2025-10-24 12:55:15 INFO:     180nm: coupling=0.0000
+2025-10-24 12:55:15 INFO:     190nm: coupling=0.0000
+2025-10-24 12:55:15 INFO:     200nm: coupling=0.1945
+2025-10-24 12:55:16 INFO:     210nm: coupling=0.2399
+2025-10-24 12:55:16 INFO:     220nm: coupling=0.2480
+2025-10-24 12:55:16 INFO:     230nm: coupling=0.2389
+2025-10-24 12:55:16 INFO:     240nm: coupling=0.2657
+2025-10-24 12:55:16 INFO:     250nm: coupling=0.2440
+2025-10-24 12:55:17 INFO:     260nm: coupling=0.2530
+2025-10-24 12:55:17 INFO:     270nm: coupling=0.2390
+2025-10-24 12:55:17 INFO:     280nm: coupling=0.2350
+2025-10-24 12:55:17 INFO:     290nm: coupling=0.2640
+2025-10-24 12:55:17 INFO:     300nm: coupling=0.2250
+2025-10-24 12:55:17 INFO:   Testing dual_annealing calibration: 16 wavelengths remaining
+2025-10-24 12:55:18 INFO:     150nm: coupling=0.0000
+2025-10-24 12:55:18 INFO:     160nm: coupling=0.0000
+2025-10-24 12:55:18 INFO:     170nm: coupling=0.0000
+2025-10-24 12:55:18 INFO:     180nm: coupling=0.0000
+2025-10-24 12:55:18 INFO:     190nm: coupling=0.0000
+2025-10-24 12:55:19 INFO:     200nm: coupling=0.2003
+2025-10-24 12:55:19 INFO:     210nm: coupling=0.2212
+2025-10-24 12:55:19 INFO:     220nm: coupling=0.2326
+2025-10-24 12:55:19 INFO:     230nm: coupling=0.2515
+2025-10-24 12:55:20 INFO:     240nm: coupling=0.2499
+2025-10-24 12:55:20 INFO:     250nm: coupling=0.2130
+2025-10-24 12:55:20 INFO:     260nm: coupling=0.2550
+2025-10-24 12:55:20 INFO:     270nm: coupling=0.2190
+2025-10-24 12:55:20 INFO:     280nm: coupling=0.2400
+2025-10-24 12:55:21 INFO:     290nm: coupling=0.2430
+2025-10-24 12:55:21 INFO:     300nm: coupling=0.2420
+2025-10-24 12:55:21 INFO:   Testing nelder_mead calibration: 16 wavelengths remaining
+2025-10-24 12:55:21 INFO:     150nm: coupling=0.0000
+2025-10-24 12:55:21 INFO:     160nm: coupling=0.0000
+2025-10-24 12:55:21 INFO:     170nm: coupling=0.0000
+2025-10-24 12:55:22 INFO:     180nm: coupling=0.0000
+2025-10-24 12:55:22 INFO:     190nm: coupling=0.0000
+2025-10-24 12:55:22 INFO:     200nm: coupling=0.2165
+2025-10-24 12:55:22 INFO:     210nm: coupling=0.2205
+2025-10-24 12:55:23 INFO:     220nm: coupling=0.2280
+2025-10-24 12:55:23 INFO:     230nm: coupling=0.2438
+2025-10-24 12:55:23 INFO:     240nm: coupling=0.2321
+2025-10-24 12:55:23 INFO:     250nm: coupling=0.2180
+2025-10-24 12:55:23 INFO:     260nm: coupling=0.2280
+2025-10-24 12:55:24 INFO:     270nm: coupling=0.2580
+2025-10-24 12:55:24 INFO:     280nm: coupling=0.2300
+2025-10-24 12:55:24 INFO:     290nm: coupling=0.2660
+2025-10-24 12:55:24 INFO:     300nm: coupling=0.2220
+2025-10-24 12:55:24 INFO:   Testing powell calibration: 16 wavelengths remaining
+2025-10-24 12:55:24 INFO:     150nm: coupling=0.0000
+2025-10-24 12:55:24 INFO:     160nm: coupling=0.0000
+2025-10-24 12:55:25 INFO:     170nm: coupling=0.0000
+2025-10-24 12:55:25 INFO:     180nm: coupling=0.0000
+2025-10-24 12:55:25 INFO:     190nm: coupling=0.0000
+2025-10-24 12:55:25 INFO:     200nm: coupling=0.2279
+2025-10-24 12:55:26 INFO:     210nm: coupling=0.2324
+2025-10-24 12:55:26 INFO:     220nm: coupling=0.2184
+2025-10-24 12:55:26 INFO:     230nm: coupling=0.2409
+2025-10-24 12:55:26 INFO:     240nm: coupling=0.2558
+2025-10-24 12:55:27 INFO:     250nm: coupling=0.2710
+2025-10-24 12:55:27 INFO:     260nm: coupling=0.2320
+2025-10-24 12:55:27 INFO:     270nm: coupling=0.2340
+2025-10-24 12:55:27 INFO:     280nm: coupling=0.2400
+2025-10-24 12:55:27 INFO:     290nm: coupling=0.2340
+2025-10-24 12:55:27 INFO:     300nm: coupling=0.2200
+2025-10-24 12:55:27 INFO:   Testing grid_search calibration: 16 wavelengths remaining
+2025-10-24 12:55:28 INFO:     150nm: coupling=0.0000
+2025-10-24 12:55:28 INFO:     160nm: coupling=0.0000
+2025-10-24 12:55:28 INFO:     170nm: coupling=0.0000
+2025-10-24 12:55:28 INFO:     180nm: coupling=0.0000
+2025-10-24 12:55:29 INFO:     190nm: coupling=0.0000
+2025-10-24 12:55:29 INFO:     200nm: coupling=0.1675
+2025-10-24 12:55:29 INFO:     210nm: coupling=0.1848
+2025-10-24 12:55:29 INFO:     220nm: coupling=0.1894
+2025-10-24 12:55:30 INFO:     230nm: coupling=0.2101
+2025-10-24 12:55:30 INFO:     240nm: coupling=0.1896
+2025-10-24 12:55:30 INFO:     250nm: coupling=0.2200
+2025-10-24 12:55:30 INFO:     260nm: coupling=0.2180
+2025-10-24 12:55:30 INFO:     270nm: coupling=0.2220
+2025-10-24 12:55:31 INFO:     280nm: coupling=0.2030
+2025-10-24 12:55:31 INFO:     290nm: coupling=0.2320
+2025-10-24 12:55:31 INFO:     300nm: coupling=0.2260
+2025-10-24 12:55:31 INFO:   Testing bayesian calibration: 16 wavelengths remaining
+2025-10-24 12:55:31 INFO:     150nm: coupling=0.0000
+2025-10-24 12:55:31 INFO:     160nm: coupling=0.0000
+2025-10-24 12:55:32 INFO:     170nm: coupling=0.0000
+2025-10-24 12:55:32 INFO:     180nm: coupling=0.0000
+2025-10-24 12:55:32 INFO:     190nm: coupling=0.0000
+2025-10-24 12:55:32 INFO:     200nm: coupling=0.1868
+2025-10-24 12:55:33 INFO:     210nm: coupling=0.1769
+2025-10-24 12:55:33 INFO:     220nm: coupling=0.2044
+2025-10-24 12:55:33 INFO:     230nm: coupling=0.1861
+2025-10-24 12:55:33 INFO:     240nm: coupling=0.1935
+2025-10-24 12:55:34 INFO:     250nm: coupling=0.2020
+2025-10-24 12:55:34 INFO:     260nm: coupling=0.1930
+2025-10-24 12:55:34 INFO:     270nm: coupling=0.2070
+2025-10-24 12:55:34 INFO:     280nm: coupling=0.2000
+2025-10-24 12:55:34 INFO:     290nm: coupling=0.1840
+2025-10-24 12:55:35 INFO:     300nm: coupling=0.1860
+2025-10-24 12:55:35 INFO: Saved data to 84-277+LA4002_air_wavelength.csv
+2025-10-24 12:55:35 INFO: Deleted temp file: results/wavelength_analyze_2025-10-24/temp_batch_wavelength_84-277+LA4002_air.json
+2025-10-24 12:55:35 INFO: Starting wavelength analysis for 36-681+84-277_air
+2025-10-24 12:55:35 INFO:   Calibrating with differential_evolution at 200nm
+2025-10-24 12:56:13 INFO:     Calibrated: z_l1=10.62, z_l2=14.88, z_fiber=39.88, coupling@200nm=0.1988
+2025-10-24 12:56:13 INFO:   Calibrating with dual_annealing at 200nm
+2025-10-24 12:57:50 INFO:     Calibrated: z_l1=10.62, z_l2=14.13, z_fiber=39.13, coupling@200nm=0.1882
+2025-10-24 12:57:50 INFO:   Calibrating with nelder_mead at 200nm
+2025-10-24 12:57:58 INFO:     Calibrated: z_l1=10.59, z_l2=14.10, z_fiber=39.10, coupling@200nm=0.2122
+2025-10-24 12:57:58 INFO:   Calibrating with powell at 200nm
+2025-10-24 12:58:09 INFO:     Calibrated: z_l1=10.58, z_l2=14.09, z_fiber=39.09, coupling@200nm=0.2157
+2025-10-24 12:58:09 INFO:   Calibrating with grid_search at 200nm
+2025-10-24 12:58:19 INFO:     Calibrated: z_l1=10.67, z_l2=22.20, z_fiber=47.20, coupling@200nm=0.2118
+2025-10-24 12:58:19 INFO:   Calibrating with bayesian at 200nm
+2025-10-24 12:58:48 INFO:     Calibrated: z_l1=10.24, z_l2=28.72, z_fiber=53.72, coupling@200nm=0.1976
+2025-10-24 12:58:48 INFO:   Calibrations ready: 6/6 methods
+2025-10-24 12:58:48 INFO:   Testing differential_evolution calibration: 16 wavelengths remaining
+2025-10-24 12:58:48 INFO:     150nm: coupling=0.0001
+2025-10-24 12:58:48 INFO:     160nm: coupling=0.0000
+2025-10-24 12:58:48 INFO:     170nm: coupling=0.0000
+2025-10-24 12:58:48 INFO:     180nm: coupling=0.0000
+2025-10-24 12:58:48 INFO:     190nm: coupling=0.0000
+2025-10-24 12:58:49 INFO:     200nm: coupling=0.2028
+2025-10-24 12:58:49 INFO:     210nm: coupling=0.2158
+2025-10-24 12:58:49 INFO:     220nm: coupling=0.2342
+2025-10-24 12:58:49 INFO:     230nm: coupling=0.2265
+2025-10-24 12:58:49 INFO:     240nm: coupling=0.2491
+2025-10-24 12:58:49 INFO:     250nm: coupling=0.2310
+2025-10-24 12:58:50 INFO:     260nm: coupling=0.2390
+2025-10-24 12:58:50 INFO:     270nm: coupling=0.2520
+2025-10-24 12:58:50 INFO:     280nm: coupling=0.2400
+2025-10-24 12:58:50 INFO:     290nm: coupling=0.2340
+2025-10-24 12:58:50 INFO:     300nm: coupling=0.2350
+2025-10-24 12:58:50 INFO:   Testing dual_annealing calibration: 16 wavelengths remaining
+2025-10-24 12:58:50 INFO:     150nm: coupling=0.0001
+2025-10-24 12:58:50 INFO:     160nm: coupling=0.0001
+2025-10-24 12:58:50 INFO:     170nm: coupling=0.0000
+2025-10-24 12:58:51 INFO:     180nm: coupling=0.0000
+2025-10-24 12:58:51 INFO:     190nm: coupling=0.0000
+2025-10-24 12:58:51 INFO:     200nm: coupling=0.2033
+2025-10-24 12:58:51 INFO:     210nm: coupling=0.1966
+2025-10-24 12:58:51 INFO:     220nm: coupling=0.2134
+2025-10-24 12:58:51 INFO:     230nm: coupling=0.2305
+2025-10-24 12:58:52 INFO:     240nm: coupling=0.2511
+2025-10-24 12:58:52 INFO:     250nm: coupling=0.2290
+2025-10-24 12:58:52 INFO:     260nm: coupling=0.2460
+2025-10-24 12:58:52 INFO:     270nm: coupling=0.2550
+2025-10-24 12:58:52 INFO:     280nm: coupling=0.2400
+2025-10-24 12:58:52 INFO:     290nm: coupling=0.2270
+2025-10-24 12:58:52 INFO:     300nm: coupling=0.2430
+2025-10-24 12:58:52 INFO:   Testing nelder_mead calibration: 16 wavelengths remaining
+2025-10-24 12:58:52 INFO:     150nm: coupling=0.0001
+2025-10-24 12:58:53 INFO:     160nm: coupling=0.0001
+2025-10-24 12:58:53 INFO:     170nm: coupling=0.0000
+2025-10-24 12:58:53 INFO:     180nm: coupling=0.0000
+2025-10-24 12:58:53 INFO:     190nm: coupling=0.0000
+2025-10-24 12:58:53 INFO:     200nm: coupling=0.2077
+2025-10-24 12:58:53 INFO:     210nm: coupling=0.2226
+2025-10-24 12:58:54 INFO:     220nm: coupling=0.2077
+2025-10-24 12:58:54 INFO:     230nm: coupling=0.2169
+2025-10-24 12:58:54 INFO:     240nm: coupling=0.2343
+2025-10-24 12:58:54 INFO:     250nm: coupling=0.2690
+2025-10-24 12:58:54 INFO:     260nm: coupling=0.2190
+2025-10-24 12:58:54 INFO:     270nm: coupling=0.2550
+2025-10-24 12:58:54 INFO:     280nm: coupling=0.2360
+2025-10-24 12:58:54 INFO:     290nm: coupling=0.2310
+2025-10-24 12:58:55 INFO:     300nm: coupling=0.2300
+2025-10-24 12:58:55 INFO:   Testing powell calibration: 16 wavelengths remaining
+2025-10-24 12:58:55 INFO:     150nm: coupling=0.0001
+2025-10-24 12:58:55 INFO:     160nm: coupling=0.0000
+2025-10-24 12:58:55 INFO:     170nm: coupling=0.0000
+2025-10-24 12:58:55 INFO:     180nm: coupling=0.0000
+2025-10-24 12:58:55 INFO:     190nm: coupling=0.0000
+2025-10-24 12:58:55 INFO:     200nm: coupling=0.1820
+2025-10-24 12:58:56 INFO:     210nm: coupling=0.2208
+2025-10-24 12:58:56 INFO:     220nm: coupling=0.2354
+2025-10-24 12:58:56 INFO:     230nm: coupling=0.2374
+2025-10-24 12:58:56 INFO:     240nm: coupling=0.2254
+2025-10-24 12:58:56 INFO:     250nm: coupling=0.2410
+2025-10-24 12:58:56 INFO:     260nm: coupling=0.2330
+2025-10-24 12:58:57 INFO:     270nm: coupling=0.2280
+2025-10-24 12:58:57 INFO:     280nm: coupling=0.2350
+2025-10-24 12:58:57 INFO:     290nm: coupling=0.2420
+2025-10-24 12:58:57 INFO:     300nm: coupling=0.2400
+2025-10-24 12:58:57 INFO:   Testing grid_search calibration: 16 wavelengths remaining
+2025-10-24 12:58:57 INFO:     150nm: coupling=0.0000
+2025-10-24 12:58:57 INFO:     160nm: coupling=0.0000
+2025-10-24 12:58:57 INFO:     170nm: coupling=0.0000
+2025-10-24 12:58:57 INFO:     180nm: coupling=0.0000
+2025-10-24 12:58:58 INFO:     190nm: coupling=0.0000
+2025-10-24 12:58:58 INFO:     200nm: coupling=0.1928
+2025-10-24 12:58:58 INFO:     210nm: coupling=0.2344
+2025-10-24 12:58:58 INFO:     220nm: coupling=0.2369
+2025-10-24 12:58:58 INFO:     230nm: coupling=0.2274
+2025-10-24 12:58:58 INFO:     240nm: coupling=0.2357
+2025-10-24 12:58:59 INFO:     250nm: coupling=0.2110
+2025-10-24 12:58:59 INFO:     260nm: coupling=0.2330
+2025-10-24 12:58:59 INFO:     270nm: coupling=0.2430
+2025-10-24 12:58:59 INFO:     280nm: coupling=0.2400
+2025-10-24 12:58:59 INFO:     290nm: coupling=0.2440
+2025-10-24 12:58:59 INFO:     300nm: coupling=0.2390
+2025-10-24 12:58:59 INFO:   Testing bayesian calibration: 16 wavelengths remaining
+2025-10-24 12:58:59 INFO:     150nm: coupling=0.0000
+2025-10-24 12:58:59 INFO:     160nm: coupling=0.0000
+2025-10-24 12:59:00 INFO:     170nm: coupling=0.0000
+2025-10-24 12:59:00 INFO:     180nm: coupling=0.0000
+2025-10-24 12:59:00 INFO:     190nm: coupling=0.0000
+2025-10-24 12:59:00 INFO:     200nm: coupling=0.2014
+2025-10-24 12:59:00 INFO:     210nm: coupling=0.2367
+2025-10-24 12:59:00 INFO:     220nm: coupling=0.2266
+2025-10-24 12:59:01 INFO:     230nm: coupling=0.2448
+2025-10-24 12:59:01 INFO:     240nm: coupling=0.2510
+2025-10-24 12:59:01 INFO:     250nm: coupling=0.2490
+2025-10-24 12:59:01 INFO:     260nm: coupling=0.2500
+2025-10-24 12:59:01 INFO:     270nm: coupling=0.2380
+2025-10-24 12:59:01 INFO:     280nm: coupling=0.2480
+2025-10-24 12:59:01 INFO:     290nm: coupling=0.2400
+2025-10-24 12:59:02 INFO:     300nm: coupling=0.2400
+2025-10-24 12:59:02 INFO: Saved data to 36-681+84-277_air_wavelength.csv
+2025-10-24 12:59:02 INFO: Deleted temp file: results/wavelength_analyze_2025-10-24/temp_batch_wavelength_36-681+84-277_air.json
+2025-10-24 12:59:02 INFO: Starting wavelength analysis for 84-277+48-024_air
+2025-10-24 12:59:02 INFO:   Calibrating with differential_evolution at 200nm
+2025-10-24 13:00:12 INFO:     Calibrated: z_l1=12.13, z_l2=17.02, z_fiber=42.02, coupling@200nm=0.2248
+2025-10-24 13:00:12 INFO:   Calibrating with dual_annealing at 200nm
+2025-10-24 13:05:05 INFO:     Calibrated: z_l1=12.11, z_l2=16.86, z_fiber=41.86, coupling@200nm=0.2153
+2025-10-24 13:05:05 INFO:   Calibrating with nelder_mead at 200nm
+2025-10-24 13:05:19 INFO:     Calibrated: z_l1=12.09, z_l2=16.84, z_fiber=41.84, coupling@200nm=0.2113
+2025-10-24 13:05:19 INFO:   Calibrating with powell at 200nm
+2025-10-24 13:05:33 INFO:     Calibrated: z_l1=11.90, z_l2=21.70, z_fiber=46.70, coupling@200nm=0.2080
+2025-10-24 13:05:33 INFO:   Calibrating with grid_search at 200nm
+2025-10-24 13:05:43 INFO:     Calibrated: z_l1=13.18, z_l2=18.50, z_fiber=43.50, coupling@200nm=0.1717
+2025-10-24 13:05:43 INFO:   Calibrating with bayesian at 200nm
+2025-10-24 13:06:14 INFO:     Calibrated: z_l1=12.22, z_l2=34.81, z_fiber=59.81, coupling@200nm=0.1752
+2025-10-24 13:06:14 INFO:   Calibrations ready: 6/6 methods
+2025-10-24 13:06:14 INFO:   Testing differential_evolution calibration: 16 wavelengths remaining
+2025-10-24 13:06:14 INFO:     150nm: coupling=0.0000
+2025-10-24 13:06:14 INFO:     160nm: coupling=0.0000
+2025-10-24 13:06:15 INFO:     170nm: coupling=0.0000
+2025-10-24 13:06:15 INFO:     180nm: coupling=0.0000
+2025-10-24 13:06:15 INFO:     190nm: coupling=0.0000
+2025-10-24 13:06:15 INFO:     200nm: coupling=0.2147
+2025-10-24 13:06:15 INFO:     210nm: coupling=0.2334
+2025-10-24 13:06:16 INFO:     220nm: coupling=0.2261
+2025-10-24 13:06:16 INFO:     230nm: coupling=0.2526
+2025-10-24 13:06:16 INFO:     240nm: coupling=0.2539
+2025-10-24 13:06:16 INFO:     250nm: coupling=0.2390
+2025-10-24 13:06:17 INFO:     260nm: coupling=0.2530
+2025-10-24 13:06:17 INFO:     270nm: coupling=0.2440
+2025-10-24 13:06:17 INFO:     280nm: coupling=0.2230
+2025-10-24 13:06:17 INFO:     290nm: coupling=0.2420
+2025-10-24 13:06:17 INFO:     300nm: coupling=0.2590
+2025-10-24 13:06:17 INFO:   Testing dual_annealing calibration: 16 wavelengths remaining
+2025-10-24 13:06:17 INFO:     150nm: coupling=0.0001
+2025-10-24 13:06:18 INFO:     160nm: coupling=0.0000
+2025-10-24 13:06:18 INFO:     170nm: coupling=0.0000
+2025-10-24 13:06:18 INFO:     180nm: coupling=0.0000
+2025-10-24 13:06:18 INFO:     190nm: coupling=0.0000
+2025-10-24 13:06:18 INFO:     200nm: coupling=0.2245
+2025-10-24 13:06:19 INFO:     210nm: coupling=0.2334
+2025-10-24 13:06:19 INFO:     220nm: coupling=0.2376
+2025-10-24 13:06:19 INFO:     230nm: coupling=0.2643
+2025-10-24 13:06:19 INFO:     240nm: coupling=0.2420
+2025-10-24 13:06:19 INFO:     250nm: coupling=0.2390
+2025-10-24 13:06:20 INFO:     260nm: coupling=0.2430
+2025-10-24 13:06:20 INFO:     270nm: coupling=0.2440
+2025-10-24 13:06:20 INFO:     280nm: coupling=0.2610
+2025-10-24 13:06:20 INFO:     290nm: coupling=0.2610
+2025-10-24 13:06:20 INFO:     300nm: coupling=0.2820
+2025-10-24 13:06:20 INFO:   Testing nelder_mead calibration: 16 wavelengths remaining
+2025-10-24 13:06:21 INFO:     150nm: coupling=0.0001
+2025-10-24 13:06:21 INFO:     160nm: coupling=0.0000
+2025-10-24 13:06:21 INFO:     170nm: coupling=0.0000
+2025-10-24 13:06:21 INFO:     180nm: coupling=0.0000
+2025-10-24 13:06:21 INFO:     190nm: coupling=0.0000
+2025-10-24 13:06:22 INFO:     200nm: coupling=0.2324
+2025-10-24 13:06:22 INFO:     210nm: coupling=0.2482
+2025-10-24 13:06:22 INFO:     220nm: coupling=0.2376
+2025-10-24 13:06:22 INFO:     230nm: coupling=0.2477
+2025-10-24 13:06:22 INFO:     240nm: coupling=0.2420
+2025-10-24 13:06:23 INFO:     250nm: coupling=0.2650
+2025-10-24 13:06:23 INFO:     260nm: coupling=0.2480
+2025-10-24 13:06:23 INFO:     270nm: coupling=0.2540
+2025-10-24 13:06:23 INFO:     280nm: coupling=0.2660
+2025-10-24 13:06:23 INFO:     290nm: coupling=0.2760
+2025-10-24 13:06:24 INFO:     300nm: coupling=0.2410
+2025-10-24 13:06:24 INFO:   Testing powell calibration: 16 wavelengths remaining
+2025-10-24 13:06:24 INFO:     150nm: coupling=0.0000
+2025-10-24 13:06:24 INFO:     160nm: coupling=0.0000
+2025-10-24 13:06:24 INFO:     170nm: coupling=0.0000
+2025-10-24 13:06:24 INFO:     180nm: coupling=0.0000
+2025-10-24 13:06:25 INFO:     190nm: coupling=0.0000
+2025-10-24 13:06:25 INFO:     200nm: coupling=0.2132
+2025-10-24 13:06:25 INFO:     210nm: coupling=0.2467
+2025-10-24 13:06:25 INFO:     220nm: coupling=0.2305
+2025-10-24 13:06:25 INFO:     230nm: coupling=0.2479
+2025-10-24 13:06:26 INFO:     240nm: coupling=0.2604
+2025-10-24 13:06:26 INFO:     250nm: coupling=0.2650
+2025-10-24 13:06:26 INFO:     260nm: coupling=0.2480
+2025-10-24 13:06:26 INFO:     270nm: coupling=0.2320
+2025-10-24 13:06:26 INFO:     280nm: coupling=0.2320
+2025-10-24 13:06:27 INFO:     290nm: coupling=0.2540
+2025-10-24 13:06:27 INFO:     300nm: coupling=0.2570
+2025-10-24 13:06:27 INFO:   Testing grid_search calibration: 16 wavelengths remaining
+2025-10-24 13:06:27 INFO:     150nm: coupling=0.0000
+2025-10-24 13:06:27 INFO:     160nm: coupling=0.0000
+2025-10-24 13:06:27 INFO:     170nm: coupling=0.0000
+2025-10-24 13:06:27 INFO:     180nm: coupling=0.0000
+2025-10-24 13:06:28 INFO:     190nm: coupling=0.0000
+2025-10-24 13:06:28 INFO:     200nm: coupling=0.1769
+2025-10-24 13:06:28 INFO:     210nm: coupling=0.1674
+2025-10-24 13:06:28 INFO:     220nm: coupling=0.1895
+2025-10-24 13:06:28 INFO:     230nm: coupling=0.1910
+2025-10-24 13:06:29 INFO:     240nm: coupling=0.1846
+2025-10-24 13:06:29 INFO:     250nm: coupling=0.1950
+2025-10-24 13:06:29 INFO:     260nm: coupling=0.2170
+2025-10-24 13:06:29 INFO:     270nm: coupling=0.1980
+2025-10-24 13:06:29 INFO:     280nm: coupling=0.1860
+2025-10-24 13:06:30 INFO:     290nm: coupling=0.1770
+2025-10-24 13:06:30 INFO:     300nm: coupling=0.1810
+2025-10-24 13:06:30 INFO:   Testing bayesian calibration: 16 wavelengths remaining
+2025-10-24 13:06:30 INFO:     150nm: coupling=0.0000
+2025-10-24 13:06:30 INFO:     160nm: coupling=0.0000
+2025-10-24 13:06:30 INFO:     170nm: coupling=0.0000
+2025-10-24 13:06:30 INFO:     180nm: coupling=0.0000
+2025-10-24 13:06:31 INFO:     190nm: coupling=0.0000
+2025-10-24 13:06:31 INFO:     200nm: coupling=0.1661
+2025-10-24 13:06:31 INFO:     210nm: coupling=0.1796
+2025-10-24 13:06:31 INFO:     220nm: coupling=0.1914
+2025-10-24 13:06:32 INFO:     230nm: coupling=0.1793
+2025-10-24 13:06:32 INFO:     240nm: coupling=0.1847
+2025-10-24 13:06:32 INFO:     250nm: coupling=0.1780
+2025-10-24 13:06:32 INFO:     260nm: coupling=0.2170
+2025-10-24 13:06:33 INFO:     270nm: coupling=0.2020
+2025-10-24 13:06:33 INFO:     280nm: coupling=0.1820
+2025-10-24 13:06:33 INFO:     290nm: coupling=0.2120
+2025-10-24 13:06:33 INFO:     300nm: coupling=0.1910
+2025-10-24 13:06:33 INFO: Saved data to 84-277+48-024_air_wavelength.csv
+2025-10-24 13:06:33 INFO: Deleted temp file: results/wavelength_analyze_2025-10-24/temp_batch_wavelength_84-277+48-024_air.json
+2025-10-24 13:06:33 INFO: Starting wavelength analysis for 36-681+48-024_air
+2025-10-24 13:06:33 INFO:   Calibrating with differential_evolution at 200nm
+2025-10-24 13:07:07 INFO:     Calibrated: z_l1=10.57, z_l2=14.08, z_fiber=39.08, coupling@200nm=0.2171
+2025-10-24 13:07:07 INFO:   Calibrating with dual_annealing at 200nm
+2025-10-24 13:09:28 INFO:     Calibrated: z_l1=10.63, z_l2=14.13, z_fiber=39.13, coupling@200nm=0.2091
+2025-10-24 13:09:28 INFO:   Calibrating with nelder_mead at 200nm
+2025-10-24 13:09:37 INFO:     Calibrated: z_l1=10.57, z_l2=14.10, z_fiber=39.10, coupling@200nm=0.2246
+2025-10-24 13:09:37 INFO:   Calibrating with powell at 200nm
+2025-10-24 13:09:46 INFO:     Calibrated: z_l1=10.57, z_l2=14.08, z_fiber=39.08, coupling@200nm=0.2002
+2025-10-24 13:09:46 INFO:   Calibrating with grid_search at 200nm
+2025-10-24 13:09:55 INFO:     Calibrated: z_l1=9.70, z_l2=38.87, z_fiber=63.87, coupling@200nm=0.2047
+2025-10-24 13:09:55 INFO:   Calibrating with bayesian at 200nm
+2025-10-24 13:10:24 INFO:     Calibrated: z_l1=10.24, z_l2=28.72, z_fiber=53.72, coupling@200nm=0.2154
+2025-10-24 13:10:24 INFO:   Calibrations ready: 6/6 methods
+2025-10-24 13:10:24 INFO:   Testing differential_evolution calibration: 16 wavelengths remaining
+2025-10-24 13:10:24 INFO:     150nm: coupling=0.0001
+2025-10-24 13:10:24 INFO:     160nm: coupling=0.0001
+2025-10-24 13:10:24 INFO:     170nm: coupling=0.0000
+2025-10-24 13:10:24 INFO:     180nm: coupling=0.0000
+2025-10-24 13:10:24 INFO:     190nm: coupling=0.0000
+2025-10-24 13:10:25 INFO:     200nm: coupling=0.2078
+2025-10-24 13:10:25 INFO:     210nm: coupling=0.2162
+2025-10-24 13:10:25 INFO:     220nm: coupling=0.2354
+2025-10-24 13:10:25 INFO:     230nm: coupling=0.2472
+2025-10-24 13:10:25 INFO:     240nm: coupling=0.2353
+2025-10-24 13:10:25 INFO:     250nm: coupling=0.2400
+2025-10-24 13:10:26 INFO:     260nm: coupling=0.2550
+2025-10-24 13:10:26 INFO:     270nm: coupling=0.2560
+2025-10-24 13:10:26 INFO:     280nm: coupling=0.2380
+2025-10-24 13:10:26 INFO:     290nm: coupling=0.2350
+2025-10-24 13:10:26 INFO:     300nm: coupling=0.2320
+2025-10-24 13:10:26 INFO:   Testing dual_annealing calibration: 16 wavelengths remaining
+2025-10-24 13:10:26 INFO:     150nm: coupling=0.0001
+2025-10-24 13:10:26 INFO:     160nm: coupling=0.0001
+2025-10-24 13:10:26 INFO:     170nm: coupling=0.0000
+2025-10-24 13:10:27 INFO:     180nm: coupling=0.0000
+2025-10-24 13:10:27 INFO:     190nm: coupling=0.0000
+2025-10-24 13:10:27 INFO:     200nm: coupling=0.1926
+2025-10-24 13:10:27 INFO:     210nm: coupling=0.2263
+2025-10-24 13:10:27 INFO:     220nm: coupling=0.2316
+2025-10-24 13:10:27 INFO:     230nm: coupling=0.2354
+2025-10-24 13:10:28 INFO:     240nm: coupling=0.2294
+2025-10-24 13:10:28 INFO:     250nm: coupling=0.2410
+2025-10-24 13:10:28 INFO:     260nm: coupling=0.2440
+2025-10-24 13:10:28 INFO:     270nm: coupling=0.2470
+2025-10-24 13:10:28 INFO:     280nm: coupling=0.2280
+2025-10-24 13:10:28 INFO:     290nm: coupling=0.2240
+2025-10-24 13:10:28 INFO:     300nm: coupling=0.2460
+2025-10-24 13:10:28 INFO:   Testing nelder_mead calibration: 16 wavelengths remaining
+2025-10-24 13:10:28 INFO:     150nm: coupling=0.0001
+2025-10-24 13:10:29 INFO:     160nm: coupling=0.0001
+2025-10-24 13:10:29 INFO:     170nm: coupling=0.0000
+2025-10-24 13:10:29 INFO:     180nm: coupling=0.0000
+2025-10-24 13:10:29 INFO:     190nm: coupling=0.0000
+2025-10-24 13:10:29 INFO:     200nm: coupling=0.2229
+2025-10-24 13:10:29 INFO:     210nm: coupling=0.2161
+2025-10-24 13:10:30 INFO:     220nm: coupling=0.2345
+2025-10-24 13:10:30 INFO:     230nm: coupling=0.2618
+2025-10-24 13:10:30 INFO:     240nm: coupling=0.2284
+2025-10-24 13:10:30 INFO:     250nm: coupling=0.2270
+2025-10-24 13:10:30 INFO:     260nm: coupling=0.2260
+2025-10-24 13:10:30 INFO:     270nm: coupling=0.2250
+2025-10-24 13:10:30 INFO:     280nm: coupling=0.2480
+2025-10-24 13:10:31 INFO:     290nm: coupling=0.2360
+2025-10-24 13:10:31 INFO:     300nm: coupling=0.2400
+2025-10-24 13:10:31 INFO:   Testing powell calibration: 16 wavelengths remaining
+2025-10-24 13:10:31 INFO:     150nm: coupling=0.0001
+2025-10-24 13:10:31 INFO:     160nm: coupling=0.0001
+2025-10-24 13:10:31 INFO:     170nm: coupling=0.0000
+2025-10-24 13:10:31 INFO:     180nm: coupling=0.0000
+2025-10-24 13:10:31 INFO:     190nm: coupling=0.0000
+2025-10-24 13:10:32 INFO:     200nm: coupling=0.2415
+2025-10-24 13:10:32 INFO:     210nm: coupling=0.2171
+2025-10-24 13:10:32 INFO:     220nm: coupling=0.2440
+2025-10-24 13:10:32 INFO:     230nm: coupling=0.2100
+2025-10-24 13:10:32 INFO:     240nm: coupling=0.2452
+2025-10-24 13:10:32 INFO:     250nm: coupling=0.2220
+2025-10-24 13:10:32 INFO:     260nm: coupling=0.2410
+2025-10-24 13:10:33 INFO:     270nm: coupling=0.2170
+2025-10-24 13:10:33 INFO:     280nm: coupling=0.2500
+2025-10-24 13:10:33 INFO:     290nm: coupling=0.2540
+2025-10-24 13:10:33 INFO:     300nm: coupling=0.2310
+2025-10-24 13:10:33 INFO:   Testing grid_search calibration: 16 wavelengths remaining
+2025-10-24 13:10:33 INFO:     150nm: coupling=0.0000
+2025-10-24 13:10:33 INFO:     160nm: coupling=0.0000
+2025-10-24 13:10:33 INFO:     170nm: coupling=0.0000
+2025-10-24 13:10:34 INFO:     180nm: coupling=0.0000
+2025-10-24 13:10:34 INFO:     190nm: coupling=0.0000
+2025-10-24 13:10:34 INFO:     200nm: coupling=0.1851
+2025-10-24 13:10:34 INFO:     210nm: coupling=0.2213
+2025-10-24 13:10:34 INFO:     220nm: coupling=0.2406
+2025-10-24 13:10:34 INFO:     230nm: coupling=0.2327
+2025-10-24 13:10:35 INFO:     240nm: coupling=0.2247
+2025-10-24 13:10:35 INFO:     250nm: coupling=0.2380
+2025-10-24 13:10:35 INFO:     260nm: coupling=0.2530
+2025-10-24 13:10:35 INFO:     270nm: coupling=0.2350
+2025-10-24 13:10:35 INFO:     280nm: coupling=0.2520
+2025-10-24 13:10:35 INFO:     290nm: coupling=0.2340
+2025-10-24 13:10:35 INFO:     300nm: coupling=0.2410
+2025-10-24 13:10:35 INFO:   Testing bayesian calibration: 16 wavelengths remaining
+2025-10-24 13:10:36 INFO:     150nm: coupling=0.0000
+2025-10-24 13:10:36 INFO:     160nm: coupling=0.0000
+2025-10-24 13:10:36 INFO:     170nm: coupling=0.0000
+2025-10-24 13:10:36 INFO:     180nm: coupling=0.0000
+2025-10-24 13:10:36 INFO:     190nm: coupling=0.0000
+2025-10-24 13:10:36 INFO:     200nm: coupling=0.2125
+2025-10-24 13:10:37 INFO:     210nm: coupling=0.2250
+2025-10-24 13:10:37 INFO:     220nm: coupling=0.2275
+2025-10-24 13:10:37 INFO:     230nm: coupling=0.2342
+2025-10-24 13:10:37 INFO:     240nm: coupling=0.2382
+2025-10-24 13:10:37 INFO:     250nm: coupling=0.2510
+2025-10-24 13:10:37 INFO:     260nm: coupling=0.2270
+2025-10-24 13:10:37 INFO:     270nm: coupling=0.2360
+2025-10-24 13:10:38 INFO:     280nm: coupling=0.2430
+2025-10-24 13:10:38 INFO:     290nm: coupling=0.2570
+2025-10-24 13:10:38 INFO:     300nm: coupling=0.2480
+2025-10-24 13:10:38 INFO: Saved data to 36-681+48-024_air_wavelength.csv
+2025-10-24 13:10:38 INFO: Deleted temp file: results/wavelength_analyze_2025-10-24/temp_batch_wavelength_36-681+48-024_air.json
+2025-10-24 13:10:38 INFO: Starting wavelength analysis for LA4647+LA4936_air
+2025-10-24 13:10:38 INFO:   Calibrating with differential_evolution at 200nm
+2025-10-24 13:11:52 INFO:     Calibrated: z_l1=9.99, z_l2=15.34, z_fiber=45.44, coupling@200nm=0.2045
+2025-10-24 13:11:52 INFO:   Calibrating with dual_annealing at 200nm
+2025-10-24 13:16:32 INFO:     Calibrated: z_l1=10.00, z_l2=15.33, z_fiber=45.43, coupling@200nm=0.2015
+2025-10-24 13:16:32 INFO:   Calibrating with nelder_mead at 200nm
+2025-10-24 13:16:49 INFO:     Calibrated: z_l1=10.01, z_l2=14.81, z_fiber=44.91, coupling@200nm=0.1844
+2025-10-24 13:16:49 INFO:   Calibrating with powell at 200nm
+2025-10-24 13:16:58 INFO:     Calibrated: z_l1=9.99, z_l2=15.60, z_fiber=45.70, coupling@200nm=0.1887
+2025-10-24 13:16:58 INFO:   Calibrating with grid_search at 200nm
+2025-10-24 13:17:11 INFO:     Calibrated: z_l1=9.70, z_l2=29.77, z_fiber=59.87, coupling@200nm=0.2183
+2025-10-24 13:17:11 INFO:   Calibrating with bayesian at 200nm
+2025-10-24 13:17:41 INFO:     Calibrated: z_l1=9.98, z_l2=18.44, z_fiber=48.54, coupling@200nm=0.1887
+2025-10-24 13:17:41 INFO:   Calibrations ready: 6/6 methods
+2025-10-24 13:17:41 INFO:   Testing differential_evolution calibration: 16 wavelengths remaining
+2025-10-24 13:17:42 INFO:     150nm: coupling=0.0000
+2025-10-24 13:17:42 INFO:     160nm: coupling=0.0000
+2025-10-24 13:17:42 INFO:     170nm: coupling=0.0000
+2025-10-24 13:17:42 INFO:     180nm: coupling=0.0000
+2025-10-24 13:17:42 INFO:     190nm: coupling=0.0000
+2025-10-24 13:17:43 INFO:     200nm: coupling=0.2001
+2025-10-24 13:17:43 INFO:     210nm: coupling=0.1933
+2025-10-24 13:17:43 INFO:     220nm: coupling=0.1843
+2025-10-24 13:17:43 INFO:     230nm: coupling=0.2014
+2025-10-24 13:17:44 INFO:     240nm: coupling=0.2319
+2025-10-24 13:17:44 INFO:     250nm: coupling=0.2380
+2025-10-24 13:17:44 INFO:     260nm: coupling=0.2090
+2025-10-24 13:17:44 INFO:     270nm: coupling=0.2040
+2025-10-24 13:17:44 INFO:     280nm: coupling=0.2450
+2025-10-24 13:17:45 INFO:     290nm: coupling=0.2220
+2025-10-24 13:17:45 INFO:     300nm: coupling=0.2280
+2025-10-24 13:17:45 INFO:   Testing dual_annealing calibration: 16 wavelengths remaining
+2025-10-24 13:17:45 INFO:     150nm: coupling=0.0000
+2025-10-24 13:17:45 INFO:     160nm: coupling=0.0000
+2025-10-24 13:17:45 INFO:     170nm: coupling=0.0000
+2025-10-24 13:17:46 INFO:     180nm: coupling=0.0000
+2025-10-24 13:17:46 INFO:     190nm: coupling=0.0000
+2025-10-24 13:17:46 INFO:     200nm: coupling=0.2080
+2025-10-24 13:17:46 INFO:     210nm: coupling=0.2272
+2025-10-24 13:17:47 INFO:     220nm: coupling=0.2185
+2025-10-24 13:17:47 INFO:     230nm: coupling=0.2024
+2025-10-24 13:17:47 INFO:     240nm: coupling=0.2358
+2025-10-24 13:17:47 INFO:     250nm: coupling=0.2250
+2025-10-24 13:17:48 INFO:     260nm: coupling=0.2130
+2025-10-24 13:17:48 INFO:     270nm: coupling=0.2240
+2025-10-24 13:17:48 INFO:     280nm: coupling=0.2490
+2025-10-24 13:17:48 INFO:     290nm: coupling=0.2190
+2025-10-24 13:17:48 INFO:     300nm: coupling=0.2150
+2025-10-24 13:17:48 INFO:   Testing nelder_mead calibration: 16 wavelengths remaining
+2025-10-24 13:17:49 INFO:     150nm: coupling=0.0000
+2025-10-24 13:17:49 INFO:     160nm: coupling=0.0000
+2025-10-24 13:17:49 INFO:     170nm: coupling=0.0000
+2025-10-24 13:17:49 INFO:     180nm: coupling=0.0000
+2025-10-24 13:17:50 INFO:     190nm: coupling=0.0000
+2025-10-24 13:17:50 INFO:     200nm: coupling=0.1918
+2025-10-24 13:17:50 INFO:     210nm: coupling=0.1825
+2025-10-24 13:17:50 INFO:     220nm: coupling=0.2110
+2025-10-24 13:17:51 INFO:     230nm: coupling=0.2249
+2025-10-24 13:17:51 INFO:     240nm: coupling=0.2369
+2025-10-24 13:17:51 INFO:     250nm: coupling=0.2300
+2025-10-24 13:17:51 INFO:     260nm: coupling=0.2410
+2025-10-24 13:17:51 INFO:     270nm: coupling=0.2210
+2025-10-24 13:17:52 INFO:     280nm: coupling=0.2140
+2025-10-24 13:17:52 INFO:     290nm: coupling=0.2360
+2025-10-24 13:17:52 INFO:     300nm: coupling=0.2020
+2025-10-24 13:17:52 INFO:   Testing powell calibration: 16 wavelengths remaining
+2025-10-24 13:17:52 INFO:     150nm: coupling=0.0000
+2025-10-24 13:17:52 INFO:     160nm: coupling=0.0000
+2025-10-24 13:17:53 INFO:     170nm: coupling=0.0000
+2025-10-24 13:17:53 INFO:     180nm: coupling=0.0000
+2025-10-24 13:17:53 INFO:     190nm: coupling=0.0000
+2025-10-24 13:17:53 INFO:     200nm: coupling=0.2208
+2025-10-24 13:17:54 INFO:     210nm: coupling=0.2325
+2025-10-24 13:17:54 INFO:     220nm: coupling=0.2194
+2025-10-24 13:17:54 INFO:     230nm: coupling=0.2257
+2025-10-24 13:17:54 INFO:     240nm: coupling=0.2427
+2025-10-24 13:17:55 INFO:     250nm: coupling=0.2290
+2025-10-24 13:17:55 INFO:     260nm: coupling=0.2320
+2025-10-24 13:17:55 INFO:     270nm: coupling=0.2050
+2025-10-24 13:17:55 INFO:     280nm: coupling=0.2000
+2025-10-24 13:17:55 INFO:     290nm: coupling=0.2150
+2025-10-24 13:17:56 INFO:     300nm: coupling=0.2380
+2025-10-24 13:17:56 INFO:   Testing grid_search calibration: 16 wavelengths remaining
+2025-10-24 13:17:56 INFO:     150nm: coupling=0.0000
+2025-10-24 13:17:56 INFO:     160nm: coupling=0.0000
+2025-10-24 13:17:56 INFO:     170nm: coupling=0.0000
+2025-10-24 13:17:56 INFO:     180nm: coupling=0.0000
+2025-10-24 13:17:57 INFO:     190nm: coupling=0.0000
+2025-10-24 13:17:57 INFO:     200nm: coupling=0.2117
+2025-10-24 13:17:57 INFO:     210nm: coupling=0.2365
+2025-10-24 13:17:57 INFO:     220nm: coupling=0.2287
+2025-10-24 13:17:58 INFO:     230nm: coupling=0.2516
+2025-10-24 13:17:58 INFO:     240nm: coupling=0.2662
+2025-10-24 13:17:58 INFO:     250nm: coupling=0.2600
+2025-10-24 13:17:58 INFO:     260nm: coupling=0.2530
+2025-10-24 13:17:59 INFO:     270nm: coupling=0.2610
+2025-10-24 13:17:59 INFO:     280nm: coupling=0.2430
+2025-10-24 13:17:59 INFO:     290nm: coupling=0.2610
+2025-10-24 13:17:59 INFO:     300nm: coupling=0.2600
+2025-10-24 13:17:59 INFO:   Testing bayesian calibration: 16 wavelengths remaining
+2025-10-24 13:17:59 INFO:     150nm: coupling=0.0000
+2025-10-24 13:18:00 INFO:     160nm: coupling=0.0000
+2025-10-24 13:18:00 INFO:     170nm: coupling=0.0000
+2025-10-24 13:18:00 INFO:     180nm: coupling=0.0000
+2025-10-24 13:18:00 INFO:     190nm: coupling=0.0000
+2025-10-24 13:18:01 INFO:     200nm: coupling=0.1964
+2025-10-24 13:18:01 INFO:     210nm: coupling=0.2066
+2025-10-24 13:18:01 INFO:     220nm: coupling=0.1950
+2025-10-24 13:18:01 INFO:     230nm: coupling=0.2263
+2025-10-24 13:18:02 INFO:     240nm: coupling=0.2297
+2025-10-24 13:18:02 INFO:     250nm: coupling=0.2240
+2025-10-24 13:18:02 INFO:     260nm: coupling=0.1990
+2025-10-24 13:18:02 INFO:     270nm: coupling=0.2210
+2025-10-24 13:18:02 INFO:     280nm: coupling=0.2400
+2025-10-24 13:18:03 INFO:     290nm: coupling=0.2080
+2025-10-24 13:18:03 INFO:     300nm: coupling=0.2200
+2025-10-24 13:18:03 INFO: Saved data to LA4647+LA4936_air_wavelength.csv
+2025-10-24 13:18:03 INFO: Deleted temp file: results/wavelength_analyze_2025-10-24/temp_batch_wavelength_LA4647+LA4936_air.json
+2025-10-24 13:18:03 INFO: Wavelength analysis complete
