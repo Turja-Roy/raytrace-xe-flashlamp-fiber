@@ -1,0 +1,63 @@
+2025-11-08 00:07:32 INFO: 
+Optimizing 36-686 + 84-278 using powell...
+2025-11-08 00:07:34 INFO: Orientation=SfccfF, Coupling=0.0720, Length=48.35mm, z_l1=22.60, z_l2=28.97
+2025-11-08 02:44:47 INFO: Loading results from results/2025-11-07_combine_powell_argon/results_combine_2025-11-07_combine_powell_argon.csv
+2025-11-08 02:44:47 INFO: Found 28 lens pairs with coupling >= 0.35
+2025-11-08 02:44:47 INFO: Starting tolerance batch analysis: 28 pairs
+2025-11-08 02:44:47 INFO: Analyzing 36-686 + 49-961
+2025-11-08 02:44:47 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-08 02:44:47 INFO: Analyzing 36-686 + 48-273
+2025-11-08 02:44:47 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-08 02:44:47 INFO: Analyzing 36-686 + 36-690
+2025-11-08 02:44:47 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-08 02:44:47 INFO: Analyzing 36-686 + 36-687
+2025-11-08 02:44:47 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-08 02:44:47 INFO: Analyzing 36-686 + LA4306
+2025-11-08 02:44:47 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-08 02:44:47 INFO: Analyzing 36-686 + 49-960
+2025-11-08 02:44:47 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-08 02:44:47 INFO: Analyzing LA4021 + 49-961
+2025-11-08 02:44:48 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-08 02:44:48 INFO: Analyzing LA4021 + LA4306
+2025-11-08 02:44:48 INFO:   Completed: L1 tol=1.0, L2 tol=0.10000000000000009
+2025-11-08 02:44:48 INFO: Analyzing 49-959 + LA4306
+2025-11-08 02:44:48 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-08 02:44:48 INFO: Analyzing LA4021 + 36-690
+2025-11-08 02:44:48 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-08 02:44:48 INFO: Analyzing 49-959 + 36-690
+2025-11-08 02:44:48 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-08 02:44:48 INFO: Analyzing LA4021 + 48-273
+2025-11-08 02:44:48 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-08 02:44:48 INFO: Analyzing 49-959 + 49-961
+2025-11-08 02:44:48 INFO:   Completed: L1 tol=1.0, L2 tol=0.10000000000000009
+2025-11-08 02:44:48 INFO: Analyzing 49-959 + 48-273
+2025-11-08 02:44:48 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-08 02:44:48 INFO: Analyzing LA4021 + 36-687
+2025-11-08 02:44:48 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-08 02:44:48 INFO: Analyzing 36-686 + 36-689
+2025-11-08 02:44:48 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-08 02:44:48 INFO: Analyzing 36-686 + LA4052
+2025-11-08 02:44:48 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-08 02:44:48 INFO: Analyzing LA4021 + 49-960
+2025-11-08 02:44:49 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-08 02:44:49 INFO: Analyzing 49-959 + 36-687
+2025-11-08 02:44:49 INFO:   Completed: L1 tol=1.0, L2 tol=0.10000000000000009
+2025-11-08 02:44:49 INFO: Analyzing 36-689 + 49-961
+2025-11-08 02:44:49 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-08 02:44:49 INFO: Analyzing 49-959 + LA4052
+2025-11-08 02:44:49 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-08 02:44:49 INFO: Analyzing 49-960 + LA4306
+2025-11-08 02:44:49 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-08 02:44:49 INFO: Analyzing 49-960 + 49-961
+2025-11-08 02:44:49 INFO:   Completed: L1 tol=1.0, L2 tol=0.10000000000000009
+2025-11-08 02:44:49 INFO: Analyzing 36-686 + 49-959
+2025-11-08 02:44:49 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-08 02:44:49 INFO: Analyzing 49-959 + 36-689
+2025-11-08 02:44:49 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-08 02:44:49 INFO: Analyzing LA4021 + LA4052
+2025-11-08 02:44:49 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-08 02:44:49 INFO: Analyzing 36-689 + 36-690
+2025-11-08 02:44:49 INFO:   Completed: L1 tol=1.0, L2 tol=0.10000000000000009
+2025-11-08 02:44:49 INFO: Analyzing LA4052 + 36-690
+2025-11-08 02:44:50 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-08 02:44:50 INFO: Batch complete: 28 successful analyses

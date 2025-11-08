@@ -1,0 +1,32 @@
+2025-11-07 23:24:58 INFO: Loading results from results/2025-11-07_combine_powell_argon/batch_combine_1.csv
+2025-11-07 23:24:58 INFO: Found 2 lens pairs with coupling >= 0.14
+2025-11-07 23:24:58 INFO: Starting tolerance batch analysis: 2 pairs
+2025-11-07 23:24:58 INFO: Analyzing 23-813 + 22-842
+2025-11-07 23:24:58 INFO:   Completed: L1 tol=None, L2 tol=None
+2025-11-07 23:24:58 INFO: Analyzing 22-842 + 23-813
+2025-11-07 23:24:58 INFO:   Completed: L1 tol=None, L2 tol=None
+2025-11-07 23:24:58 INFO: Batch complete: 2 successful analyses
+2025-11-07 23:26:24 INFO: Loading results from results/2025-11-07_combine_powell_argon/batch_combine_1.csv
+2025-11-07 23:26:24 INFO: Found 2 lens pairs with coupling >= 0.14
+2025-11-07 23:26:24 INFO: Starting tolerance batch analysis: 2 pairs
+2025-11-07 23:26:24 INFO: Analyzing 23-813 + 22-842
+2025-11-07 23:26:24 INFO:   Completed: L1 tol=None, L2 tol=None
+2025-11-07 23:26:24 INFO: Analyzing 22-842 + 23-813
+2025-11-07 23:26:24 INFO:   Completed: L1 tol=None, L2 tol=None
+2025-11-07 23:26:24 INFO: Batch complete: 2 successful analyses
+2025-11-07 23:26:49 INFO: Loading results from results/2025-11-07_combine_powell_argon/batch_combine_1.csv
+2025-11-07 23:26:49 INFO: Found 2 lens pairs with coupling >= 0.14
+2025-11-07 23:26:49 INFO: Starting tolerance batch analysis: 2 pairs
+2025-11-07 23:26:49 INFO: Analyzing 23-813 + 22-842
+2025-11-07 23:26:49 INFO:   Completed: L1 tol=None, L2 tol=None
+2025-11-07 23:26:49 INFO: Analyzing 22-842 + 23-813
+2025-11-07 23:26:49 INFO:   Completed: L1 tol=None, L2 tol=None
+2025-11-07 23:26:49 INFO: Batch complete: 2 successful analyses
+2025-11-07 23:27:27 INFO: Loading results from results/2025-11-07_combine_powell_argon/batch_combine_1.csv
+2025-11-07 23:27:27 INFO: Found 2 lens pairs with coupling >= 0.14
+2025-11-07 23:27:27 INFO: Starting tolerance batch analysis: 2 pairs
+2025-11-07 23:27:27 INFO: Analyzing 23-813 + 22-842
+2025-11-07 23:27:27 INFO:   Completed: L1 tol=None, L2 tol=None
+2025-11-07 23:27:27 INFO: Analyzing 22-842 + 23-813
+2025-11-07 23:27:27 INFO:   Completed: L1 tol=None, L2 tol=None
+2025-11-07 23:27:27 INFO: Batch complete: 2 successful analyses

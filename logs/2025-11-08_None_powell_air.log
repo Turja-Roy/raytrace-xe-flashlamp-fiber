@@ -1,0 +1,38 @@
+2025-11-08 00:07:00 INFO: Loading results from results/2025-11-07_combine_powell_argon/batch_combine_1.csv
+2025-11-08 00:07:00 INFO: Found 0 lens pairs with coupling >= 0.35
+2025-11-08 00:07:07 INFO: Loading results from results/2025-11-07_combine_powell_argon/batch_combine_1.csv
+2025-11-08 00:07:07 INFO: Found 16 lens pairs with coupling >= 0.1
+2025-11-08 00:07:07 INFO: Starting tolerance batch analysis: 16 pairs
+2025-11-08 00:07:07 INFO: Analyzing 23-813 + 22-842
+2025-11-08 00:07:07 INFO:   Completed: L1 tol=None, L2 tol=None
+2025-11-08 00:07:07 INFO: Analyzing 22-842 + 23-813
+2025-11-08 00:07:08 INFO:   Completed: L1 tol=None, L2 tol=None
+2025-11-08 00:07:08 INFO: Analyzing 72-514 + 22-842
+2025-11-08 00:07:08 INFO:   Completed: L1 tol=None, L2 tol=None
+2025-11-08 00:07:08 INFO: Analyzing 72-494 + 22-842
+2025-11-08 00:07:09 INFO:   Completed: L1 tol=None, L2 tol=None
+2025-11-08 00:07:09 INFO: Analyzing 23-813 + 23-813
+2025-11-08 00:07:09 INFO:   Completed: L1 tol=None, L2 tol=None
+2025-11-08 00:07:09 INFO: Analyzing 72-494 + 23-813
+2025-11-08 00:07:10 INFO:   Completed: L1 tol=None, L2 tol=None
+2025-11-08 00:07:10 INFO: Analyzing 72-514 + 23-813
+2025-11-08 00:07:10 INFO:   Completed: L1 tol=None, L2 tol=None
+2025-11-08 00:07:10 INFO: Analyzing 22-842 + 22-842
+2025-11-08 00:07:10 ERROR:   Error analyzing 22-842 + 22-842: [Errno 32] Broken pipe
+2025-11-08 00:07:10 INFO: Analyzing 72-494 + 72-494
+2025-11-08 00:07:11 INFO:   Completed: L1 tol=None, L2 tol=None
+2025-11-08 00:07:11 INFO: Analyzing 22-842 + 72-514
+2025-11-08 00:07:12 INFO:   Completed: L1 tol=None, L2 tol=None
+2025-11-08 00:07:12 INFO: Analyzing 23-813 + 72-494
+2025-11-08 00:07:12 INFO:   Completed: L1 tol=None, L2 tol=None
+2025-11-08 00:07:12 INFO: Analyzing 72-494 + 72-514
+2025-11-08 00:07:13 ERROR:   Error analyzing 72-494 + 72-514: [Errno 32] Broken pipe
+2025-11-08 00:07:13 INFO: Analyzing 72-514 + 72-514
+2025-11-08 00:07:13 INFO:   Completed: L1 tol=None, L2 tol=None
+2025-11-08 00:07:13 INFO: Analyzing 22-842 + 72-494
+2025-11-08 00:07:14 INFO:   Completed: L1 tol=None, L2 tol=None
+2025-11-08 00:07:14 INFO: Analyzing 72-514 + 72-494
+2025-11-08 00:07:14 INFO:   Completed: L1 tol=None, L2 tol=None
+2025-11-08 00:07:14 INFO: Analyzing 23-813 + 72-514
+2025-11-08 00:07:15 ERROR:   Error analyzing 23-813 + 72-514: [Errno 32] Broken pipe
+2025-11-08 00:07:15 INFO: Batch complete: 13 successful analyses
