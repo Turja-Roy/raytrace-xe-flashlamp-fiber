@@ -1,0 +1,36 @@
+2025-11-09 15:49:28 INFO: Loading results from results/2025-11-07_combine_differential_evolution_argon/results_combine_2025-11-07_combine_differential_evolution_argon.csv
+2025-11-09 15:49:28 INFO: Found 16 lens pairs with coupling >= 0.35
+2025-11-09 15:49:28 INFO: Starting tolerance batch analysis: 16 pairs
+2025-11-09 15:49:28 INFO: Analyzing 36-686 + 48-273
+2025-11-09 15:49:29 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-09 15:49:29 INFO: Analyzing 36-686 + 36-687
+2025-11-09 15:49:30 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-09 15:49:30 INFO: Analyzing 36-686 + 49-960
+2025-11-09 15:49:31 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-09 15:49:31 INFO: Analyzing 36-686 + 36-689
+2025-11-09 15:49:32 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-09 15:49:32 INFO: Analyzing LA4021 + 48-273
+2025-11-09 15:49:33 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-09 15:49:33 INFO: Analyzing 49-959 + 48-273
+2025-11-09 15:49:33 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-09 15:49:33 INFO: Analyzing LA4021 + 36-687
+2025-11-09 15:49:34 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-09 15:49:34 INFO: Analyzing 36-686 + LA4052
+2025-11-09 15:49:34 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-09 15:49:34 INFO: Analyzing 49-959 + 36-687
+2025-11-09 15:49:35 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-09 15:49:35 INFO: Analyzing LA4021 + 49-960
+2025-11-09 15:49:35 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-09 15:49:35 INFO: Analyzing 49-959 + 49-960
+2025-11-09 15:49:36 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-09 15:49:36 INFO: Analyzing 36-686 + 49-959
+2025-11-09 15:49:36 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-09 15:49:36 INFO: Analyzing 49-959 + 36-689
+2025-11-09 15:49:37 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-09 15:49:37 INFO: Analyzing LA4021 + LA4052
+2025-11-09 15:49:37 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-09 15:49:37 INFO: Analyzing 49-959 + LA4052
+2025-11-09 15:49:38 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-09 15:49:38 INFO: Analyzing LA4021 + 36-689
+2025-11-09 15:49:38 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-09 15:49:38 INFO: Batch complete: 16 successful analyses
