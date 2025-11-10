@@ -1,0 +1,264 @@
+2025-11-09 20:12:58 INFO: Loading results from results/2025-11-07_combine_differential_evolution_argon/results_combine_2025-11-07_combine_differential_evolution_argon.csv
+2025-11-09 20:12:58 INFO: Found 16 combinations with coupling >= 0.35
+2025-11-09 20:12:58 INFO: 
+Starting differential_evolution optimization on 16 combinations
+2025-11-09 20:12:58 INFO: Optimizing 36-686 + 48-273 using differential_evolution
+2025-11-09 20:13:00 INFO: Coupling=0.4185, Length=57.32mm, Time=0.60s
+2025-11-09 20:13:00 INFO: Optimizing 36-686 + 36-687 using differential_evolution
+2025-11-09 20:13:01 INFO: Coupling=0.3957, Length=54.20mm, Time=0.56s
+2025-11-09 20:13:01 INFO: Optimizing 36-686 + 49-960 using differential_evolution
+2025-11-09 20:13:05 INFO: Coupling=0.4008, Length=53.31mm, Time=0.77s
+2025-11-09 20:13:05 INFO: Optimizing 36-686 + 36-689 using differential_evolution
+2025-11-09 20:13:07 INFO: Coupling=0.3684, Length=53.59mm, Time=1.22s
+2025-11-09 20:13:07 INFO: Optimizing LA4021 + 48-273 using differential_evolution
+2025-11-09 20:13:09 INFO: Coupling=0.3576, Length=60.73mm, Time=0.61s
+2025-11-09 20:13:09 INFO: Optimizing 49-959 + 48-273 using differential_evolution
+2025-11-09 20:13:10 INFO: Coupling=0.3498, Length=58.63mm, Time=0.58s
+2025-11-09 20:13:10 INFO: Optimizing LA4021 + 36-687 using differential_evolution
+2025-11-09 20:13:12 INFO: Coupling=0.3406, Length=58.39mm, Time=0.69s
+2025-11-09 20:13:12 INFO: Optimizing 36-686 + LA4052 using differential_evolution
+2025-11-09 20:13:13 INFO: Coupling=0.3742, Length=53.58mm, Time=0.44s
+2025-11-09 20:13:13 INFO: Optimizing 49-959 + 36-687 using differential_evolution
+2025-11-09 20:13:15 INFO: Coupling=0.3367, Length=56.19mm, Time=0.50s
+2025-11-09 20:13:15 INFO: Optimizing LA4021 + 49-960 using differential_evolution
+2025-11-09 20:13:17 INFO: Coupling=0.3404, Length=57.14mm, Time=0.75s
+2025-11-09 20:13:17 INFO: Optimizing 49-959 + 49-960 using differential_evolution
+2025-11-09 20:13:19 INFO: Coupling=0.3212, Length=55.09mm, Time=0.51s
+2025-11-09 20:13:19 INFO: Optimizing 36-686 + 49-959 using differential_evolution
+2025-11-09 20:13:23 INFO: Coupling=0.3123, Length=47.74mm, Time=2.00s
+2025-11-09 20:13:23 INFO: Optimizing 49-959 + 36-689 using differential_evolution
+2025-11-09 20:13:25 INFO: Coupling=0.3154, Length=55.74mm, Time=0.56s
+2025-11-09 20:13:25 INFO: Optimizing LA4021 + LA4052 using differential_evolution
+2025-11-09 20:13:26 INFO: Coupling=0.3091, Length=57.23mm, Time=0.48s
+2025-11-09 20:13:26 INFO: Optimizing 49-959 + LA4052 using differential_evolution
+2025-11-09 20:13:31 INFO: Coupling=0.3286, Length=55.54mm, Time=0.84s
+2025-11-09 20:13:31 INFO: Optimizing LA4021 + 36-689 using differential_evolution
+2025-11-09 20:13:33 INFO: Coupling=0.3127, Length=57.23mm, Time=0.94s
+2025-11-09 20:13:33 INFO: Completed differential_evolution: 16 successful optimizations
+2025-11-09 20:13:33 INFO: 
+Starting dual_annealing optimization on 16 combinations
+2025-11-09 20:13:33 INFO: Optimizing 36-686 + 48-273 using dual_annealing
+2025-11-09 20:13:36 INFO: Coupling=0.3983, Length=58.45mm, Time=1.93s
+2025-11-09 20:13:36 INFO: Optimizing 36-686 + 36-687 using dual_annealing
+2025-11-09 20:13:39 INFO: Coupling=0.4205, Length=54.69mm, Time=2.01s
+2025-11-09 20:13:39 INFO: Optimizing 36-686 + 49-960 using dual_annealing
+2025-11-09 20:13:45 INFO: Coupling=0.3629, Length=53.04mm, Time=4.11s
+2025-11-09 20:13:45 INFO: Optimizing 36-686 + 36-689 using dual_annealing
+2025-11-09 20:13:47 INFO: Coupling=0.3609, Length=53.42mm, Time=1.69s
+2025-11-09 20:13:47 INFO: Optimizing LA4021 + 48-273 using dual_annealing
+2025-11-09 20:13:53 INFO: Coupling=0.3442, Length=60.63mm, Time=4.39s
+2025-11-09 20:13:53 INFO: Optimizing 49-959 + 48-273 using dual_annealing
+2025-11-09 20:13:56 INFO: Coupling=0.3533, Length=58.49mm, Time=1.91s
+2025-11-09 20:13:56 INFO: Optimizing LA4021 + 36-687 using dual_annealing
+2025-11-09 20:14:01 INFO: Coupling=0.3313, Length=59.63mm, Time=3.06s
+2025-11-09 20:14:01 INFO: Optimizing 36-686 + LA4052 using dual_annealing
+2025-11-09 20:14:04 INFO: Coupling=0.3613, Length=53.61mm, Time=1.88s
+2025-11-09 20:14:04 INFO: Optimizing 49-959 + 36-687 using dual_annealing
+2025-11-09 20:14:10 INFO: Coupling=0.3458, Length=56.03mm, Time=4.41s
+2025-11-09 20:14:10 INFO: Optimizing LA4021 + 49-960 using dual_annealing
+2025-11-09 20:14:13 INFO: Coupling=0.3481, Length=56.67mm, Time=1.96s
+2025-11-09 20:14:13 INFO: Optimizing 49-959 + 49-960 using dual_annealing
+2025-11-09 20:14:19 INFO: Coupling=0.3400, Length=54.87mm, Time=5.04s
+2025-11-09 20:14:19 INFO: Optimizing 36-686 + 49-959 using dual_annealing
+2025-11-09 20:14:21 INFO: Coupling=0.3081, Length=47.61mm, Time=1.22s
+2025-11-09 20:14:21 INFO: Optimizing 49-959 + 36-689 using dual_annealing
+2025-11-09 20:14:27 INFO: Coupling=0.3058, Length=55.93mm, Time=4.25s
+2025-11-09 20:14:27 INFO: Optimizing LA4021 + LA4052 using dual_annealing
+2025-11-09 20:14:30 INFO: Coupling=0.3107, Length=57.07mm, Time=1.54s
+2025-11-09 20:14:30 INFO: Optimizing 49-959 + LA4052 using dual_annealing
+2025-11-09 20:14:36 INFO: Coupling=0.3115, Length=55.28mm, Time=4.21s
+2025-11-09 20:14:36 INFO: Optimizing LA4021 + 36-689 using dual_annealing
+2025-11-09 20:14:39 INFO: Coupling=0.3041, Length=59.55mm, Time=1.84s
+2025-11-09 20:14:39 INFO: Completed dual_annealing: 16 successful optimizations
+2025-11-09 20:14:39 INFO: 
+Starting nelder_mead optimization on 16 combinations
+2025-11-09 20:14:39 INFO: Optimizing 36-686 + 48-273 using nelder_mead
+2025-11-09 20:14:42 INFO: Coupling=0.4046, Length=56.55mm, Time=0.19s
+2025-11-09 20:14:42 INFO: Optimizing 36-686 + 36-687 using nelder_mead
+2025-11-09 20:14:44 INFO: Coupling=0.4055, Length=54.22mm, Time=0.56s
+2025-11-09 20:14:44 INFO: Optimizing 36-686 + 49-960 using nelder_mead
+2025-11-09 20:14:45 INFO: Coupling=0.3831, Length=52.90mm, Time=0.17s
+2025-11-09 20:14:45 INFO: Optimizing 36-686 + 36-689 using nelder_mead
+2025-11-09 20:14:46 INFO: Coupling=0.3642, Length=53.46mm, Time=0.17s
+2025-11-09 20:14:46 INFO: Optimizing LA4021 + 48-273 using nelder_mead
+2025-11-09 20:14:47 INFO: Coupling=0.3603, Length=60.24mm, Time=0.18s
+2025-11-09 20:14:47 INFO: Optimizing 49-959 + 48-273 using nelder_mead
+2025-11-09 20:14:51 INFO: Coupling=0.3446, Length=58.49mm, Time=0.14s
+2025-11-09 20:14:51 INFO: Optimizing LA4021 + 36-687 using nelder_mead
+2025-11-09 20:14:53 INFO: Coupling=0.3351, Length=61.55mm, Time=0.55s
+2025-11-09 20:14:53 INFO: Optimizing 36-686 + LA4052 using nelder_mead
+2025-11-09 20:14:54 INFO: Coupling=0.3772, Length=53.57mm, Time=0.16s
+2025-11-09 20:14:54 INFO: Optimizing 49-959 + 36-687 using nelder_mead
+2025-11-09 20:14:55 INFO: Coupling=0.3453, Length=56.15mm, Time=0.17s
+2025-11-09 20:14:55 INFO: Optimizing LA4021 + 49-960 using nelder_mead
+2025-11-09 20:14:57 INFO: Coupling=0.3260, Length=56.74mm, Time=0.15s
+2025-11-09 20:14:57 INFO: Optimizing 49-959 + 49-960 using nelder_mead
+2025-11-09 20:15:01 INFO: Coupling=0.3360, Length=55.07mm, Time=0.60s
+2025-11-09 20:15:01 INFO: Optimizing 36-686 + 49-959 using nelder_mead
+2025-11-09 20:15:02 INFO: Coupling=0.3155, Length=47.62mm, Time=0.17s
+2025-11-09 20:15:02 INFO: Optimizing 49-959 + 36-689 using nelder_mead
+2025-11-09 20:15:03 INFO: Coupling=0.3140, Length=55.41mm, Time=0.17s
+2025-11-09 20:15:03 INFO: Optimizing LA4021 + LA4052 using nelder_mead
+2025-11-09 20:15:04 INFO: Coupling=0.3125, Length=57.81mm, Time=0.15s
+2025-11-09 20:15:04 INFO: Optimizing 49-959 + LA4052 using nelder_mead
+2025-11-09 20:15:09 INFO: Coupling=0.3104, Length=55.52mm, Time=0.58s
+2025-11-09 20:15:09 INFO: Optimizing LA4021 + 36-689 using nelder_mead
+2025-11-09 20:15:10 INFO: Coupling=0.3017, Length=57.69mm, Time=0.20s
+2025-11-09 20:15:10 INFO: Completed nelder_mead: 16 successful optimizations
+2025-11-09 20:15:10 INFO: 
+Starting powell optimization on 16 combinations
+2025-11-09 20:15:10 INFO: Optimizing 36-686 + 48-273 using powell
+2025-11-09 20:15:11 INFO: Coupling=0.3905, Length=61.94mm, Time=0.19s
+2025-11-09 20:15:11 INFO: Optimizing 36-686 + 36-687 using powell
+2025-11-09 20:15:12 INFO: Coupling=0.4017, Length=54.49mm, Time=0.21s
+2025-11-09 20:15:12 INFO: Optimizing 36-686 + 49-960 using powell
+2025-11-09 20:15:15 INFO: Coupling=0.3085, Length=70.56mm, Time=0.11s
+2025-11-09 20:15:15 INFO: Optimizing 36-686 + 36-689 using powell
+2025-11-09 20:15:18 INFO: Coupling=0.3462, Length=57.72mm, Time=0.60s
+2025-11-09 20:15:18 INFO: Optimizing LA4021 + 48-273 using powell
+2025-11-09 20:15:19 INFO: Coupling=0.3402, Length=64.38mm, Time=0.13s
+2025-11-09 20:15:19 INFO: Optimizing 49-959 + 48-273 using powell
+2025-11-09 20:15:20 INFO: Coupling=0.3027, Length=70.60mm, Time=0.15s
+2025-11-09 20:15:20 INFO: Optimizing LA4021 + 36-687 using powell
+2025-11-09 20:15:21 INFO: Coupling=0.3483, Length=57.93mm, Time=0.14s
+2025-11-09 20:15:21 INFO: Optimizing 36-686 + LA4052 using powell
+2025-11-09 20:15:25 INFO: Coupling=0.3528, Length=55.87mm, Time=0.18s
+2025-11-09 20:15:25 INFO: Optimizing 49-959 + 36-687 using powell
+2025-11-09 20:15:27 INFO: Coupling=0.3401, Length=58.15mm, Time=0.67s
+2025-11-09 20:15:27 INFO: Optimizing LA4021 + 49-960 using powell
+2025-11-09 20:15:28 INFO: Coupling=0.3338, Length=57.79mm, Time=0.13s
+2025-11-09 20:15:28 INFO: Optimizing 49-959 + 49-960 using powell
+2025-11-09 20:15:29 INFO: Coupling=0.3328, Length=55.27mm, Time=0.17s
+2025-11-09 20:15:29 INFO: Optimizing 36-686 + 49-959 using powell
+2025-11-09 20:15:31 INFO: Coupling=0.2554, Length=59.25mm, Time=0.14s
+2025-11-09 20:15:31 INFO: Optimizing 49-959 + 36-689 using powell
+2025-11-09 20:15:34 INFO: Coupling=0.3037, Length=56.45mm, Time=0.44s
+2025-11-09 20:15:34 INFO: Optimizing LA4021 + LA4052 using powell
+2025-11-09 20:15:36 INFO: Coupling=0.3042, Length=60.14mm, Time=0.13s
+2025-11-09 20:15:36 INFO: Optimizing 49-959 + LA4052 using powell
+2025-11-09 20:15:37 INFO: Coupling=0.2880, Length=60.35mm, Time=0.15s
+2025-11-09 20:15:37 INFO: Optimizing LA4021 + 36-689 using powell
+2025-11-09 20:15:38 INFO: Coupling=0.3197, Length=57.13mm, Time=0.12s
+2025-11-09 20:15:39 INFO: Completed powell: 16 successful optimizations
+2025-11-09 20:15:39 INFO: 
+Starting grid_search optimization on 16 combinations
+2025-11-09 20:15:39 INFO: Optimizing 36-686 + 48-273 using grid_search
+2025-11-09 20:15:42 INFO: Coupling=0.1312, Length=141.45mm, Time=1.10s
+2025-11-09 20:15:43 INFO: Coupling=0.3191, Length=56.66mm, Time=1.10s
+2025-11-09 20:15:43 INFO: Optimizing 36-686 + 36-687 using grid_search
+2025-11-09 20:15:45 INFO: Coupling=0.1492, Length=80.78mm, Time=0.32s
+2025-11-09 20:15:46 INFO: Coupling=0.2514, Length=80.79mm, Time=0.32s
+2025-11-09 20:15:46 INFO: Optimizing 36-686 + 49-960 using grid_search
+2025-11-09 20:15:48 INFO: Coupling=0.1545, Length=66.44mm, Time=0.37s
+2025-11-09 20:15:51 INFO: Coupling=0.2166, Length=83.39mm, Time=0.37s
+2025-11-09 20:15:51 INFO: Optimizing 36-686 + 36-689 using grid_search
+2025-11-09 20:15:52 INFO: Coupling=0.1362, Length=138.15mm, Time=0.32s
+2025-11-09 20:15:53 INFO: Coupling=0.2888, Length=53.09mm, Time=0.32s
+2025-11-09 20:15:53 INFO: Optimizing LA4021 + 48-273 using grid_search
+2025-11-09 20:15:56 INFO: Coupling=0.1279, Length=112.84mm, Time=0.42s
+2025-11-09 20:15:57 INFO: Coupling=0.2285, Length=90.57mm, Time=0.42s
+2025-11-09 20:15:57 INFO: Optimizing 49-959 + 48-273 using grid_search
+2025-11-09 20:15:58 INFO: Coupling=0.1247, Length=84.16mm, Time=0.34s
+2025-11-09 20:15:59 INFO: Coupling=0.3486, Length=60.13mm, Time=0.34s
+2025-11-09 20:15:59 INFO: Optimizing LA4021 + 36-687 using grid_search
+2025-11-09 20:16:04 INFO: Coupling=0.1307, Length=93.55mm, Time=0.93s
+2025-11-09 20:16:05 INFO: Coupling=0.3035, Length=62.40mm, Time=0.93s
+2025-11-09 20:16:05 INFO: Optimizing 36-686 + LA4052 using grid_search
+2025-11-09 20:16:06 INFO: Coupling=0.1259, Length=137.96mm, Time=0.30s
+2025-11-09 20:16:07 INFO: Coupling=0.2999, Length=53.13mm, Time=0.30s
+2025-11-09 20:16:07 INFO: Optimizing 49-959 + 36-687 using grid_search
+2025-11-09 20:16:10 INFO: Coupling=0.1291, Length=93.37mm, Time=0.31s
+2025-11-09 20:16:13 INFO: Coupling=0.2930, Length=56.30mm, Time=0.31s
+2025-11-09 20:16:13 INFO: Optimizing LA4021 + 49-960 using grid_search
+2025-11-09 20:16:14 INFO: Coupling=0.1333, Length=97.25mm, Time=0.36s
+2025-11-09 20:16:16 INFO: Coupling=0.2955, Length=60.78mm, Time=0.36s
+2025-11-09 20:16:16 INFO: Optimizing 49-959 + 49-960 using grid_search
+2025-11-09 20:16:18 INFO: Coupling=0.1296, Length=91.54mm, Time=0.31s
+2025-11-09 20:16:21 INFO: Coupling=0.2910, Length=54.90mm, Time=0.31s
+2025-11-09 20:16:21 INFO: Optimizing 36-686 + 49-959 using grid_search
+2025-11-09 20:16:23 INFO: Coupling=0.1556, Length=69.40mm, Time=0.35s
+2025-11-09 20:16:24 INFO: Coupling=0.1699, Length=74.12mm, Time=0.35s
+2025-11-09 20:16:24 INFO: Optimizing 49-959 + 36-689 using grid_search
+2025-11-09 20:16:28 INFO: Coupling=0.1289, Length=97.51mm, Time=0.31s
+2025-11-09 20:16:30 INFO: Coupling=0.3037, Length=55.95mm, Time=0.31s
+2025-11-09 20:16:30 INFO: Optimizing LA4021 + LA4052 using grid_search
+2025-11-09 20:16:32 INFO: Coupling=0.1246, Length=97.54mm, Time=0.42s
+2025-11-09 20:16:33 INFO: Coupling=0.2041, Length=84.23mm, Time=0.42s
+2025-11-09 20:16:33 INFO: Optimizing 49-959 + LA4052 using grid_search
+2025-11-09 20:16:38 INFO: Coupling=0.1353, Length=79.95mm, Time=0.30s
+2025-11-09 20:16:39 INFO: Coupling=0.3057, Length=56.02mm, Time=0.30s
+2025-11-09 20:16:39 INFO: Optimizing LA4021 + 36-689 using grid_search
+2025-11-09 20:16:41 INFO: Coupling=0.1278, Length=103.41mm, Time=0.33s
+2025-11-09 20:16:43 INFO: Coupling=0.1969, Length=84.09mm, Time=0.33s
+2025-11-09 20:16:44 INFO: Completed grid_search: 32 successful optimizations
+2025-11-09 20:16:44 INFO: 
+Starting bayesian optimization on 16 combinations
+2025-11-09 20:16:44 INFO: Optimizing 36-686 + 48-273 using bayesian
+2025-11-09 20:16:57 INFO: Coupling=0.3002, Length=77.74mm, Time=12.35s
+2025-11-09 20:16:57 INFO: Optimizing 36-686 + 36-687 using bayesian
+2025-11-09 20:17:10 INFO: Coupling=0.2776, Length=73.99mm, Time=12.19s
+2025-11-09 20:17:10 INFO: Optimizing 36-686 + 49-960 using bayesian
+2025-11-09 20:17:24 INFO: Coupling=0.2717, Length=72.60mm, Time=11.86s
+2025-11-09 20:17:24 INFO: Optimizing 36-686 + 36-689 using bayesian
+2025-11-09 20:17:37 INFO: Coupling=0.2538, Length=73.65mm, Time=12.84s
+2025-11-09 20:17:37 INFO: Optimizing LA4021 + 48-273 using bayesian
+2025-11-09 20:17:50 INFO: Coupling=0.2231, Length=84.74mm, Time=11.91s
+2025-11-09 20:17:50 INFO: Optimizing 49-959 + 48-273 using bayesian
+2025-11-09 20:18:03 INFO: Coupling=0.2262, Length=80.47mm, Time=11.80s
+2025-11-09 20:18:03 INFO: Optimizing LA4021 + 36-687 using bayesian
+2025-11-09 20:18:16 INFO: Coupling=0.2651, Length=73.56mm, Time=11.87s
+2025-11-09 20:18:16 INFO: Optimizing 36-686 + LA4052 using bayesian
+2025-11-09 20:18:28 INFO: Coupling=0.2700, Length=73.72mm, Time=11.24s
+2025-11-09 20:18:28 INFO: Optimizing 49-959 + 36-687 using bayesian
+2025-11-09 20:18:42 INFO: Coupling=0.2465, Length=78.91mm, Time=12.86s
+2025-11-09 20:18:42 INFO: Optimizing LA4021 + 49-960 using bayesian
+2025-11-09 20:18:57 INFO: Coupling=0.2506, Length=72.09mm, Time=13.46s
+2025-11-09 20:18:57 INFO: Optimizing 49-959 + 49-960 using bayesian
+2025-11-09 20:19:09 INFO: Coupling=0.2332, Length=77.37mm, Time=10.52s
+2025-11-09 20:19:09 INFO: Optimizing 36-686 + 49-959 using bayesian
+2025-11-09 20:19:20 INFO: Coupling=0.1889, Length=65.67mm, Time=10.49s
+2025-11-09 20:19:20 INFO: Optimizing 49-959 + 36-689 using bayesian
+2025-11-09 20:19:32 INFO: Coupling=0.2259, Length=76.66mm, Time=10.31s
+2025-11-09 20:19:32 INFO: Optimizing LA4021 + LA4052 using bayesian
+2025-11-09 20:19:43 INFO: Coupling=0.2485, Length=73.21mm, Time=10.36s
+2025-11-09 20:19:43 INFO: Optimizing 49-959 + LA4052 using bayesian
+2025-11-09 20:19:56 INFO: Coupling=0.1894, Length=76.71mm, Time=11.44s
+2025-11-09 20:19:56 INFO: Optimizing LA4021 + 36-689 using bayesian
+2025-11-09 20:20:07 INFO: Coupling=0.2611, Length=73.13mm, Time=10.44s
+2025-11-09 20:20:08 INFO: Completed bayesian: 16 successful optimizations
+2025-11-09 20:20:08 INFO: Generating combined method comparison plots
+2025-11-09 20:20:08 INFO: Creating combined plot for 36-686 + 48-273 (6 methods)
+2025-11-09 20:20:11 INFO: Creating combined plot for 36-686 + 36-687 (6 methods)
+2025-11-09 20:20:15 INFO: Creating combined plot for 36-686 + 49-960 (6 methods)
+2025-11-09 20:20:17 INFO: Creating combined plot for 36-686 + 36-689 (6 methods)
+2025-11-09 20:20:22 INFO: Creating combined plot for LA4021 + 48-273 (6 methods)
+2025-11-09 20:20:27 INFO: Creating combined plot for 49-959 + 48-273 (6 methods)
+2025-11-09 20:20:29 INFO: Creating combined plot for LA4021 + 36-687 (6 methods)
+2025-11-09 20:20:33 INFO: Creating combined plot for 36-686 + LA4052 (6 methods)
+2025-11-09 20:20:36 INFO: Creating combined plot for 49-959 + 36-687 (6 methods)
+2025-11-09 20:20:38 INFO: Creating combined plot for LA4021 + 49-960 (6 methods)
+2025-11-09 20:20:43 INFO: Creating combined plot for 49-959 + 49-960 (6 methods)
+2025-11-09 20:20:45 INFO: Creating combined plot for 36-686 + 49-959 (6 methods)
+2025-11-09 20:20:48 INFO: Creating combined plot for 49-959 + 36-689 (6 methods)
+2025-11-09 20:20:53 INFO: Creating combined plot for LA4021 + LA4052 (6 methods)
+2025-11-09 20:20:55 INFO: Creating combined plot for 49-959 + LA4052 (6 methods)
+2025-11-09 20:21:00 INFO: Creating combined plot for LA4021 + 36-689 (6 methods)
+2025-11-09 20:21:02 INFO: Generated 16 combined plots
+2025-11-09 20:21:02 INFO: Writing results CSV files by lens combination
+2025-11-09 20:21:02 INFO: Wrote 36-686+48-273.csv with 6 methods
+2025-11-09 20:21:02 INFO: Wrote 36-686+36-687.csv with 6 methods
+2025-11-09 20:21:02 INFO: Wrote 36-686+49-960.csv with 6 methods
+2025-11-09 20:21:02 INFO: Wrote 36-686+36-689.csv with 6 methods
+2025-11-09 20:21:02 INFO: Wrote LA4021+48-273.csv with 6 methods
+2025-11-09 20:21:02 INFO: Wrote 49-959+48-273.csv with 6 methods
+2025-11-09 20:21:02 INFO: Wrote LA4021+36-687.csv with 6 methods
+2025-11-09 20:21:02 INFO: Wrote 36-686+LA4052.csv with 6 methods
+2025-11-09 20:21:02 INFO: Wrote 49-959+36-687.csv with 6 methods
+2025-11-09 20:21:02 INFO: Wrote LA4021+49-960.csv with 6 methods
+2025-11-09 20:21:02 INFO: Wrote 49-959+49-960.csv with 6 methods
+2025-11-09 20:21:02 INFO: Wrote 36-686+49-959.csv with 6 methods
+2025-11-09 20:21:02 INFO: Wrote 49-959+36-689.csv with 6 methods
+2025-11-09 20:21:02 INFO: Wrote LA4021+LA4052.csv with 6 methods
+2025-11-09 20:21:02 INFO: Wrote 49-959+LA4052.csv with 6 methods
+2025-11-09 20:21:02 INFO: Wrote LA4021+36-689.csv with 6 methods
+2025-11-09 20:21:02 INFO: Wrote 16 CSV files
