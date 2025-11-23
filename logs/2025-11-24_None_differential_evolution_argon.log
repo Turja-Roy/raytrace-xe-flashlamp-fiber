@@ -1,0 +1,64 @@
+2025-11-24 17:06:23 INFO: Loading results from results/2025-11-19_combine_differential_evolution_argon/results_combine_2025-11-19_combine_differential_evolution_argon.csv
+2025-11-24 17:06:23 INFO: Found 30 lens pairs with coupling >= 0.25
+2025-11-24 17:06:23 INFO: Starting tolerance batch analysis: 30 pairs
+2025-11-24 17:06:23 INFO: Analyzing LA4148 + 48-670
+2025-11-24 17:06:24 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-24 17:06:24 INFO: Analyzing LA4148 + 84-283
+2025-11-24 17:06:25 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-24 17:06:25 INFO: Analyzing 84-282 + 84-283
+2025-11-24 17:06:26 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-24 17:06:26 INFO: Analyzing 84-282 + 48-670
+2025-11-24 17:06:26 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-24 17:06:26 INFO: Analyzing 84-282 + LA4022
+2025-11-24 17:06:27 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-24 17:06:27 INFO: Analyzing LA4148 + LA4022
+2025-11-24 17:06:27 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-24 17:06:27 INFO: Analyzing 48-274 + LA4725
+2025-11-24 17:06:27 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-24 17:06:27 INFO: Analyzing 84-282 + 67-223
+2025-11-24 17:06:28 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-24 17:06:28 INFO: Analyzing LA4148 + 67-223
+2025-11-24 17:06:28 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-24 17:06:28 INFO: Analyzing LA4148 + LA4078
+2025-11-24 17:06:28 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-24 17:06:28 INFO: Analyzing 84-282 + LA4725
+2025-11-24 17:06:29 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-24 17:06:29 INFO: Analyzing 84-282 + 48-275
+2025-11-24 17:06:29 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-24 17:06:29 INFO: Analyzing 84-282 + LA4078
+2025-11-24 17:06:29 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-24 17:06:29 INFO: Analyzing LA4148 + 48-275
+2025-11-24 17:06:30 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-24 17:06:30 INFO: Analyzing LA4148 + LA4725
+2025-11-24 17:06:30 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-24 17:06:30 INFO: Analyzing 84-282 + LA4464
+2025-11-24 17:06:31 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-24 17:06:31 INFO: Analyzing LA4464 + LA4078
+2025-11-24 17:06:31 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-24 17:06:31 INFO: Analyzing 48-274 + LA4464
+2025-11-24 17:06:31 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-24 17:06:31 INFO: Analyzing LA4148 + LA4464
+2025-11-24 17:06:32 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-24 17:06:32 INFO: Analyzing LA4464 + 67-223
+2025-11-24 17:06:32 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-24 17:06:32 INFO: Analyzing 84-283 + 67-223
+2025-11-24 17:06:32 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-24 17:06:32 INFO: Analyzing LA4022 + LA4725
+2025-11-24 17:06:33 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-24 17:06:33 INFO: Analyzing LA4464 + 84-284
+2025-11-24 17:06:33 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-24 17:06:33 INFO: Analyzing 84-282 + 84-284
+2025-11-24 17:06:33 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-24 17:06:33 INFO: Analyzing 84-283 + LA4022
+2025-11-24 17:06:34 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-24 17:06:34 INFO: Analyzing LA4464 + 67-224
+2025-11-24 17:06:34 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-24 17:06:34 INFO: Analyzing LA4022 + 67-223
+2025-11-24 17:06:34 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-24 17:06:34 INFO: Analyzing 84-283 + LA4078
+2025-11-24 17:06:35 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-24 17:06:35 INFO: Analyzing 84-282 + LA4545
+2025-11-24 17:06:35 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-24 17:06:35 INFO: Analyzing LA4022 + LA4022
+2025-11-24 17:06:35 INFO:   Completed: L1 tol=1.0, L2 tol=1.0
+2025-11-24 17:06:35 INFO: Batch complete: 30 successful analyses
